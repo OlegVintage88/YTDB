@@ -1,4 +1,4 @@
-# susanin
+#  susanin
 DELETE FROM `creature` WHERE guid = '78445';
 INSERT INTO creature VALUES (78445,17312,530,0,0,-4773.89,-11030.3,1.8637,2.85377,25,0,0,-4773.89,-11030.3,1.8637,0,470,191,0,0);
 UPDATE `quest_template` SET `SpecialFlags`='2',`Type`='84',`QuestFlags`='0',`StartScript`='9528' WHERE `entry`='9528';
