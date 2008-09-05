@@ -1,2163 +1,1442 @@
-# virusav
-DELETE FROM `creature_loot_template` WHERE `entry` IN (16807,16808,16809,17301,17306,17308,17371,17377,17380,17381,17414,17465,17536,17537,17624,17721,17722,17723,17724,17725,17734,17770,17796,17797,17798,17800,17801,17802,17803,17805,17814,17815,17819,17820,17826,17833,17839,17846,17848,17860,17862,17871,17879,17880,17881,17882,17941,17942,17975,17976,17977,17978,17980,17991,18092,18093,18094,18096,18105,18170,18171,18172,18314,18317,18320,18322,18341,18343,18344,18371,18373,18422,18432,18433,18434,18436,18472,18473,18478,18497,18521,18601,18607,18611,18618,18619,18621,18667,18708,18731,18732,18830,18934,19218,19219,19220,19221,19710,19893,19894,19895,20164,20168,20169,20183,20184,20185,20187,20188,20190,20257,20264,20266,20267,20268,20299,20303,20306,20315,20318,20521,20525,20526,20527,20529,20530,20531,20532,20533,20534,20535,20537,20538,20543,20545,20546,20547,20568,20583,20585,20596,20597,20620,20621,20622,20623,20624,20625,20626,20629,20630,20633,20636,20637,20644,20653,20657,20690,20696,20698,20706,20737,20738,20744,20745,20869,20870,20880,20885,20886,20898,20900,20912,20923,20992,21104,21525,21526,21533,21536,21537,21551,21558,21559,21570,21581,21582,21586,21590,21594,21598,21599,21621,21624,21626,21694,21914,22128,22129,22170,23035,23122,24560,24664,24683,24684,24685,24686,24687,24688,24689,24690,24696,24697,24698,24723,24744,24762,24777,24857,25547,25551,25560,25562,25563,25565,25567,25568,25569,25570,25571,25572,25573,25575,25576,25577);
+# virusav & Krek
 UPDATE `creature_template` SET `lootid`=`entry` WHERE `entry` IN (17536,18432,17308,18433,17537,18434,17306,18436,17380,18601,17377,18607,17624,18611,17414,18618,17371,18619,17381,18621,17941,19893,17942,19894,17991,19895,17723,20164,18105,20168,17770,20169,17826,20183,17882,20184,17724,20185,17734,20187,17725,20188,17871,20190,18317,20257,18314,20264,18344,20266,18341,20267,18343,20268,18497,20299,18478,20303,18373,20306,18521,20315,18371,20318,17862,20521,18934,20525,17820,20526,17819,20527,17860,20529,17833,20530,18096,20531,18171,20532,18172,20533,18170,20534,17848,20535,17815,20537,17814,20538,17846,20543,18092,20545,18094,20546,18093,20547,16807,20568,17465,20583,17301,20585,16809,20596,16808,20597,17721,20620,17800,20621,17803,20622,17801,20623,17805,20624,17722,20625,17802,20626,17797,20629,17796,20630,17798,20633,18731,20636,18667,20637,18830,20644,18732,20653,18708,20657,18472,20690,18322,20696,18320,20698,18473,20706,17881,20737,17879,20738,17839,20744,17880,20745,20923,20992,19218,21525,19710,21526,19219,21533,19221,21536,19220,21537,17976,21551,17975,21558,17980,21559,18422,21570,17978,21581,17977,21582,20869,21586,20885,21590,20880,21594,20898,21598,20912,21599,20900,21621,20886,21624,20870,21626,21694,21914,22128,22129,21104,22170,23035,23122,24664,24857,24696,25547,24698,25551,24560,25560,24723,25562,24697,25563,24684,25565,24762,25567,24683,25568,24685,25569,24687,25570,24777,25571,24686,25572,24744,25573,24689,25575,24690,25576,24688,25577);
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='25462', `ChanceOrQuestChance`='23.082', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='27520', `ChanceOrQuestChance`='17.5926', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='27518', `ChanceOrQuestChance`='17.2619', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='27517', `ChanceOrQuestChance`='16.5234', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='27519', `ChanceOrQuestChance`='16.4683', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='27521', `ChanceOrQuestChance`='16.3801', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='30548', `ChanceOrQuestChance`='5.3241', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='30546', `ChanceOrQuestChance`='5.1367', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='30547', `ChanceOrQuestChance`='4.4974', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20568', `item`='24312', `ChanceOrQuestChance`='2.1715', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='33815', `ChanceOrQuestChance`='17.2514', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='29255', `ChanceOrQuestChance`='17.2361', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='29263', `ChanceOrQuestChance`='14.8566', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27528', `ChanceOrQuestChance`='13.7584', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27536', `ChanceOrQuestChance`='13.6974', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27534', `ChanceOrQuestChance`='13.2398', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27540', `ChanceOrQuestChance`='13.0567', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27527', `ChanceOrQuestChance`='12.9195', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27537', `ChanceOrQuestChance`='12.8279', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='29254', `ChanceOrQuestChance`='12.3551', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27533', `ChanceOrQuestChance`='11.684', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27529', `ChanceOrQuestChance`='11.4704', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27538', `ChanceOrQuestChance`='11.0433', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27535', `ChanceOrQuestChance`='10.9365', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27474', `ChanceOrQuestChance`='10.7077', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='27531', `ChanceOrQuestChance`='10.7077', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='29348', `ChanceOrQuestChance`='7.4893', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='30548', `ChanceOrQuestChance`='6.9555', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='23723', `ChanceOrQuestChance`='6.4521', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='30546', `ChanceOrQuestChance`='5.9335', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='30547', `ChanceOrQuestChance`='5.903', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='31901', `ChanceOrQuestChance`='0.3203', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='31892', `ChanceOrQuestChance`='0.2898', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='31882', `ChanceOrQuestChance`='0.2288', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20597', `item`='31910', `ChanceOrQuestChance`='0.2135', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20596', `item`='27525', `ChanceOrQuestChance`='18.0202', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20596', `item`='27526', `ChanceOrQuestChance`='16.8461', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20596', `item`='27868', `ChanceOrQuestChance`='15.8023', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20596', `item`='27524', `ChanceOrQuestChance`='15.6393', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20596', `item`='27802', `ChanceOrQuestChance`='15.411', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20596', `item`='30546', `ChanceOrQuestChance`='5.7404', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20596', `item`='30548', `ChanceOrQuestChance`='5.2838', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20596', `item`='30547', `ChanceOrQuestChance`='4.5988', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20596', `item`='30829', `ChanceOrQuestChance`='1.0437', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20585', `item`='31716', `ChanceOrQuestChance`='30.9301', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20585', `item`='21885', `ChanceOrQuestChance`='16.1522', `mincountOrRef`='1', `maxcount`='3';
-REPLACE INTO `creature_loot_template` SET `entry`='20585', `item`='22451', `ChanceOrQuestChance`='15.7937', `mincountOrRef`='1', `maxcount`='3';
-REPLACE INTO `creature_loot_template` SET `entry`='20585', `item`='22452', `ChanceOrQuestChance`='15.5945', `mincountOrRef`='1', `maxcount`='3';
-REPLACE INTO `creature_loot_template` SET `entry`='20585', `item`='21884', `ChanceOrQuestChance`='14.5389', `mincountOrRef`='1', `maxcount`='3';
-REPLACE INTO `creature_loot_template` SET `entry`='18436', `item`='27447', `ChanceOrQuestChance`='17.6582', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18436', `item`='27451', `ChanceOrQuestChance`='16.9146', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18436', `item`='27448', `ChanceOrQuestChance`='16.4917', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18436', `item`='27449', `ChanceOrQuestChance`='15.0992', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18436', `item`='27450', `ChanceOrQuestChance`='14.8294', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18436', `item`='30594', `ChanceOrQuestChance`='5.6722', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18436', `item`='30593', `ChanceOrQuestChance`='4.8411', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27464', `ChanceOrQuestChance`='14.0968', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27465', `ChanceOrQuestChance`='13.3754', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27477', `ChanceOrQuestChance`='13.0748', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27466', `ChanceOrQuestChance`='12.8945', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27895', `ChanceOrQuestChance`='12.8644', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27478', `ChanceOrQuestChance`='12.7743', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27906', `ChanceOrQuestChance`='12.5038', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27463', `ChanceOrQuestChance`='12.1431', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27467', `ChanceOrQuestChance`='11.8726', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27476', `ChanceOrQuestChance`='11.1211', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27462', `ChanceOrQuestChance`='10.8506', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='27539', `ChanceOrQuestChance`='10.6703', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='30593', `ChanceOrQuestChance`='6.7929', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='30594', `ChanceOrQuestChance`='6.312', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='31901', `ChanceOrQuestChance`='0.541', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='31892', `ChanceOrQuestChance`='0.4509', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='31882', `ChanceOrQuestChance`='0.3607', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18433', `item`='31910', `ChanceOrQuestChance`='0.2104', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18619', `item`='23894', `ChanceOrQuestChance`='0.3128', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='33814', `ChanceOrQuestChance`='19.6853', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='29245', `ChanceOrQuestChance`='15.7577', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='29239', `ChanceOrQuestChance`='15.7341', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27495', `ChanceOrQuestChance`='14.208', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='28121', `ChanceOrQuestChance`='12.4453', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27788', `ChanceOrQuestChance`='12.2678', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27506', `ChanceOrQuestChance`='12.185', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27514', `ChanceOrQuestChance`='12.0904', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27507', `ChanceOrQuestChance`='11.7236', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27512', `ChanceOrQuestChance`='11.1913', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27494', `ChanceOrQuestChance`='10.9902', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27522', `ChanceOrQuestChance`='10.6944', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27505', `ChanceOrQuestChance`='10.5643', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='32080', `ChanceOrQuestChance`='10.1621', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='30601', `ChanceOrQuestChance`='9.9728', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='27497', `ChanceOrQuestChance`='9.2275', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='28264', `ChanceOrQuestChance`='9.1802', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='30600', `ChanceOrQuestChance`='8.9672', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='30602', `ChanceOrQuestChance`='7.4175', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='29347', `ChanceOrQuestChance`='7.4057', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='31892', `ChanceOrQuestChance`='0.2129', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='31882', `ChanceOrQuestChance`='0.1656', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='31901', `ChanceOrQuestChance`='0.1656', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18607', `item`='31910', `ChanceOrQuestChance`='0.1538', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18601', `item`='27492', `ChanceOrQuestChance`='16.0946', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18601', `item`='27491', `ChanceOrQuestChance`='15.6948', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18601', `item`='27490', `ChanceOrQuestChance`='14.6451', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18601', `item`='27848', `ChanceOrQuestChance`='13.7288', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18601', `item`='27489', `ChanceOrQuestChance`='13.4788', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18601', `item`='30602', `ChanceOrQuestChance`='5.3316', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18601', `item`='30600', `ChanceOrQuestChance`='4.8984', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18601', `item`='30601', `ChanceOrQuestChance`='4.4152', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18621', `item`='27488', `ChanceOrQuestChance`='18.6577', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18621', `item`='27485', `ChanceOrQuestChance`='16.9765', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18621', `item`='27487', `ChanceOrQuestChance`='15.8693', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18621', `item`='27483', `ChanceOrQuestChance`='15.0219', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18621', `item`='27484', `ChanceOrQuestChance`='14.8715', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18621', `item`='30600', `ChanceOrQuestChance`='5.7955', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18621', `item`='30602', `ChanceOrQuestChance`='5.5905', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18621', `item`='30601', `ChanceOrQuestChance`='4.9617', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18618', `item`='23894', `ChanceOrQuestChance`='0.1727', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20583', `item`='22554', `ChanceOrQuestChance`='5.2392', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18432', `item`='33833', `ChanceOrQuestChance`='66.7217', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18434', `item`='23892', `ChanceOrQuestChance`='5.0539', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18611', `item`='23894', `ChanceOrQuestChance`='0.2729', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20620', `item`='24367', `ChanceOrQuestChance`='0.5586', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20625', `item`='24159', `ChanceOrQuestChance`='0.4304', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20625', `item`='24367', `ChanceOrQuestChance`='0.2571', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20164', `item`='25451', `ChanceOrQuestChance`='67.9513', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='20164', `item`='24246', `ChanceOrQuestChance`='23.1677', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20164', `item`='25453', `ChanceOrQuestChance`='16.3511', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='20164', `item`='29453', `ChanceOrQuestChance`='0.3267', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20185', `item`='24246', `ChanceOrQuestChance`='25.9534', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20188', `item`='25451', `ChanceOrQuestChance`='69.5775', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='20188', `item`='24246', `ChanceOrQuestChance`='23.714', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20188', `item`='25453', `ChanceOrQuestChance`='15.8639', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='20188', `item`='29453', `ChanceOrQuestChance`='0.4867', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20187', `item`='25451', `ChanceOrQuestChance`='68.7864', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='20187', `item`='24246', `ChanceOrQuestChance`='24.0978', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20187', `item`='25453', `ChanceOrQuestChance`='16.5891', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='20187', `item`='29453', `ChanceOrQuestChance`='0.2619', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='27745', `ChanceOrQuestChance`='15.1643', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='27743', `ChanceOrQuestChance`='14.833', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='27747', `ChanceOrQuestChance`='14.2877', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='27748', `ChanceOrQuestChance`='12.8934', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='27744', `ChanceOrQuestChance`='12.7278', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='27746', `ChanceOrQuestChance`='12.6933', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='24246', `ChanceOrQuestChance`='6.5917', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='30608', `ChanceOrQuestChance`='6.3915', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='30607', `ChanceOrQuestChance`='6.0878', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20169', `item`='30606', `ChanceOrQuestChance`='5.7841', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20630', `item`='27791', `ChanceOrQuestChance`='17.3603', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20630', `item`='27790', `ChanceOrQuestChance`='16.8308', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20630', `item`='27794', `ChanceOrQuestChance`='16.4984', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20630', `item`='27793', `ChanceOrQuestChance`='15.4272', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20630', `item`='27792', `ChanceOrQuestChance`='15.2672', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20630', `item`='30550', `ChanceOrQuestChance`='5.9961', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20630', `item`='30549', `ChanceOrQuestChance`='5.2573', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20630', `item`='30551', `ChanceOrQuestChance`='4.5186', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20630', `item`='23887', `ChanceOrQuestChance`='2.9919', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='27508', `ChanceOrQuestChance`='18.167', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='27783', `ChanceOrQuestChance`='17.0578', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='27787', `ChanceOrQuestChance`='17.0228', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='27784', `ChanceOrQuestChance`='15.5984', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='27789', `ChanceOrQuestChance`='15.5633', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='30550', `ChanceOrQuestChance`='5.2072', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='30551', `ChanceOrQuestChance`='5.0088', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='30549', `ChanceOrQuestChance`='4.5184', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='29673', `ChanceOrQuestChance`='2.195', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20629', `item`='30828', `ChanceOrQuestChance`='0.6772', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='31721', `ChanceOrQuestChance`='18.1192', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='33827', `ChanceOrQuestChance`='16.6589', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='29243', `ChanceOrQuestChance`='16.6403', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='29463', `ChanceOrQuestChance`='14.8916', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27805', `ChanceOrQuestChance`='14.3801', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='30543', `ChanceOrQuestChance`='14.2684', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27806', `ChanceOrQuestChance`='14.1847', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27799', `ChanceOrQuestChance`='13.8592', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27737', `ChanceOrQuestChance`='13.6173', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27475', `ChanceOrQuestChance`='13.1523', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27738', `ChanceOrQuestChance`='13.1151', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27795', `ChanceOrQuestChance`='12.8639', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='28203', `ChanceOrQuestChance`='11.8966', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27804', `ChanceOrQuestChance`='11.785', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27510', `ChanceOrQuestChance`='11.4408', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27801', `ChanceOrQuestChance`='11.4315', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='27874', `ChanceOrQuestChance`='11.2827', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='29351', `ChanceOrQuestChance`='9.3015', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='30550', `ChanceOrQuestChance`='7.4133', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='30551', `ChanceOrQuestChance`='7.1714', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='30549', `ChanceOrQuestChance`='7.0598', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='24313', `ChanceOrQuestChance`='1.8975', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='31892', `ChanceOrQuestChance`='0.3814', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='31882', `ChanceOrQuestChance`='0.2976', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='31910', `ChanceOrQuestChance`='0.2511', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20633', `item`='31901', `ChanceOrQuestChance`='0.2325', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20621', `item`='24367', `ChanceOrQuestChance`='0.2295', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20623', `item`='24367', `ChanceOrQuestChance`='0.3054', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20626', `item`='24367', `ChanceOrQuestChance`='0.6166', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20622', `item`='22533', `ChanceOrQuestChance`='1.0011', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20622', `item`='24367', `ChanceOrQuestChance`='0.2393', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20624', `item`='24367', `ChanceOrQuestChance`='0.2076', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20538', `item`='30457', `ChanceOrQuestChance`='1.6484', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20537', `item`='30457', `ChanceOrQuestChance`='2.3649', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20527', `item`='30457', `ChanceOrQuestChance`='2.4136', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20526', `item`='30457', `ChanceOrQuestChance`='2.2112', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20526', `item`='25729', `ChanceOrQuestChance`='0.6559', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20183', `item`='27765', `ChanceOrQuestChance`='14.4771', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20183', `item`='27763', `ChanceOrQuestChance`='14.1517', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20183', `item`='27766', `ChanceOrQuestChance`='13.2511', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20183', `item`='27764', `ChanceOrQuestChance`='12.7895', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20183', `item`='27767', `ChanceOrQuestChance`='12.4111', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20183', `item`='27762', `ChanceOrQuestChance`='12.2749', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20183', `item`='30607', `ChanceOrQuestChance`='6.0693', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20183', `item`='30608', `ChanceOrQuestChance`='6.0012', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20183', `item`='30606', `ChanceOrQuestChance`='5.759', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20530', `item`='30457', `ChanceOrQuestChance`='2.2727', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20744', `item`='31753', `ChanceOrQuestChance`='2.0012', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20744', `item`='25730', `ChanceOrQuestChance`='0.7492', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20543', `item`='30610', `ChanceOrQuestChance`='7.1429', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20543', `item`='30457', `ChanceOrQuestChance`='2.8571', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='28213', `ChanceOrQuestChance`='11.3442', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='28215', `ChanceOrQuestChance`='11.3442', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='28214', `ChanceOrQuestChance`='10.9557', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='28211', `ChanceOrQuestChance`='10.5284', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='28212', `ChanceOrQuestChance`='9.9456', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='28210', `ChanceOrQuestChance`='9.7902', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='27423', `ChanceOrQuestChance`='5.711', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='27417', `ChanceOrQuestChance`='5.5167', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='30589', `ChanceOrQuestChance`='3.9239', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='30591', `ChanceOrQuestChance`='3.8073', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='30590', `ChanceOrQuestChance`='3.4188', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20535', `item`='30457', `ChanceOrQuestChance`='1.0101', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20529', `item`='30457', `ChanceOrQuestChance`='2.1628', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='28217', `ChanceOrQuestChance`='10.3844', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='28221', `ChanceOrQuestChance`='10.2846', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='28219', `ChanceOrQuestChance`='9.6855', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='28218', `ChanceOrQuestChance`='9.1862', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='28220', `ChanceOrQuestChance`='8.7868', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='28216', `ChanceOrQuestChance`='7.7883', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='27430', `ChanceOrQuestChance`='6.2406', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='27424', `ChanceOrQuestChance`='5.991', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='27428', `ChanceOrQuestChance`='5.6915', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='22927', `ChanceOrQuestChance`='4.2936', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='30590', `ChanceOrQuestChance`='3.6945', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='30589', `ChanceOrQuestChance`='3.6445', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='30591', `ChanceOrQuestChance`='3.2951', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20521', `item`='30457', `ChanceOrQuestChance`='0.8487', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20190', `item`='25451', `ChanceOrQuestChance`='69.6716', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='20190', `item`='24246', `ChanceOrQuestChance`='23.6952', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20190', `item`='25453', `ChanceOrQuestChance`='16.1596', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='20190', `item`='29453', `ChanceOrQuestChance`='0.5582', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='27995', `ChanceOrQuestChance`='14.9985', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='27996', `ChanceOrQuestChance`='14.3119', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='27993', `ChanceOrQuestChance`='14.0983', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='27988', `ChanceOrQuestChance`='13.6253', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='27994', `ChanceOrQuestChance`='12.5877', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='27987', `ChanceOrQuestChance`='12.542', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='30556', `ChanceOrQuestChance`='5.0504', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='30555', `ChanceOrQuestChance`='5.0046', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='30558', `ChanceOrQuestChance`='4.2112', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20738', `item`='29675', `ChanceOrQuestChance`='2.6396', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20745', `item`='28034', `ChanceOrQuestChance`='14.6155', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20745', `item`='28185', `ChanceOrQuestChance`='14.0534', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20745', `item`='28184', `ChanceOrQuestChance`='12.8087', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20745', `item`='28033', `ChanceOrQuestChance`='12.3871', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20745', `item`='28186', `ChanceOrQuestChance`='12.3469', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20745', `item`='28187', `ChanceOrQuestChance`='11.584', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20745', `item`='30555', `ChanceOrQuestChance`='4.9187', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20745', `item`='30558', `ChanceOrQuestChance`='4.738', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20745', `item`='30556', `ChanceOrQuestChance`='4.4168', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='33858', `ChanceOrQuestChance`='23.3966', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='28206', `ChanceOrQuestChance`='16.1838', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='28192', `ChanceOrQuestChance`='15.7443', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='29247', `ChanceOrQuestChance`='15.2448', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='27509', `ChanceOrQuestChance`='14.8252', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='27977', `ChanceOrQuestChance`='14.8052', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='28193', `ChanceOrQuestChance`='14.2657', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='28190', `ChanceOrQuestChance`='14.0659', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='29253', `ChanceOrQuestChance`='14.026', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='28194', `ChanceOrQuestChance`='13.8861', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='27839', `ChanceOrQuestChance`='13.3467', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='28188', `ChanceOrQuestChance`='13.2867', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='30531', `ChanceOrQuestChance`='13.1469', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='28189', `ChanceOrQuestChance`='12.7672', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='28207', `ChanceOrQuestChance`='12.7273', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='27873', `ChanceOrQuestChance`='12.2278', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='29356', `ChanceOrQuestChance`='8.2917', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='30555', `ChanceOrQuestChance`='4.7952', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='30558', `ChanceOrQuestChance`='4.3357', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='30556', `ChanceOrQuestChance`='4.2358', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='31901', `ChanceOrQuestChance`='0.3796', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='31910', `ChanceOrQuestChance`='0.3796', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='31882', `ChanceOrQuestChance`='0.3596', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20737', `item`='31892', `ChanceOrQuestChance`='0.3397', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='24246', `ChanceOrQuestChance`='22.3324', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='29265', `ChanceOrQuestChance`='17.9652', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='30541', `ChanceOrQuestChance`='17.1365', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='33826', `ChanceOrQuestChance`='13.864', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27896', `ChanceOrQuestChance`='12.7752', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27781', `ChanceOrQuestChance`='12.6059', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='29350', `ChanceOrQuestChance`='12.4849', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27773', `ChanceOrQuestChance`='11.8497', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27780', `ChanceOrQuestChance`='11.5594', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27779', `ChanceOrQuestChance`='11.5413', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27772', `ChanceOrQuestChance`='11.511', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27769', `ChanceOrQuestChance`='11.3174', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27771', `ChanceOrQuestChance`='10.8698', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27768', `ChanceOrQuestChance`='10.7307', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27770', `ChanceOrQuestChance`='10.5129', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27938', `ChanceOrQuestChance`='10.4525', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='27907', `ChanceOrQuestChance`='10.3315', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='30607', `ChanceOrQuestChance`='9.279', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='30606', `ChanceOrQuestChance`='8.9221', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='30608', `ChanceOrQuestChance`='7.9361', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='32081', `ChanceOrQuestChance`='7.0953', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='31882', `ChanceOrQuestChance`='0.3448', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='31901', `ChanceOrQuestChance`='0.3085', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='31910', `ChanceOrQuestChance`='0.3085', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20184', `item`='31892', `ChanceOrQuestChance`='0.248', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='27545', `ChanceOrQuestChance`='15.0317', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='27543', `ChanceOrQuestChance`='15.028', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='27542', `ChanceOrQuestChance`='13.8375', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='27544', `ChanceOrQuestChance`='13.7326', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='27546', `ChanceOrQuestChance`='13.3997', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='27541', `ChanceOrQuestChance`='12.7628', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='30605', `ChanceOrQuestChance`='5.5039', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='30604', `ChanceOrQuestChance`='5.2253', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='30603', `ChanceOrQuestChance`='4.4654', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19893', `item`='29674', `ChanceOrQuestChance`='1.8382', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='29242', `ChanceOrQuestChance`='17.3285', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='30538', `ChanceOrQuestChance`='17.02', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='32078', `ChanceOrQuestChance`='13.6915', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27673', `ChanceOrQuestChance`='13.4991', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27742', `ChanceOrQuestChance`='13.049', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27800', `ChanceOrQuestChance`='13.0454', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27713', `ChanceOrQuestChance`='12.5517', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27712', `ChanceOrQuestChance`='11.7822', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27796', `ChanceOrQuestChance`='11.706', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27740', `ChanceOrQuestChance`='11.6624', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27741', `ChanceOrQuestChance`='11.3648', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27714', `ChanceOrQuestChance`='11.2051', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='28337', `ChanceOrQuestChance`='11.2015', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27672', `ChanceOrQuestChance`='11.1833', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='33821', `ChanceOrQuestChance`='10.2178', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='27683', `ChanceOrQuestChance`='10.2033', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='30604', `ChanceOrQuestChance`='9.0817', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='29349', `ChanceOrQuestChance`='8.8639', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='30605', `ChanceOrQuestChance`='8.2432', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='30603', `ChanceOrQuestChance`='6.9837', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='31910', `ChanceOrQuestChance`='0.3485', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='31901', `ChanceOrQuestChance`='0.3339', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='31882', `ChanceOrQuestChance`='0.2722', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19894', `item`='31892', `ChanceOrQuestChance`='0.2541', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='28318', `ChanceOrQuestChance`='17.9133', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='28317', `ChanceOrQuestChance`='17.6513', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='28315', `ChanceOrQuestChance`='17.6513', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='28321', `ChanceOrQuestChance`='16.4726', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='28316', `ChanceOrQuestChance`='15.2939', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='30573', `ChanceOrQuestChance`='6.7811', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='30572', `ChanceOrQuestChance`='6.1409', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='30574', `ChanceOrQuestChance`='5.8935', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='23617', `ChanceOrQuestChance`='3.5215', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21558', `item`='31744', `ChanceOrQuestChance`='0.6839', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21551', `item`='28296', `ChanceOrQuestChance`='19.0051', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21551', `item`='28306', `ChanceOrQuestChance`='17.9102', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21551', `item`='28304', `ChanceOrQuestChance`='17.5453', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21551', `item`='28301', `ChanceOrQuestChance`='16.0584', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21551', `item`='28311', `ChanceOrQuestChance`='15.6664', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21551', `item`='30573', `ChanceOrQuestChance`='6.0692', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21551', `item`='30574', `ChanceOrQuestChance`='5.8935', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21551', `item`='30572', `ChanceOrQuestChance`='5.488', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='33859', `ChanceOrQuestChance`='27.1276', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='29258', `ChanceOrQuestChance`='21.0976', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='29262', `ChanceOrQuestChance`='19.4868', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='32072', `ChanceOrQuestChance`='15.8945', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28370', `ChanceOrQuestChance`='14.4405', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28371', `ChanceOrQuestChance`='13.9416', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28349', `ChanceOrQuestChance`='13.6992', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28343', `ChanceOrQuestChance`='12.4448', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28348', `ChanceOrQuestChance`='12.2167', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28228', `ChanceOrQuestChance`='12.0314', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28347', `ChanceOrQuestChance`='12.0171', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28367', `ChanceOrQuestChance`='11.8888', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28342', `ChanceOrQuestChance`='11.5467', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28350', `ChanceOrQuestChance`='11.5324', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28345', `ChanceOrQuestChance`='11.005', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28341', `ChanceOrQuestChance`='10.5061', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='28229', `ChanceOrQuestChance`='10.1212', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='29359', `ChanceOrQuestChance`='8.3535', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='31085', `ChanceOrQuestChance`='7.3984', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='30573', `ChanceOrQuestChance`='6.6144', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='30572', `ChanceOrQuestChance`='6.201', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='30574', `ChanceOrQuestChance`='5.8304', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='24311', `ChanceOrQuestChance`='3.1076', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='31901', `ChanceOrQuestChance`='0.3991', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='31910', `ChanceOrQuestChance`='0.3991', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='31892', `ChanceOrQuestChance`='0.3849', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21582', `item`='31882', `ChanceOrQuestChance`='0.2423', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21581', `item`='28322', `ChanceOrQuestChance`='18.971', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21581', `item`='28327', `ChanceOrQuestChance`='16.8876', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21581', `item`='28323', `ChanceOrQuestChance`='16.6982', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21581', `item`='28325', `ChanceOrQuestChance`='15.2462', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21581', `item`='28324', `ChanceOrQuestChance`='15.1831', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21581', `item`='30573', `ChanceOrQuestChance`='7.7336', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21581', `item`='30574', `ChanceOrQuestChance`='6.9444', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21581', `item`='30572', `ChanceOrQuestChance`='6.8497', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21581', `item`='24310', `ChanceOrQuestChance`='4.2614', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21559', `item`='28328', `ChanceOrQuestChance`='17.6747', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21559', `item`='27739', `ChanceOrQuestChance`='16.6369', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21559', `item`='28338', `ChanceOrQuestChance`='15.6154', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21559', `item`='28339', `ChanceOrQuestChance`='15.5829', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21559', `item`='28340', `ChanceOrQuestChance`='15.437', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21559', `item`='30574', `ChanceOrQuestChance`='6.778', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21559', `item`='30573', `ChanceOrQuestChance`='6.6321', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21559', `item`='30572', `ChanceOrQuestChance`='6.551', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19895', `item`='27550', `ChanceOrQuestChance`='14.491', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19895', `item`='27547', `ChanceOrQuestChance`='14.3215', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19895', `item`='27551', `ChanceOrQuestChance`='13.0966', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19895', `item`='28124', `ChanceOrQuestChance`='13.0773', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19895', `item`='27549', `ChanceOrQuestChance`='13.0118', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19895', `item`='27548', `ChanceOrQuestChance`='12.8346', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19895', `item`='30605', `ChanceOrQuestChance`='5.7278', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19895', `item`='30604', `ChanceOrQuestChance`='5.4505', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19895', `item`='30603', `ChanceOrQuestChance`='4.9536', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20545', `item`='30610', `ChanceOrQuestChance`='5.5234', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20545', `item`='30457', `ChanceOrQuestChance`='1.8626', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20547', `item`='30610', `ChanceOrQuestChance`='4.8607', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20547', `item`='30457', `ChanceOrQuestChance`='2.5924', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20546', `item`='30610', `ChanceOrQuestChance`='4.9511', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20546', `item`='30457', `ChanceOrQuestChance`='2.1824', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='33847', `ChanceOrQuestChance`='25.4506', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='27904', `ChanceOrQuestChance`='11.7968', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='29246', `ChanceOrQuestChance`='11.3053', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='29250', `ChanceOrQuestChance`='11.1415', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28224', `ChanceOrQuestChance`='9.9399', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='30536', `ChanceOrQuestChance`='9.7215', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28223', `ChanceOrQuestChance`='9.1753', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28191', `ChanceOrQuestChance`='8.9569', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28222', `ChanceOrQuestChance`='8.6292', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28225', `ChanceOrQuestChance`='8.5745', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28344', `ChanceOrQuestChance`='8.5199', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='30534', `ChanceOrQuestChance`='8.4107', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='27911', `ChanceOrQuestChance`='8.3015', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28226', `ChanceOrQuestChance`='7.9192', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28401', `ChanceOrQuestChance`='7.6461', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28227', `ChanceOrQuestChance`='7.6461', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='28233', `ChanceOrQuestChance`='7.4276', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='30589', `ChanceOrQuestChance`='7.2638', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='30591', `ChanceOrQuestChance`='6.8815', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='27434', `ChanceOrQuestChance`='5.68', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='27433', `ChanceOrQuestChance`='5.6253', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='27440', `ChanceOrQuestChance`='5.4069', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='30590', `ChanceOrQuestChance`='4.4784', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='24173', `ChanceOrQuestChance`='1.1469', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='31901', `ChanceOrQuestChance`='0.3823', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20531', `item`='31910', `ChanceOrQuestChance`='0.3823', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='24246', `ChanceOrQuestChance`='23.9137', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='27758', `ChanceOrQuestChance`='15.1421', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='27761', `ChanceOrQuestChance`='14.1773', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='27759', `ChanceOrQuestChance`='13.8828', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='27757', `ChanceOrQuestChance`='13.08', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='27755', `ChanceOrQuestChance`='12.8738', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='27760', `ChanceOrQuestChance`='12.4982', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='30607', `ChanceOrQuestChance`='6.0539', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='30606', `ChanceOrQuestChance`='5.6709', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20168', `item`='30608', `ChanceOrQuestChance`='5.6415', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20534', `item`='30610', `ChanceOrQuestChance`='1.8722', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20534', `item`='30457', `ChanceOrQuestChance`='0.6057', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20532', `item`='30610', `ChanceOrQuestChance`='1.3844', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20532', `item`='30457', `ChanceOrQuestChance`='0.6515', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20533', `item`='30610', `ChanceOrQuestChance`='1.9868', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20533', `item`='30457', `ChanceOrQuestChance`='0.5887', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20264', `item`='23615', `ChanceOrQuestChance`='0.7711', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20257', `item`='22543', `ChanceOrQuestChance`='1.4254', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20698', `item`='29669', `ChanceOrQuestChance`='1.4647', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20696', `item`='25731', `ChanceOrQuestChance`='1.6554', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='28558', `ChanceOrQuestChance`='57.6667', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='27817', `ChanceOrQuestChance`='14.25', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='27818', `ChanceOrQuestChance`='14.25', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='27816', `ChanceOrQuestChance`='13.5833', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='27814', `ChanceOrQuestChance`='13', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='27813', `ChanceOrQuestChance`='11.75', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='27815', `ChanceOrQuestChance`='10.8333', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='30583', `ChanceOrQuestChance`='8.3333', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='30585', `ChanceOrQuestChance`='8.25', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20267', `item`='30584', `ChanceOrQuestChance`='7.75', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='28558', `ChanceOrQuestChance`='49.1684', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='27825', `ChanceOrQuestChance`='14.5207', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='27824', `ChanceOrQuestChance`='13.9413', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='27823', `ChanceOrQuestChance`='13.0443', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='27822', `ChanceOrQuestChance`='12.8761', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='27821', `ChanceOrQuestChance`='12.0164', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='27826', `ChanceOrQuestChance`='11.1755', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='30583', `ChanceOrQuestChance`='7.1762', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='30584', `ChanceOrQuestChance`='6.1297', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20268', `item`='30585', `ChanceOrQuestChance`='6.0176', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='28558', `ChanceOrQuestChance`='43.9707', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='33835', `ChanceOrQuestChance`='22.3328', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='29240', `ChanceOrQuestChance`='19.1022', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='30535', `ChanceOrQuestChance`='17.7686', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='29352', `ChanceOrQuestChance`='15.0451', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27831', `ChanceOrQuestChance`='12.5657', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27844', `ChanceOrQuestChance`='12.3403', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27843', `ChanceOrQuestChance`='12.1525', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27828', `ChanceOrQuestChance`='11.7393', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27827', `ChanceOrQuestChance`='11.7205', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27840', `ChanceOrQuestChance`='11.1007', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27837', `ChanceOrQuestChance`='10.9316', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27798', `ChanceOrQuestChance`='10.8565', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27842', `ChanceOrQuestChance`='10.8377', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27835', `ChanceOrQuestChance`='10.5184', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='28400', `ChanceOrQuestChance`='10.4057', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='27829', `ChanceOrQuestChance`='10.2179', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='32082', `ChanceOrQuestChance`='9.5605', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='28490', `ChanceOrQuestChance`='8.2832', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='30583', `ChanceOrQuestChance`='7.3253', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='30585', `ChanceOrQuestChance`='5.973', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='30584', `ChanceOrQuestChance`='5.5973', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='22921', `ChanceOrQuestChance`='3.0053', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='29252', `ChanceOrQuestChance`='0.7513', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='31910', `ChanceOrQuestChance`='0.3757', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='31882', `ChanceOrQuestChance`='0.2066', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20266', `item`='31892', `ChanceOrQuestChance`='0.169', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='28558', `ChanceOrQuestChance`='48.9933', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='27866', `ChanceOrQuestChance`='13.9981', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='27846', `ChanceOrQuestChance`='13.3589', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='27845', `ChanceOrQuestChance`='13.295', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='27493', `ChanceOrQuestChance`='12.9115', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='27865', `ChanceOrQuestChance`='9.7156', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='27847', `ChanceOrQuestChance`='9.5558', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='30586', `ChanceOrQuestChance`='3.899', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='30588', `ChanceOrQuestChance`='3.6433', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20318', `item`='30587', `ChanceOrQuestChance`='3.6114', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='28558', `ChanceOrQuestChance`='42.0499', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='33836', `ChanceOrQuestChance`='23.1856', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='29257', `ChanceOrQuestChance`='21.1911', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='29244', `ChanceOrQuestChance`='19.2244', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='27523', `ChanceOrQuestChance`='13.2964', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='27871', `ChanceOrQuestChance`='12.7147', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='27869', `ChanceOrQuestChance`='11.856', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='27872', `ChanceOrQuestChance`='10.4155', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='27867', `ChanceOrQuestChance`='9.9723', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='30586', `ChanceOrQuestChance`='8.892', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='30587', `ChanceOrQuestChance`='8.615', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='27870', `ChanceOrQuestChance`='8.5873', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='29354', `ChanceOrQuestChance`='8.4211', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='30588', `ChanceOrQuestChance`='7.3961', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='31910', `ChanceOrQuestChance`='0.4155', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20306', `item`='31882', `ChanceOrQuestChance`='0.277', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21570', `item`='24172', `ChanceOrQuestChance`='1.7321', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='28558', `ChanceOrQuestChance`='46.0056', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='25461', `ChanceOrQuestChance`='21.7409', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='27919', `ChanceOrQuestChance`='15.2623', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='27917', `ChanceOrQuestChance`='15.1928', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='27918', `ChanceOrQuestChance`='14.0898', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='27914', `ChanceOrQuestChance`='13.752', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='27915', `ChanceOrQuestChance`='13.5334', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='27916', `ChanceOrQuestChance`='12.6093', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='30554', `ChanceOrQuestChance`='5.942', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='27633', `ChanceOrQuestChance`='5.8227', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='30553', `ChanceOrQuestChance`='5.4551', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='30552', `ChanceOrQuestChance`='4.8192', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20690', `item`='24160', `ChanceOrQuestChance`='1.8581', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='28558', `ChanceOrQuestChance`='38.2615', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27991', `ChanceOrQuestChance`='23.0824', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='29259', `ChanceOrQuestChance`='17.0107', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='29249', `ChanceOrQuestChance`='16.95', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27925', `ChanceOrQuestChance`='15.3005', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27936', `ChanceOrQuestChance`='15.0071', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='33834', `ChanceOrQuestChance`='14.4809', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27776', `ChanceOrQuestChance`='13.6713', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27875', `ChanceOrQuestChance`='13.0034', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27838', `ChanceOrQuestChance`='12.9933', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27946', `ChanceOrQuestChance`='12.3254', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27981', `ChanceOrQuestChance`='12.2344', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='32073', `ChanceOrQuestChance`='11.8397', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27980', `ChanceOrQuestChance`='11.7486', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27948', `ChanceOrQuestChance`='10.6962', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27985', `ChanceOrQuestChance`='10.6659', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27986', `ChanceOrQuestChance`='10.0182', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='29355', `ChanceOrQuestChance`='7.1645', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='30553', `ChanceOrQuestChance`='6.527', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='30554', `ChanceOrQuestChance`='6.2234', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='27632', `ChanceOrQuestChance`='5.3936', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='30552', `ChanceOrQuestChance`='5.2115', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='31882', `ChanceOrQuestChance`='0.4149', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='31892', `ChanceOrQuestChance`='0.3137', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='31901', `ChanceOrQuestChance`='0.2631', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20706', `item`='31910', `ChanceOrQuestChance`='0.2631', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20303', `item`='28268', `ChanceOrQuestChance`='17.2414', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20303', `item`='27878', `ChanceOrQuestChance`='16.4039', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20303', `item`='27797', `ChanceOrQuestChance`='15.8128', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20303', `item`='27937', `ChanceOrQuestChance`='15.7635', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20303', `item`='27876', `ChanceOrQuestChance`='15.7635', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20303', `item`='27877', `ChanceOrQuestChance`='15.468', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20299', `item`='23605', `ChanceOrQuestChance`='1.491', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20315', `item`='22544', `ChanceOrQuestChance`='1.3662', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='28558', `ChanceOrQuestChance`='53.3406', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='27468', `ChanceOrQuestChance`='15.0837', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='27892', `ChanceOrQuestChance`='14.3327', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='27893', `ChanceOrQuestChance`='14.3014', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='27890', `ChanceOrQuestChance`='13.0027', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='27891', `ChanceOrQuestChance`='12.5176', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='28134', `ChanceOrQuestChance`='12.2985', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='30808', `ChanceOrQuestChance`='5.1792', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='30560', `ChanceOrQuestChance`='4.3812', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='30563', `ChanceOrQuestChance`='4.256', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='30559', `ChanceOrQuestChance`='3.724', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20637', `item`='25728', `ChanceOrQuestChance`='2.5974', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='28558', `ChanceOrQuestChance`='46.2778', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='31722', `ChanceOrQuestChance`='24.8196', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='33840', `ChanceOrQuestChance`='14.7659', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27902', `ChanceOrQuestChance`='14.3515', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='28230', `ChanceOrQuestChance`='14.1213', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27909', `ChanceOrQuestChance`='13.5687', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27910', `ChanceOrQuestChance`='13.2771', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27903', `ChanceOrQuestChance`='13.2003', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27912', `ChanceOrQuestChance`='12.9087', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='29261', `ChanceOrQuestChance`='12.6784', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='28232', `ChanceOrQuestChance`='12.5096', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27778', `ChanceOrQuestChance`='12.5096', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='30532', `ChanceOrQuestChance`='12.0952', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27913', `ChanceOrQuestChance`='12.0491', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27905', `ChanceOrQuestChance`='11.8496', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='29357', `ChanceOrQuestChance`='11.7421', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27908', `ChanceOrQuestChance`='10.9286', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='27803', `ChanceOrQuestChance`='10.1151', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='29353', `ChanceOrQuestChance`='6.4006', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='30560', `ChanceOrQuestChance`='6.2011', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='30563', `ChanceOrQuestChance`='5.449', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='30559', `ChanceOrQuestChance`='4.7276', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='29241', `ChanceOrQuestChance`='1.7959', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='24309', `ChanceOrQuestChance`='1.7191', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='31910', `ChanceOrQuestChance`='0.4451', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='31882', `ChanceOrQuestChance`='0.2302', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='31892', `ChanceOrQuestChance`='0.2302', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20657', `item`='31901', `ChanceOrQuestChance`='0.1995', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='28558', `ChanceOrQuestChance`='59.7919', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='27885', `ChanceOrQuestChance`='15.9119', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='27889', `ChanceOrQuestChance`='15.8507', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='27887', `ChanceOrQuestChance`='15.4223', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='27886', `ChanceOrQuestChance`='14.2595', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='27884', `ChanceOrQuestChance`='13.5863', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='27888', `ChanceOrQuestChance`='12.4847', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='30560', `ChanceOrQuestChance`='6.4871', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='30563', `ChanceOrQuestChance`='6.4259', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20636', `item`='30559', `ChanceOrQuestChance`='5.3856', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='28558', `ChanceOrQuestChance`='54.6253', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='27900', `ChanceOrQuestChance`='18.6391', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='27775', `ChanceOrQuestChance`='18.3635', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='27898', `ChanceOrQuestChance`='17.261', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='27901', `ChanceOrQuestChance`='15.211', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='27897', `ChanceOrQuestChance`='14.1085', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='30560', `ChanceOrQuestChance`='4.2205', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='30559', `ChanceOrQuestChance`='3.8587', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='30563', `ChanceOrQuestChance`='3.7726', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20653', `item`='30827', `ChanceOrQuestChance`='0.9475', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20644', `item`='23607', `ChanceOrQuestChance`='1.1876', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20525', `item`='30457', `ChanceOrQuestChance`='2.3753', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21525', `item`='30436', `ChanceOrQuestChance`='95.04', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21533', `item`='28254', `ChanceOrQuestChance`='15.8999', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21533', `item`='28253', `ChanceOrQuestChance`='15.1791', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21533', `item`='28255', `ChanceOrQuestChance`='14.3523', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21533', `item`='28256', `ChanceOrQuestChance`='12.6775', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21533', `item`='28257', `ChanceOrQuestChance`='12.3596', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21533', `item`='35582', `ChanceOrQuestChance`='6.7416', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21533', `item`='30564', `ChanceOrQuestChance`='6.3176', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21533', `item`='30566', `ChanceOrQuestChance`='5.9996', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21533', `item`='30565', `ChanceOrQuestChance`='5.1516', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='33860', `ChanceOrQuestChance`='29.7481', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='30533', `ChanceOrQuestChance`='22.6068', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='29251', `ChanceOrQuestChance`='21.7963', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='32076', `ChanceOrQuestChance`='20.3724', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28202', `ChanceOrQuestChance`='15.3779', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28278', `ChanceOrQuestChance`='14.2388', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28266', `ChanceOrQuestChance`='13.7568', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28286', `ChanceOrQuestChance`='13.7568', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28204', `ChanceOrQuestChance`='13.4721', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28275', `ChanceOrQuestChance`='13.1654', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28267', `ChanceOrQuestChance`='12.6177', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28269', `ChanceOrQuestChance`='12.4863', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='27899', `ChanceOrQuestChance`='12.3111', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28288', `ChanceOrQuestChance`='11.851', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28285', `ChanceOrQuestChance`='11.8291', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='28265', `ChanceOrQuestChance`='11.5225', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='29362', `ChanceOrQuestChance`='9.6386', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='21907', `ChanceOrQuestChance`='9.1347', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='30566', `ChanceOrQuestChance`='6.988', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='30565', `ChanceOrQuestChance`='6.3308', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='30564', `ChanceOrQuestChance`='6.0898', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='31086', `ChanceOrQuestChance`='5.8927', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='31901', `ChanceOrQuestChance`='0.6791', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='31910', `ChanceOrQuestChance`='0.6572', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='31892', `ChanceOrQuestChance`='0.3724', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21537', `item`='31882', `ChanceOrQuestChance`='0.3505', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21536', `item`='28259', `ChanceOrQuestChance`='16.6141', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21536', `item`='28262', `ChanceOrQuestChance`='15.9107', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21536', `item`='28260', `ChanceOrQuestChance`='15.7652', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21536', `item`='28258', `ChanceOrQuestChance`='14.8436', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21536', `item`='28263', `ChanceOrQuestChance`='14.5768', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21536', `item`='30565', `ChanceOrQuestChance`='6.9852', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21536', `item`='30564', `ChanceOrQuestChance`='6.7669', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21536', `item`='22920', `ChanceOrQuestChance`='6.5486', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21536', `item`='30566', `ChanceOrQuestChance`='6.2818', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21526', `item`='30437', `ChanceOrQuestChance`='95.5645', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21586', `item`='21905', `ChanceOrQuestChance`='4.699', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21626', `item`='28374', `ChanceOrQuestChance`='18.2171', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21626', `item`='28373', `ChanceOrQuestChance`='17.1318', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21626', `item`='28384', `ChanceOrQuestChance`='16.8217', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21626', `item`='28375', `ChanceOrQuestChance`='14.4186', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21626', `item`='28372', `ChanceOrQuestChance`='13.7209', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21626', `item`='30575', `ChanceOrQuestChance`='6.8992', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21626', `item`='30581', `ChanceOrQuestChance`='6.7442', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21626', `item`='30582', `ChanceOrQuestChance`='6.2016', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21594', `item`='22556', `ChanceOrQuestChance`='9.4527', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21590', `item`='28392', `ChanceOrQuestChance`='17.7717', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21590', `item`='28386', `ChanceOrQuestChance`='16.9515', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21590', `item`='28387', `ChanceOrQuestChance`='15.9945', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21590', `item`='28391', `ChanceOrQuestChance`='15.9945', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21590', `item`='28390', `ChanceOrQuestChance`='15.7895', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21590', `item`='30575', `ChanceOrQuestChance`='8.134', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21590', `item`='30582', `ChanceOrQuestChance`='7.0403', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21590', `item`='30581', `ChanceOrQuestChance`='6.972', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21590', `item`='24308', `ChanceOrQuestChance`='5.1948', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21624', `item`='28398', `ChanceOrQuestChance`='18.0111', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21624', `item`='28396', `ChanceOrQuestChance`='17.5243', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21624', `item`='28394', `ChanceOrQuestChance`='17.1071', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21624', `item`='28393', `ChanceOrQuestChance`='15.2295', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21624', `item`='28397', `ChanceOrQuestChance`='15.0209', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21624', `item`='30581', `ChanceOrQuestChance`='7.0932', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21624', `item`='30575', `ChanceOrQuestChance`='6.6064', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21624', `item`='30582', `ChanceOrQuestChance`='5.8414', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21598', `item`='29672', `ChanceOrQuestChance`='11.4625', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21621', `item`='23606', `ChanceOrQuestChance`='10.2804', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='23572', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='33861', `ChanceOrQuestChance`='25.5027', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='29248', `ChanceOrQuestChance`='17.4592', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='29252', `ChanceOrQuestChance`='16.1107', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='29241', `ChanceOrQuestChance`='14.4784', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28414', `ChanceOrQuestChance`='14.3128', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28416', `ChanceOrQuestChance`='13.745', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28413', `ChanceOrQuestChance`='13.5084', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28407', `ChanceOrQuestChance`='13.3191', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28406', `ChanceOrQuestChance`='13.2718', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28231', `ChanceOrQuestChance`='13.2718', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28419', `ChanceOrQuestChance`='12.917', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28412', `ChanceOrQuestChance`='12.775', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28403', `ChanceOrQuestChance`='12.5621', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28205', `ChanceOrQuestChance`='12.4911', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28415', `ChanceOrQuestChance`='12.4911', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='28418', `ChanceOrQuestChance`='10.8351', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='29360', `ChanceOrQuestChance`='10.0781', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='30575', `ChanceOrQuestChance`='6.1273', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='30581', `ChanceOrQuestChance`='5.938', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='30582', `ChanceOrQuestChance`='5.8907', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='29254', `ChanceOrQuestChance`='0.899', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='31901', `ChanceOrQuestChance`='0.4022', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='31910', `ChanceOrQuestChance`='0.2602', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='31882', `ChanceOrQuestChance`='0.2366', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21599', `item`='31892', `ChanceOrQuestChance`='0.2366', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20992', `item`='30709', `ChanceOrQuestChance`='19.6763', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20992', `item`='30707', `ChanceOrQuestChance`='18.6309', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20992', `item`='30705', `ChanceOrQuestChance`='17.1978', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20992', `item`='30708', `ChanceOrQuestChance`='16.0175', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20992', `item`='30710', `ChanceOrQuestChance`='8.4303', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20992', `item`='30546', `ChanceOrQuestChance`='6.8117', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20992', `item`='30548', `ChanceOrQuestChance`='6.6262', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20992', `item`='30547', `ChanceOrQuestChance`='5.1425', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='22170', `item`='31753', `ChanceOrQuestChance`='2.2834', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='22170', `item`='25730', `ChanceOrQuestChance`='0.7042', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21914', `item`='25451', `ChanceOrQuestChance`='71.5191', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='21914', `item`='24246', `ChanceOrQuestChance`='24.6629', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21914', `item`='25453', `ChanceOrQuestChance`='16.5719', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='21914', `item`='29453', `ChanceOrQuestChance`='0.26', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='22129', `item`='30457', `ChanceOrQuestChance`='3.1863', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='28558', `ChanceOrQuestChance`='47.7523', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='32778', `ChanceOrQuestChance`='20.711', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='32781', `ChanceOrQuestChance`='18.2798', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='32769', `ChanceOrQuestChance`='17.0872', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='32779', `ChanceOrQuestChance`='15.9404', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='32780', `ChanceOrQuestChance`='15.5275', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='30554', `ChanceOrQuestChance`='8.4174', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='30553', `ChanceOrQuestChance`='8.1651', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='30552', `ChanceOrQuestChance`='7.0642', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='23122', `item`='32768', `ChanceOrQuestChance`='0.9404', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25560', `item`='35756', `ChanceOrQuestChance`='19.3749', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25560', `item`='34471', `ChanceOrQuestChance`='19.0731', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25560', `item`='34470', `ChanceOrQuestChance`='18.3137', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25560', `item`='34472', `ChanceOrQuestChance`='18.08', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25560', `item`='34473', `ChanceOrQuestChance`='17.5543', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25560', `item`='35275', `ChanceOrQuestChance`='1.2365', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='34609', `ChanceOrQuestChance`='19.8281', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='23572', `ChanceOrQuestChance`='19.8281', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='34614', `ChanceOrQuestChance`='18.9792', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='34611', `ChanceOrQuestChance`='18.9574', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='34613', `ChanceOrQuestChance`='18.8377', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='34612', `ChanceOrQuestChance`='18.6201', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='34616', `ChanceOrQuestChance`='18.6092', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='34615', `ChanceOrQuestChance`='18.3371', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='34610', `ChanceOrQuestChance`='18.3154', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='34160', `ChanceOrQuestChance`='15.3988', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35504', `ChanceOrQuestChance`='6.1595', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35275', `ChanceOrQuestChance`='2.503', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35513', `ChanceOrQuestChance`='2.4595', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35297', `ChanceOrQuestChance`='0.9468', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35309', `ChanceOrQuestChance`='0.838', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35298', `ChanceOrQuestChance`='0.7727', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35299', `ChanceOrQuestChance`='0.7618', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35294', `ChanceOrQuestChance`='0.7509', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35308', `ChanceOrQuestChance`='0.7183', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35301', `ChanceOrQuestChance`='0.5659', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35302', `ChanceOrQuestChance`='0.5441', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35296', `ChanceOrQuestChance`='0.5006', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35295', `ChanceOrQuestChance`='0.5006', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35303', `ChanceOrQuestChance`='0.4788', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35300', `ChanceOrQuestChance`='0.4571', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35306', `ChanceOrQuestChance`='0.37', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35310', `ChanceOrQuestChance`='0.3482', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35307', `ChanceOrQuestChance`='0.3156', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35311', `ChanceOrQuestChance`='0.2829', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35305', `ChanceOrQuestChance`='0.2177', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35516', `ChanceOrQuestChance`='0.2068', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24857', `item`='35304', `ChanceOrQuestChance`='0.1959', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25568', `item`='35516', `ChanceOrQuestChance`='0.4926', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25565', `item`='35516', `ChanceOrQuestChance`='0.4793', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25569', `item`='35516', `ChanceOrQuestChance`='0.4558', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25572', `item`='35516', `ChanceOrQuestChance`='0.3887', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25570', `item`='35516', `ChanceOrQuestChance`='0.4906', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25577', `item`='35516', `ChanceOrQuestChance`='0.4205', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25575', `item`='35516', `ChanceOrQuestChance`='0.45', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25576', `item`='35516', `ChanceOrQuestChance`='0.6156', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25547', `item`='35516', `ChanceOrQuestChance`='0.5542', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25563', `item`='35516', `ChanceOrQuestChance`='0.532', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25551', `item`='35516', `ChanceOrQuestChance`='0.3148', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25562', `item`='34601', `ChanceOrQuestChance`='20.8759', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25562', `item`='34603', `ChanceOrQuestChance`='20.4073', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25562', `item`='34604', `ChanceOrQuestChance`='20.1005', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25562', `item`='34602', `ChanceOrQuestChance`='19.7001', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25562', `item`='35275', `ChanceOrQuestChance`='1.5508', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25562', `item`='35516', `ChanceOrQuestChance`='0.1704', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25573', `item`='34607', `ChanceOrQuestChance`='19.468', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25573', `item`='34606', `ChanceOrQuestChance`='19.1467', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25573', `item`='34608', `ChanceOrQuestChance`='18.1916', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25573', `item`='34605', `ChanceOrQuestChance`='17.6471', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25573', `item`='35275', `ChanceOrQuestChance`='1.4371', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25573', `item`='35516', `ChanceOrQuestChance`='0.2053', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25567', `item`='35516', `ChanceOrQuestChance`='0.1921', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='25571', `item`='35516', `ChanceOrQuestChance`='0.518', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16807', `item`='27519', `ChanceOrQuestChance`='19.2576', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16807', `item`='27520', `ChanceOrQuestChance`='18.9318', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16807', `item`='27518', `ChanceOrQuestChance`='18.7282', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16807', `item`='27517', `ChanceOrQuestChance`='17.71', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16807', `item`='27521', `ChanceOrQuestChance`='16.7617', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16807', `item`='23735', `ChanceOrQuestChance`='13.4396', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16807', `item`='24312', `ChanceOrQuestChance`='0.6458', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='23723', `ChanceOrQuestChance`='25.019', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27534', `ChanceOrQuestChance`='14.5899', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27528', `ChanceOrQuestChance`='14.5736', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27540', `ChanceOrQuestChance`='14.2431', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27536', `ChanceOrQuestChance`='14.0915', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27527', `ChanceOrQuestChance`='13.826', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27537', `ChanceOrQuestChance`='13.6364', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27474', `ChanceOrQuestChance`='13.1596', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27529', `ChanceOrQuestChance`='12.6449', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27531', `ChanceOrQuestChance`='12.2819', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27535', `ChanceOrQuestChance`='11.8973', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27533', `ChanceOrQuestChance`='11.816', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='27538', `ChanceOrQuestChance`='10.467', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='23572', `ChanceOrQuestChance`='6.9401', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='31901', `ChanceOrQuestChance`='0.233', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='31910', `ChanceOrQuestChance`='0.2275', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='31892', `ChanceOrQuestChance`='0.195', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16808', `item`='31882', `ChanceOrQuestChance`='0.1517', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16809', `item`='27525', `ChanceOrQuestChance`='20.027', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16809', `item`='27524', `ChanceOrQuestChance`='19.5079', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16809', `item`='27526', `ChanceOrQuestChance`='18.5979', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16809', `item`='27868', `ChanceOrQuestChance`='18.0586', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16809', `item`='27802', `ChanceOrQuestChance`='17.3441', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='16809', `item`='30829', `ChanceOrQuestChance`='4.9343', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17306', `item`='23881', `ChanceOrQuestChance`='37.164', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17306', `item`='24022', `ChanceOrQuestChance`='17.6994', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17306', `item`='24021', `ChanceOrQuestChance`='17.3775', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17306', `item`='24024', `ChanceOrQuestChance`='16.3528', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17306', `item`='24023', `ChanceOrQuestChance`='16.0524', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17306', `item`='24020', `ChanceOrQuestChance`='15.7412', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17308', `item`='23886', `ChanceOrQuestChance`='45.2896', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17308', `item`='24094', `ChanceOrQuestChance`='15.9456', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17308', `item`='24096', `ChanceOrQuestChance`='15.1779', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17308', `item`='24069', `ChanceOrQuestChance`='13.9567', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17308', `item`='24090', `ChanceOrQuestChance`='13.3985', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17308', `item`='24091', `ChanceOrQuestChance`='13.0147', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17308', `item`='24073', `ChanceOrQuestChance`='12.9449', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17370', `item`='23894', `ChanceOrQuestChance`='25.3258', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17371', `item`='23894', `ChanceOrQuestChance`='4.7171', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17377', `item`='24397', `ChanceOrQuestChance`='20.0964', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17377', `item`='24395', `ChanceOrQuestChance`='18.3551', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17377', `item`='24398', `ChanceOrQuestChance`='18.147', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17377', `item`='24396', `ChanceOrQuestChance`='17.698', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17377', `item`='24394', `ChanceOrQuestChance`='17.6322', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17377', `item`='23894', `ChanceOrQuestChance`='0.3724', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17380', `item`='24391', `ChanceOrQuestChance`='19.2777', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17380', `item`='24389', `ChanceOrQuestChance`='19.2535', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17380', `item`='24393', `ChanceOrQuestChance`='18.3114', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17380', `item`='24392', `ChanceOrQuestChance`='16.7412', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17380', `item`='24390', `ChanceOrQuestChance`='16.6808', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17381', `item`='24388', `ChanceOrQuestChance`='20.3423', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17381', `item`='24386', `ChanceOrQuestChance`='19.3642', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17381', `item`='24385', `ChanceOrQuestChance`='18.6213', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17381', `item`='24384', `ChanceOrQuestChance`='16.5899', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17381', `item`='24387', `ChanceOrQuestChance`='16.3359', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17381', `item`='23894', `ChanceOrQuestChance`='3.2822', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17395', `item`='23894', `ChanceOrQuestChance`='10.8429', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17397', `item`='23894', `ChanceOrQuestChance`='33.148', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17398', `item`='23894', `ChanceOrQuestChance`='1.4835', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17414', `item`='23894', `ChanceOrQuestChance`='4.1968', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17429', `item`='23894', `ChanceOrQuestChance`='0.5141', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17465', `item`='22554', `ChanceOrQuestChance`='1.3895', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17491', `item`='23894', `ChanceOrQuestChance`='19.5372', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17536', `item`='23901', `ChanceOrQuestChance`='64.6349', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17536', `item`='29561', `ChanceOrQuestChance`='10.1283', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17536', `item`='29562', `ChanceOrQuestChance`='2.5359', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17537', `item`='23890', `ChanceOrQuestChance`='36.2715', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17537', `item`='23892', `ChanceOrQuestChance`='31.2413', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17624', `item`='23894', `ChanceOrQuestChance`='6.0368', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17626', `item`='23894', `ChanceOrQuestChance`='12.673', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17721', `item`='24367', `ChanceOrQuestChance`='2.2906', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17722', `item`='24367', `ChanceOrQuestChance`='1.0049', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17722', `item`='24159', `ChanceOrQuestChance`='0.222', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17723', `item`='24246', `ChanceOrQuestChance`='23.2861', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17724', `item`='24246', `ChanceOrQuestChance`='25.4239', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17725', `item`='24246', `ChanceOrQuestChance`='23.6593', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17734', `item`='24246', `ChanceOrQuestChance`='22.865', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17770', `item`='24413', `ChanceOrQuestChance`='19.5135', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17770', `item`='24451', `ChanceOrQuestChance`='19.1404', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17770', `item`='24452', `ChanceOrQuestChance`='19.0299', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17770', `item`='27631', `ChanceOrQuestChance`='17.9381', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17770', `item`='24450', `ChanceOrQuestChance`='17.0122', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17770', `item`='24246', `ChanceOrQuestChance`='10.2681', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17796', `item`='27794', `ChanceOrQuestChance`='20.2384', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17796', `item`='27790', `ChanceOrQuestChance`='19.7826', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17796', `item`='27791', `ChanceOrQuestChance`='18.4712', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17796', `item`='27793', `ChanceOrQuestChance`='18.2959', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17796', `item`='27792', `ChanceOrQuestChance`='17.5386', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17796', `item`='23887', `ChanceOrQuestChance`='0.8345', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17797', `item`='27508', `ChanceOrQuestChance`='19.6373', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17797', `item`='27783', `ChanceOrQuestChance`='18.9384', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17797', `item`='27787', `ChanceOrQuestChance`='18.3955', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17797', `item`='27784', `ChanceOrQuestChance`='16.992', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17797', `item`='27789', `ChanceOrQuestChance`='16.143', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17797', `item`='30828', `ChanceOrQuestChance`='4.0487', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17797', `item`='29673', `ChanceOrQuestChance`='1.0743', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27805', `ChanceOrQuestChance`='16.2353', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27799', `ChanceOrQuestChance`='14.5174', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27806', `ChanceOrQuestChance`='14.467', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27737', `ChanceOrQuestChance`='14.2105', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27738', `ChanceOrQuestChance`='13.8394', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27795', `ChanceOrQuestChance`='13.3217', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27510', `ChanceOrQuestChance`='13.1431', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27804', `ChanceOrQuestChance`='12.9323', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27475', `ChanceOrQuestChance`='12.6575', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='28203', `ChanceOrQuestChance`='12.0894', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27801', `ChanceOrQuestChance`='11.952', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='27874', `ChanceOrQuestChance`='11.6176', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='23572', `ChanceOrQuestChance`='6.3906', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='24313', `ChanceOrQuestChance`='0.5222', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='31882', `ChanceOrQuestChance`='0.2428', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='31901', `ChanceOrQuestChance`='0.2382', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='31892', `ChanceOrQuestChance`='0.2245', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17798', `item`='31910', `ChanceOrQuestChance`='0.1649', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17800', `item`='24367', `ChanceOrQuestChance`='0.9841', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17801', `item`='24367', `ChanceOrQuestChance`='1.4831', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17802', `item`='24367', `ChanceOrQuestChance`='2.3029', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17803', `item`='24367', `ChanceOrQuestChance`='1.2748', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17803', `item`='22533', `ChanceOrQuestChance`='0.4163', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17805', `item`='24367', `ChanceOrQuestChance`='0.9356', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17814', `item`='30457', `ChanceOrQuestChance`='1.465', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17815', `item`='30457', `ChanceOrQuestChance`='2.2563', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17819', `item`='30457', `ChanceOrQuestChance`='2.1995', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17820', `item`='30457', `ChanceOrQuestChance`='2.2855', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17820', `item`='25729', `ChanceOrQuestChance`='0.329', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17826', `item`='24454', `ChanceOrQuestChance`='19.5719', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17826', `item`='24453', `ChanceOrQuestChance`='19.0368', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17826', `item`='24455', `ChanceOrQuestChance`='18.6152', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17826', `item`='24457', `ChanceOrQuestChance`='18.1125', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17826', `item`='24456', `ChanceOrQuestChance`='16.8802', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17833', `item`='30457', `ChanceOrQuestChance`='2.2681', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17839', `item`='31753', `ChanceOrQuestChance`='5.2611', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17839', `item`='25730', `ChanceOrQuestChance`='0.3937', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17846', `item`='30610', `ChanceOrQuestChance`='4.9793', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17846', `item`='30457', `ChanceOrQuestChance`='2.4896', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17848', `item`='27423', `ChanceOrQuestChance`='20.9778', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17848', `item`='27417', `ChanceOrQuestChance`='20.3707', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17848', `item`='27420', `ChanceOrQuestChance`='19.9393', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17848', `item`='27418', `ChanceOrQuestChance`='17.5827', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17848', `item`='27436', `ChanceOrQuestChance`='16.5362', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17848', `item`='30457', `ChanceOrQuestChance`='0.9746', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17860', `item`='30457', `ChanceOrQuestChance`='1.9976', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17862', `item`='27428', `ChanceOrQuestChance`='20.661', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17862', `item`='27430', `ChanceOrQuestChance`='19.9622', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17862', `item`='27424', `ChanceOrQuestChance`='19.6333', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17862', `item`='27426', `ChanceOrQuestChance`='16.9531', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17862', `item`='27427', `ChanceOrQuestChance`='16.7146', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17862', `item`='22927', `ChanceOrQuestChance`='1.8828', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17862', `item`='30457', `ChanceOrQuestChance`='1.0113', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17871', `item`='24246', `ChanceOrQuestChance`='23.3226', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17879', `item`='27995', `ChanceOrQuestChance`='16.7923', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17879', `item`='27993', `ChanceOrQuestChance`='16.7413', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17879', `item`='27996', `ChanceOrQuestChance`='16.4193', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17879', `item`='27987', `ChanceOrQuestChance`='15.0609', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17879', `item`='27988', `ChanceOrQuestChance`='14.8528', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17879', `item`='27994', `ChanceOrQuestChance`='14.6761', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17879', `item`='29675', `ChanceOrQuestChance`='0.9266', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17880', `item`='28185', `ChanceOrQuestChance`='16.6378', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17880', `item`='28033', `ChanceOrQuestChance`='16.001', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17880', `item`='28034', `ChanceOrQuestChance`='15.9144', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17880', `item`='28186', `ChanceOrQuestChance`='15.5249', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17880', `item`='28184', `ChanceOrQuestChance`='15.4816', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17880', `item`='28187', `ChanceOrQuestChance`='14.9808', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='28206', `ChanceOrQuestChance`='16.6248', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='28192', `ChanceOrQuestChance`='16.0818', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='27509', `ChanceOrQuestChance`='15.2877', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='28194', `ChanceOrQuestChance`='14.731', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='27839', `ChanceOrQuestChance`='14.3887', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='28193', `ChanceOrQuestChance`='14.3294', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='27977', `ChanceOrQuestChance`='13.7635', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='28190', `ChanceOrQuestChance`='13.7635', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='27873', `ChanceOrQuestChance`='13.5764', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='28207', `ChanceOrQuestChance`='13.5536', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='28189', `ChanceOrQuestChance`='13.3437', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='28188', `ChanceOrQuestChance`='12.8052', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='23572', `ChanceOrQuestChance`='7.4385', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='31901', `ChanceOrQuestChance`='0.2556', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='31882', `ChanceOrQuestChance`='0.2282', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='31892', `ChanceOrQuestChance`='0.2236', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17881', `item`='31910', `ChanceOrQuestChance`='0.1597', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17882', `item`='24248', `ChanceOrQuestChance`='47.1137', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17882', `item`='24246', `ChanceOrQuestChance`='29.3189', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17882', `item`='24464', `ChanceOrQuestChance`='16.7779', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17882', `item`='24466', `ChanceOrQuestChance`='16.6614', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17882', `item`='24463', `ChanceOrQuestChance`='15.7928', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17882', `item`='24481', `ChanceOrQuestChance`='15.4433', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17882', `item`='24465', `ChanceOrQuestChance`='14.3417', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17941', `item`='24357', `ChanceOrQuestChance`='19.1706', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17941', `item`='24356', `ChanceOrQuestChance`='19.0253', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17941', `item`='24361', `ChanceOrQuestChance`='18.3637', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17941', `item`='24360', `ChanceOrQuestChance`='18.1378', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17941', `item`='24359', `ChanceOrQuestChance`='17.7505', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17941', `item`='29674', `ChanceOrQuestChance`='1.1457', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17942', `item`='24365', `ChanceOrQuestChance`='20.4019', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17942', `item`='24364', `ChanceOrQuestChance`='20.2473', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17942', `item`='24363', `ChanceOrQuestChance`='19.4966', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17942', `item`='24366', `ChanceOrQuestChance`='18.8342', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17942', `item`='24362', `ChanceOrQuestChance`='18.7238', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17975', `item`='28317', `ChanceOrQuestChance`='20.3555', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17975', `item`='28315', `ChanceOrQuestChance`='18.4589', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17975', `item`='28318', `ChanceOrQuestChance`='18.2901', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17975', `item`='28321', `ChanceOrQuestChance`='18.2306', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17975', `item`='28316', `ChanceOrQuestChance`='15.5695', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17975', `item`='31744', `ChanceOrQuestChance`='3.4058', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17975', `item`='23617', `ChanceOrQuestChance`='1.4199', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17976', `item`='28296', `ChanceOrQuestChance`='26.6742', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17976', `item`='28306', `ChanceOrQuestChance`='25.3673', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17976', `item`='28304', `ChanceOrQuestChance`='24.8517', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17976', `item`='28301', `ChanceOrQuestChance`='24.1029', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17976', `item`='28311', `ChanceOrQuestChance`='23.453', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17976', `item`='28769', `ChanceOrQuestChance`='18.1831', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='31085', `ChanceOrQuestChance`='29.3835', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28371', `ChanceOrQuestChance`='15.2917', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28349', `ChanceOrQuestChance`='14.5268', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28370', `ChanceOrQuestChance`='13.9868', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28367', `ChanceOrQuestChance`='12.6519', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28343', `ChanceOrQuestChance`='12.5394', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28347', `ChanceOrQuestChance`='12.3144', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28348', `ChanceOrQuestChance`='11.7819', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28345', `ChanceOrQuestChance`='11.5719', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28342', `ChanceOrQuestChance`='10.9345', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28350', `ChanceOrQuestChance`='10.837', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28228', `ChanceOrQuestChance`='10.7245', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28341', `ChanceOrQuestChance`='10.192', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='28229', `ChanceOrQuestChance`='10.1245', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='23572', `ChanceOrQuestChance`='6.0222', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='24311', `ChanceOrQuestChance`='0.465', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='31910', `ChanceOrQuestChance`='0.2775', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='31882', `ChanceOrQuestChance`='0.255', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='31892', `ChanceOrQuestChance`='0.2475', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17977', `item`='31901', `ChanceOrQuestChance`='0.1575', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17978', `item`='28322', `ChanceOrQuestChance`='22.7907', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17978', `item`='28323', `ChanceOrQuestChance`='19.0698', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17978', `item`='28327', `ChanceOrQuestChance`='18.7597', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17978', `item`='28325', `ChanceOrQuestChance`='18.6047', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17978', `item`='28324', `ChanceOrQuestChance`='16.4341', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17978', `item`='24310', `ChanceOrQuestChance`='2.1705', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17980', `item`='28339', `ChanceOrQuestChance`='21.353', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17980', `item`='28328', `ChanceOrQuestChance`='21.167', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17980', `item`='27739', `ChanceOrQuestChance`='19.7654', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17980', `item`='28338', `ChanceOrQuestChance`='18.0921', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17980', `item`='28340', `ChanceOrQuestChance`='18.0063', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17991', `item`='24376', `ChanceOrQuestChance`='17.8004', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17991', `item`='24381', `ChanceOrQuestChance`='17.6155', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17991', `item`='24380', `ChanceOrQuestChance`='17.3567', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17991', `item`='24379', `ChanceOrQuestChance`='15.5268', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='17991', `item`='24378', `ChanceOrQuestChance`='14.3068', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18092', `item`='30610', `ChanceOrQuestChance`='4.7171', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18092', `item`='30457', `ChanceOrQuestChance`='1.9751', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18093', `item`='30610', `ChanceOrQuestChance`='4.8904', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18093', `item`='30457', `ChanceOrQuestChance`='2.1053', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18094', `item`='30610', `ChanceOrQuestChance`='4.6234', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18094', `item`='30457', `ChanceOrQuestChance`='2.2692', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18096', `item`='27433', `ChanceOrQuestChance`='20.6645', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18096', `item`='27440', `ChanceOrQuestChance`='19.9635', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18096', `item`='27434', `ChanceOrQuestChance`='19.8867', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18096', `item`='27432', `ChanceOrQuestChance`='18.3887', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18096', `item`='27431', `ChanceOrQuestChance`='17.9182', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18096', `item`='24173', `ChanceOrQuestChance`='0.4801', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18105', `item`='24246', `ChanceOrQuestChance`='32.6666', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18105', `item`='24458', `ChanceOrQuestChance`='19.0972', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18105', `item`='24461', `ChanceOrQuestChance`='18.6377', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18105', `item`='24460', `ChanceOrQuestChance`='17.6375', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18105', `item`='24459', `ChanceOrQuestChance`='16.9888', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18105', `item`='24462', `ChanceOrQuestChance`='16.286', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18170', `item`='30610', `ChanceOrQuestChance`='1.303', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18170', `item`='30457', `ChanceOrQuestChance`='0.6188', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18171', `item`='30610', `ChanceOrQuestChance`='1.9601', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18171', `item`='30457', `ChanceOrQuestChance`='1.0889', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18172', `item`='30610', `ChanceOrQuestChance`='1.609', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18172', `item`='30457', `ChanceOrQuestChance`='0.7654', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18314', `item`='23615', `ChanceOrQuestChance`='0.4567', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18317', `item`='22543', `ChanceOrQuestChance`='0.5471', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18320', `item`='29669', `ChanceOrQuestChance`='0.6504', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18322', `item`='25731', `ChanceOrQuestChance`='0.5441', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18341', `item`='28558', `ChanceOrQuestChance`='71.1364', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18341', `item`='25943', `ChanceOrQuestChance`='15.625', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18341', `item`='25940', `ChanceOrQuestChance`='14.9432', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18341', `item`='25942', `ChanceOrQuestChance`='13.5227', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18341', `item`='25939', `ChanceOrQuestChance`='12.3295', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18341', `item`='28166', `ChanceOrQuestChance`='11.7614', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18341', `item`='25941', `ChanceOrQuestChance`='11.5909', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18343', `item`='28558', `ChanceOrQuestChance`='63.8611', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18343', `item`='25952', `ChanceOrQuestChance`='14.5752', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18343', `item`='25947', `ChanceOrQuestChance`='13.0221', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18343', `item`='25946', `ChanceOrQuestChance`='12.915', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18343', `item`='25944', `ChanceOrQuestChance`='12.8436', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18343', `item`='25950', `ChanceOrQuestChance`='12.442', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18343', `item`='25945', `ChanceOrQuestChance`='11.0853', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18344', `item`='28558', `ChanceOrQuestChance`='58.1923', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18344', `item`='28490', `ChanceOrQuestChance`='47.3591', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18344', `item`='25953', `ChanceOrQuestChance`='14.4318', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18344', `item`='25962', `ChanceOrQuestChance`='13.6693', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18344', `item`='25954', `ChanceOrQuestChance`='13.3532', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18344', `item`='25957', `ChanceOrQuestChance`='12.9347', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18344', `item`='25955', `ChanceOrQuestChance`='12.693', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18344', `item`='25956', `ChanceOrQuestChance`='11.8561', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18344', `item`='22921', `ChanceOrQuestChance`='1.432', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18371', `item`='28558', `ChanceOrQuestChance`='64.7873', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18371', `item`='26055', `ChanceOrQuestChance`='16.2749', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18371', `item`='27408', `ChanceOrQuestChance`='15.8584', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18371', `item`='27410', `ChanceOrQuestChance`='14.9658', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18371', `item`='25964', `ChanceOrQuestChance`='14.8319', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18371', `item`='27409', `ChanceOrQuestChance`='13.6269', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18373', `item`='28558', `ChanceOrQuestChance`='61.6712', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18373', `item`='27412', `ChanceOrQuestChance`='14.6349', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18373', `item`='27415', `ChanceOrQuestChance`='14.4668', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18373', `item`='27416', `ChanceOrQuestChance`='14.3446', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18373', `item`='27413', `ChanceOrQuestChance`='13.0461', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18373', `item`='27414', `ChanceOrQuestChance`='12.9545', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18373', `item`='27411', `ChanceOrQuestChance`='11.8546', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18422', `item`='24172', `ChanceOrQuestChance`='0.575', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18472', `item`='28558', `ChanceOrQuestChance`='55.6684', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='18472', `item`='27633', `ChanceOrQuestChance`='36.0861', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18472', `item`='27917', `ChanceOrQuestChance`='14.1884', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18472', `item`='27919', `ChanceOrQuestChance`='13.8919', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18472', `item`='27914', `ChanceOrQuestChance`='13.5701', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18472', `item`='27918', `ChanceOrQuestChance`='12.4345', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18472', `item`='27916', `ChanceOrQuestChance`='11.9298', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18472', `item`='27915', `ChanceOrQuestChance`='11.7343', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18472', `item`='24160', `ChanceOrQuestChance`='0.6372', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27991', `ChanceOrQuestChance`='68.2976', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='28558', `ChanceOrQuestChance`='43.5116', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27632', `ChanceOrQuestChance`='29.985', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27936', `ChanceOrQuestChance`='13.4592', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27925', `ChanceOrQuestChance`='13.288', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27776', `ChanceOrQuestChance`='12.1413', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27980', `ChanceOrQuestChance`='11.6951', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27981', `ChanceOrQuestChance`='11.3942', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27946', `ChanceOrQuestChance`='11.2385', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27838', `ChanceOrQuestChance`='11.2074', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27875', `ChanceOrQuestChance`='11.0984', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27985', `ChanceOrQuestChance`='10.2527', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27986', `ChanceOrQuestChance`='9.3862', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='27948', `ChanceOrQuestChance`='8.8103', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18473', `item`='23572', `ChanceOrQuestChance`='2.5943', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18497', `item`='23605', `ChanceOrQuestChance`='1.1935', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18521', `item`='22544', `ChanceOrQuestChance`='0.8767', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18667', `item`='28558', `ChanceOrQuestChance`='60.7363', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='18667', `item`='27893', `ChanceOrQuestChance`='14.4609', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18667', `item`='27892', `ChanceOrQuestChance`='14.2422', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18667', `item`='27468', `ChanceOrQuestChance`='13.5892', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18667', `item`='27890', `ChanceOrQuestChance`='12.7323', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18667', `item`='28134', `ChanceOrQuestChance`='12.1207', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18667', `item`='27891', `ChanceOrQuestChance`='11.2815', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18667', `item`='30808', `ChanceOrQuestChance`='7.8657', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18667', `item`='25728', `ChanceOrQuestChance`='1.0785', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='28558', `ChanceOrQuestChance`='57.6795', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27902', `ChanceOrQuestChance`='14.3898', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27909', `ChanceOrQuestChance`='14.007', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27910', `ChanceOrQuestChance`='13.5811', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='28230', `ChanceOrQuestChance`='13.1366', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27912', `ChanceOrQuestChance`='12.51', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='28232', `ChanceOrQuestChance`='12.2538', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27778', `ChanceOrQuestChance`='11.7939', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27903', `ChanceOrQuestChance`='11.726', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27913', `ChanceOrQuestChance`='11.3186', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27905', `ChanceOrQuestChance`='11.013', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27803', `ChanceOrQuestChance`='10.6673', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='27908', `ChanceOrQuestChance`='10.5037', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='23572', `ChanceOrQuestChance`='6.164', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='24309', `ChanceOrQuestChance`='0.5155', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='31882', `ChanceOrQuestChance`='0.2006', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='31910', `ChanceOrQuestChance`='0.1883', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18708', `item`='31901', `ChanceOrQuestChance`='0.1605', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18731', `item`='28558', `ChanceOrQuestChance`='69.5687', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='18731', `item`='27889', `ChanceOrQuestChance`='17.0927', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18731', `item`='27885', `ChanceOrQuestChance`='14.2173', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18731', `item`='27884', `ChanceOrQuestChance`='14.0974', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18731', `item`='27886', `ChanceOrQuestChance`='13.4185', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18731', `item`='27888', `ChanceOrQuestChance`='12.8994', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18731', `item`='27887', `ChanceOrQuestChance`='10.8227', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18732', `item`='28558', `ChanceOrQuestChance`='62.4489', `mincountOrRef`='1', `maxcount`='2';
-REPLACE INTO `creature_loot_template` SET `entry`='18732', `item`='27900', `ChanceOrQuestChance`='17.8108', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18732', `item`='27775', `ChanceOrQuestChance`='16.768', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18732', `item`='27898', `ChanceOrQuestChance`='16.3794', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18732', `item`='27901', `ChanceOrQuestChance`='15.5491', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18732', `item`='27897', `ChanceOrQuestChance`='14.3104', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18732', `item`='30827', `ChanceOrQuestChance`='3.6432', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18830', `item`='23607', `ChanceOrQuestChance`='0.9703', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='18934', `item`='30457', `ChanceOrQuestChance`='2.2163', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19168', `item`='21906', `ChanceOrQuestChance`='1.1024', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19168', `item`='22920', `ChanceOrQuestChance`='0.6411', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19218', `item`='30436', `ChanceOrQuestChance`='94.2623', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19219', `item`='28253', `ChanceOrQuestChance`='21.8153', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19219', `item`='28254', `ChanceOrQuestChance`='21.3376', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19219', `item`='28255', `ChanceOrQuestChance`='19.9045', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19219', `item`='28256', `ChanceOrQuestChance`='15.6051', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19219', `item`='28257', `ChanceOrQuestChance`='14.9682', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19219', `item`='35582', `ChanceOrQuestChance`='4.4586', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='31086', `ChanceOrQuestChance`='32.6923', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28266', `ChanceOrQuestChance`='17.0814', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28278', `ChanceOrQuestChance`='16.2896', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28275', `ChanceOrQuestChance`='15.8371', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28202', `ChanceOrQuestChance`='15.1584', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28204', `ChanceOrQuestChance`='15.0452', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28286', `ChanceOrQuestChance`='14.9321', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28269', `ChanceOrQuestChance`='14.3665', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28267', `ChanceOrQuestChance`='12.8959', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='27899', `ChanceOrQuestChance`='12.7828', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28285', `ChanceOrQuestChance`='12.3303', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28288', `ChanceOrQuestChance`='11.5385', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='28265', `ChanceOrQuestChance`='10.4072', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='23572', `ChanceOrQuestChance`='4.8643', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='21907', `ChanceOrQuestChance`='4.0724', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='31901', `ChanceOrQuestChance`='0.6787', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='31910', `ChanceOrQuestChance`='0.5656', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='31882', `ChanceOrQuestChance`='0.2262', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19220', `item`='31892', `ChanceOrQuestChance`='0.2262', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19221', `item`='28259', `ChanceOrQuestChance`='19.94', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19221', `item`='28258', `ChanceOrQuestChance`='18.5907', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19221', `item`='28262', `ChanceOrQuestChance`='18.2909', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19221', `item`='28260', `ChanceOrQuestChance`='18.2909', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19221', `item`='28263', `ChanceOrQuestChance`='16.4918', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19221', `item`='22920', `ChanceOrQuestChance`='2.099', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19300', `item`='27892', `ChanceOrQuestChance`='20', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19300', `item`='27468', `ChanceOrQuestChance`='20', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19300', `item`='27893', `ChanceOrQuestChance`='10', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='19710', `item`='30437', `ChanceOrQuestChance`='94.9875', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20869', `item`='21905', `ChanceOrQuestChance`='1.5616', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20870', `item`='28384', `ChanceOrQuestChance`='23.3766', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20870', `item`='28373', `ChanceOrQuestChance`='19.1558', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20870', `item`='28374', `ChanceOrQuestChance`='18.8312', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20870', `item`='28372', `ChanceOrQuestChance`='17.0455', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20870', `item`='28375', `ChanceOrQuestChance`='16.0714', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20880', `item`='22556', `ChanceOrQuestChance`='6.4655', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20885', `item`='28392', `ChanceOrQuestChance`='22.7891', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20885', `item`='28386', `ChanceOrQuestChance`='19.5578', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20885', `item`='28391', `ChanceOrQuestChance`='17.517', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20885', `item`='28387', `ChanceOrQuestChance`='17.3469', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20885', `item`='28390', `ChanceOrQuestChance`='16.6667', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20885', `item`='24308', `ChanceOrQuestChance`='2.551', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20886', `item`='28394', `ChanceOrQuestChance`='21.3172', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20886', `item`='28393', `ChanceOrQuestChance`='19.2374', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20886', `item`='28397', `ChanceOrQuestChance`='18.3709', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20886', `item`='28398', `ChanceOrQuestChance`='18.3709', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20886', `item`='28396', `ChanceOrQuestChance`='17.1577', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20898', `item`='29672', `ChanceOrQuestChance`='12.8049', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20900', `item`='23606', `ChanceOrQuestChance`='13.4387', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28416', `ChanceOrQuestChance`='16.154', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28231', `ChanceOrQuestChance`='15.599', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28419', `ChanceOrQuestChance`='15.3677', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28413', `ChanceOrQuestChance`='15.3446', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28406', `ChanceOrQuestChance`='14.9977', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28403', `ChanceOrQuestChance`='14.5814', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28407', `ChanceOrQuestChance`='14.2345', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28414', `ChanceOrQuestChance`='13.7142', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28412', `ChanceOrQuestChance`='13.6332', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28205', `ChanceOrQuestChance`='12.9047', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28418', `ChanceOrQuestChance`='12.6619', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='28415', `ChanceOrQuestChance`='12.5', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='23572', `ChanceOrQuestChance`='7.2271', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='31882', `ChanceOrQuestChance`='0.2775', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='31901', `ChanceOrQuestChance`='0.2428', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='31910', `ChanceOrQuestChance`='0.2428', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='20912', `item`='31892', `ChanceOrQuestChance`='0.185', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21104', `item`='31753', `ChanceOrQuestChance`='5.3455', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21104', `item`='25730', `ChanceOrQuestChance`='0.4618', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21694', `item`='25451', `ChanceOrQuestChance`='72.3374', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='21694', `item`='24246', `ChanceOrQuestChance`='23.2168', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='21694', `item`='25453', `ChanceOrQuestChance`='16.1211', `mincountOrRef`='1', `maxcount`='4';
-REPLACE INTO `creature_loot_template` SET `entry`='21694', `item`='29453', `ChanceOrQuestChance`='0.2724', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='22890', `item`='24514', `ChanceOrQuestChance`='99.9408', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='22891', `item`='24487', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='22892', `item`='24488', `ChanceOrQuestChance`='100', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24560', `item`='34792', `ChanceOrQuestChance`='17.1963', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24560', `item`='34783', `ChanceOrQuestChance`='17.1963', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24560', `item`='34789', `ChanceOrQuestChance`='17.0181', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24560', `item`='34788', `ChanceOrQuestChance`='16.632', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24560', `item`='34791', `ChanceOrQuestChance`='16.335', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24560', `item`='34790', `ChanceOrQuestChance`='15.3252', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24560', `item`='35756', `ChanceOrQuestChance`='7.425', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34157', `ChanceOrQuestChance`='58.0551', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34810', `ChanceOrQuestChance`='14.7789', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34794', `ChanceOrQuestChance`='14.7338', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34793', `ChanceOrQuestChance`='14.6661', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34796', `ChanceOrQuestChance`='14.5758', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34797', `ChanceOrQuestChance`='14.4856', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34809', `ChanceOrQuestChance`='14.2825', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34798', `ChanceOrQuestChance`='14.0794', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34799', `ChanceOrQuestChance`='13.8989', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34808', `ChanceOrQuestChance`='13.4702', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34625', `ChanceOrQuestChance`='12.6579', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34795', `ChanceOrQuestChance`='12.5677', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='34807', `ChanceOrQuestChance`='12.4097', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35504', `ChanceOrQuestChance`='5.9116', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='23572', `ChanceOrQuestChance`='3.0912', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35299', `ChanceOrQuestChance`='0.5415', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35309', `ChanceOrQuestChance`='0.4964', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35295', `ChanceOrQuestChance`='0.3836', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35303', `ChanceOrQuestChance`='0.361', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35297', `ChanceOrQuestChance`='0.361', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35298', `ChanceOrQuestChance`='0.361', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35310', `ChanceOrQuestChance`='0.3384', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35306', `ChanceOrQuestChance`='0.2933', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35301', `ChanceOrQuestChance`='0.2708', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35302', `ChanceOrQuestChance`='0.2256', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35300', `ChanceOrQuestChance`='0.2256', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35305', `ChanceOrQuestChance`='0.2256', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35311', `ChanceOrQuestChance`='0.2256', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35294', `ChanceOrQuestChance`='0.2256', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35296', `ChanceOrQuestChance`='0.2031', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35308', `ChanceOrQuestChance`='0.1805', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24664', `item`='35307', `ChanceOrQuestChance`='0.1579', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24683', `item`='35516', `ChanceOrQuestChance`='0.5686', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24684', `item`='35516', `ChanceOrQuestChance`='0.4634', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24685', `item`='35516', `ChanceOrQuestChance`='0.4587', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24686', `item`='35516', `ChanceOrQuestChance`='0.4908', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24687', `item`='35516', `ChanceOrQuestChance`='0.385', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24688', `item`='35516', `ChanceOrQuestChance`='0.4757', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24689', `item`='35516', `ChanceOrQuestChance`='0.7845', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24690', `item`='35516', `ChanceOrQuestChance`='0.4434', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24696', `item`='35516', `ChanceOrQuestChance`='0.3265', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24697', `item`='35516', `ChanceOrQuestChance`='0.546', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24698', `item`='35516', `ChanceOrQuestChance`='0.5875', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24723', `item`='34699', `ChanceOrQuestChance`='17.4175', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24723', `item`='34702', `ChanceOrQuestChance`='17.0726', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24723', `item`='34701', `ChanceOrQuestChance`='16.7493', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24723', `item`='34698', `ChanceOrQuestChance`='16.4044', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24723', `item`='34700', `ChanceOrQuestChance`='16.2104', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24723', `item`='34697', `ChanceOrQuestChance`='16.1026', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24723', `item`='35516', `ChanceOrQuestChance`='0.3018', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24744', `item`='34704', `ChanceOrQuestChance`='17.5181', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24744', `item`='34708', `ChanceOrQuestChance`='17.0099', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24744', `item`='34706', `ChanceOrQuestChance`='16.6355', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24744', `item`='34703', `ChanceOrQuestChance`='16.5552', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24744', `item`='34705', `ChanceOrQuestChance`='16.5285', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24744', `item`='34707', `ChanceOrQuestChance`='15.4854', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24744', `item`='35516', `ChanceOrQuestChance`='0.214', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24762', `item`='35516', `ChanceOrQuestChance`='0.5435', `mincountOrRef`='1', `maxcount`='1';
-REPLACE INTO `creature_loot_template` SET `entry`='24777', `item`='35516', `ChanceOrQuestChance`='0.4458', `mincountOrRef`='1', `maxcount`='1';
-
-# Krek
-DELETE FROM `creature_loot_template` WHERE (`entry`=17308);
-INSERT INTO `creature_loot_template` VALUES 
-(17308, 23572, 5, 0, 1, 1, 0, 0, 0),
-(17308, 23886, -100, 0, 1, 1, 0, 0, 0),
-(17308, 24069, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24073, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24090, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24091, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24094, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24096, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17306);
-INSERT INTO `creature_loot_template` VALUES 
-(17306, 23881, -100, 0, 1, 1, 0, 0, 0),
-(17306, 24020, 0, 1, 1, 1, 0, 0, 0),
-(17306, 24021, 0, 1, 1, 1, 0, 0, 0),
-(17306, 24022, 0, 1, 1, 1, 0, 0, 0),
-(17306, 24023, 0, 1, 1, 1, 0, 0, 0),
-(17306, 24024, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17537);
-INSERT INTO `creature_loot_template` VALUES 
-(17537, 23890, 36.6062, 0, 1, 1, 6, 469, 0),
-(17537, 23892, 30.6272, 0, 1, 1, 6, 67, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17381);
-INSERT INTO `creature_loot_template` VALUES 
-(17381, 23894, -2, 0, 1, 1, 0, 0, 0),
-(17381, 24384, 20, 1, 1, 1, 0, 0, 0),
-(17381, 24385, 20, 1, 1, 1, 0, 0, 0),
-(17381, 24386, 20, 1, 1, 1, 0, 0, 0),
-(17381, 24387, 20, 1, 1, 1, 0, 0, 0),
-(17381, 24388, 20, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17380);
-INSERT INTO `creature_loot_template` VALUES 
-(17380, 24389, 20, 1, 1, 1, 0, 0, 0),
-(17380, 24390, 20, 1, 1, 1, 0, 0, 0),
-(17380, 24391, 20, 1, 1, 1, 0, 0, 0),
-(17380, 24392, 20, 1, 1, 1, 0, 0, 0),
-(17380, 24393, 20, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17377);
-INSERT INTO `creature_loot_template` VALUES 
-(17377, 23572, 5, 0, 1, 1, 0, 0, 0),
-(17377, 23894, -1, 0, 1, 1, 0, 0, 0),
-(17377, 24394, 20, 1, 1, 1, 0, 0, 0),
-(17377, 24395, 20, 1, 1, 1, 0, 0, 0),
-(17377, 24396, 20, 1, 1, 1, 0, 0, 0),
-(17377, 24397, 20, 1, 1, 1, 0, 0, 0),
-(17377, 24398, 20, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=20923);
-INSERT INTO `creature_loot_template` VALUES 
-(20923, 30546, 6.1965, 2, 1, 1, 0, 0, 0),
-(20923, 30547, 4.1058, 2, 1, 1, 0, 0, 0),
-(20923, 30548, 5.7935, 2, 1, 1, 0, 0, 0),
-(20923, 30705, 0, 1, 1, 1, 0, 0, 0),
-(20923, 30707, 0, 1, 1, 1, 0, 0, 0),
-(20923, 30708, 0, 1, 1, 1, 0, 0, 0),
-(20923, 30709, 0, 1, 1, 1, 0, 0, 0),
-(20923, 30710, 0, 1, 1, 1, 0, 0, 0),
-(20923, 29434, 100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=16807);
-INSERT INTO `creature_loot_template` VALUES 
-(16807, 23735, -100, 0, 1, 1, 0, 0, 0),
-(16807, 24312, 0.6, 0, 1, 1, 0, 0, 0),
-(16807, 27517, 0, 1, 1, 1, 0, 0, 0),
-(16807, 27518, 0, 1, 1, 1, 0, 0, 0),
-(16807, 27519, 0, 1, 1, 1, 0, 0, 0),
-(16807, 27520, 0, 1, 1, 1, 0, 0, 0),
-(16807, 27521, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=16809);
-INSERT INTO `creature_loot_template` VALUES 
-(16809, 27524, 0, 1, 1, 1, 0, 0, 0),
-(16809, 27525, 0, 1, 1, 1, 0, 0, 0),
-(16809, 27526, 0, 1, 1, 1, 0, 0, 0),
-(16809, 27802, 0, 1, 1, 1, 0, 0, 0),
-(16809, 27868, 0, 1, 1, 1, 0, 0, 0),
-(16809, 30829, -100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=16808);
-INSERT INTO `creature_loot_template` VALUES 
-(16808, 23572, 7, 0, 1, 1, 0, 0, 0),
-(16808, 23723, -100, 0, 1, 1, 0, 0, 0),
-(16808, 27474, 0, 1, 1, 1, 0, 0, 0),
-(16808, 27527, 0, 3, 1, 1, 0, 0, 0),
-(16808, 27528, 0, 1, 1, 1, 0, 0, 0),
-(16808, 27529, 0, 3, 1, 1, 0, 0, 0),
-(16808, 27531, 0, 1, 1, 1, 0, 0, 0),
-(16808, 27533, 0, 3, 1, 1, 0, 0, 0),
-(16808, 27534, 0, 3, 1, 1, 0, 0, 0),
-(16808, 27535, 0, 1, 1, 1, 0, 0, 0),
-(16808, 27536, 0, 1, 1, 1, 0, 0, 0),
-(16808, 27537, 0, 1, 1, 1, 0, 0, 0),
-(16808, 27538, 0, 3, 1, 1, 0, 0, 0),
-(16808, 27540, 0, 3, 1, 1, 0, 0, 0),
-(16808, 31892, 1, 2, 1, 1, 0, 0, 0),
-(16808, 31901, 1, 2, 1, 1, 0, 0, 0),
-(16808, 31910, 1, 2, 1, 1, 0, 0, 0),
-(16808, 31882, 1, 2, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17941);
-INSERT INTO `creature_loot_template` VALUES 
-(17941, 24356, 0, 1, 1, 1, 0, 0, 0),
-(17941, 24357, 0, 1, 1, 1, 0, 0, 0),
-(17941, 24359, 0, 1, 1, 1, 0, 0, 0),
-(17941, 24360, 0, 1, 1, 1, 0, 0, 0),
-(17941, 24361, 0, 1, 1, 1, 0, 0, 0),
-(17941, 29674, 1, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17991);
-INSERT INTO `creature_loot_template` VALUES 
-(17991, 24376, 0, 1, 1, 1, 0, 0, 0),
-(17991, 24378, 0, 1, 1, 1, 0, 0, 0),
-(17991, 24379, 0, 1, 1, 1, 0, 0, 0),
-(17991, 24380, 0, 1, 1, 1, 0, 0, 0),
-(17991, 24381, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17942);
-INSERT INTO `creature_loot_template` VALUES 
-(17942, 23572, 5, 0, 1, 1, 0, 0, 0),
-(17942, 24362, 0, 1, 1, 1, 0, 0, 0),
-(17942, 24363, 0, 1, 1, 1, 0, 0, 0),
-(17942, 24364, 0, 1, 1, 1, 0, 0, 0),
-(17942, 24365, 0, 1, 1, 1, 0, 0, 0),
-(17942, 24366, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18105);
-INSERT INTO `creature_loot_template` VALUES 
-(18105, 24246, 20, 0, 1, 1, 0, 0, 0),
-(18105, 24458, 0, 1, 1, 1, 0, 0, 0),
-(18105, 24459, 0, 1, 1, 1, 0, 0, 0),
-(18105, 24460, 0, 1, 1, 1, 0, 0, 0),
-(18105, 24461, 0, 1, 1, 1, 0, 0, 0),
-(18105, 24462, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17770);
-INSERT INTO `creature_loot_template` VALUES 
-(17770, 24246, 20, 0, 1, 1, 0, 0, 0),
-(17770, 24413, 0, 1, 1, 1, 0, 0, 0),
-(17770, 24450, 0, 1, 1, 1, 0, 0, 0),
-(17770, 24451, 0, 1, 1, 1, 0, 0, 0),
-(17770, 24452, 0, 1, 1, 1, 0, 0, 0),
-(17770, 27631, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17826);
-INSERT INTO `creature_loot_template` VALUES 
-(17826, 24453, 0, 1, 1, 1, 0, 0, 0),
-(17826, 24454, 0, 1, 1, 1, 0, 0, 0),
-(17826, 24455, 0, 1, 1, 1, 0, 0, 0),
-(17826, 24456, 0, 1, 1, 1, 0, 0, 0),
-(17826, 24457, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17882);
-INSERT INTO `creature_loot_template` VALUES 
-(17882, 23572, 5, 0, 1, 1, 0, 0, 0),
-(17882, 24246, 28, 0, 1, 1, 0, 0, 0),
-(17882, 24248, -100, 0, 1, 1, 0, 0, 0),
-(17882, 24463, 0, 1, 1, 1, 0, 0, 0),
-(17882, 24464, 0, 1, 1, 1, 0, 0, 0),
-(17882, 24465, 0, 1, 1, 1, 0, 0, 0),
-(17882, 24466, 0, 1, 1, 1, 0, 0, 0),
-(17882, 24481, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17797);
-INSERT INTO `creature_loot_template` VALUES 
-(17797, 27508, 0, 1, 1, 1, 0, 0, 0),
-(17797, 27783, 0, 1, 1, 1, 0, 0, 0),
-(17797, 27784, 0, 1, 1, 1, 0, 0, 0),
-(17797, 27787, 0, 1, 1, 1, 0, 0, 0),
-(17797, 27789, 0, 1, 1, 1, 0, 0, 0),
-(17797, 29673, 1, 0, 1, 1, 0, 0, 0),
-(17797, 30828, -100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17796);
-INSERT INTO `creature_loot_template` VALUES 
-(17796, 23887, 1, 0, 1, 1, 0, 0, 0),
-(17796, 27790, 0, 1, 1, 1, 0, 0, 0),
-(17796, 27791, 0, 1, 1, 1, 0, 0, 0),
-(17796, 27792, 0, 1, 1, 1, 0, 0, 0),
-(17796, 27793, 0, 1, 1, 1, 0, 0, 0),
-(17796, 27794, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17798);
-INSERT INTO `creature_loot_template` VALUES 
-(17798, 23572, 6, 0, 1, 1, 0, 0, 0),
-(17798, 24313, 0.5, 0, 1, 1, 0, 0, 0),
-(17798, 27475, 0, 1, 1, 1, 0, 0, 0),
-(17798, 27510, 0, 1, 1, 1, 0, 0, 0),
-(17798, 27737, 0, 1, 1, 1, 0, 0, 0),
-(17798, 27738, 0, 1, 1, 1, 0, 0, 0),
-(17798, 27795, 13, 2, 1, 1, 0, 0, 0),
-(17798, 27799, 14, 2, 1, 1, 0, 0, 0),
-(17798, 27801, 0, 1, 1, 1, 0, 0, 0),
-(17798, 27804, 12, 2, 1, 1, 0, 0, 0),
-(17798, 27805, 16, 2, 1, 1, 0, 0, 0),
-(17798, 27806, 0, 1, 1, 1, 0, 0, 0),
-(17798, 27874, 12, 2, 1, 1, 0, 0, 0),
-(17798, 28203, 12, 2, 1, 1, 0, 0, 0),
-(17798, 31882, 1, 3, 1, 1, 0, 0, 0),
-(17798, 31892, 1, 3, 1, 1, 0, 0, 0),
-(17798, 31901, 1, 3, 1, 1, 0, 0, 0),
-(17798, 31910, 1, 3, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18341);
-INSERT INTO `creature_loot_template` VALUES 
-(18341, 25939, 0, 1, 1, 1, 0, 0, 0),
-(18341, 25940, 0, 1, 1, 1, 0, 0, 0),
-(18341, 25941, 0, 1, 1, 1, 0, 0, 0),
-(18341, 25942, 0, 1, 1, 1, 0, 0, 0),
-(18341, 25943, 0, 1, 1, 1, 0, 0, 0),
-(18341, 28166, 0, 1, 1, 1, 0, 0, 0),
-(18341, 28558, 70, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18343);
-INSERT INTO `creature_loot_template` VALUES 
-(18343, 25944, 0, 1, 1, 1, 0, 0, 0),
-(18343, 25945, 0, 1, 1, 1, 0, 0, 0),
-(18343, 25946, 0, 1, 1, 1, 0, 0, 0),
-(18343, 25947, 0, 1, 1, 1, 0, 0, 0),
-(18343, 25950, 0, 1, 1, 1, 0, 0, 0),
-(18343, 25952, 0, 1, 1, 1, 0, 0, 0),
-(18343, 28558, 64, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18344);
-INSERT INTO `creature_loot_template` VALUES 
-(18344, 22921, 1.3, 0, 1, 1, 0, 0, 0),
-(18344, 23572, 5, 0, 1, 1, 0, 0, 0),
-(18344, 25953, 0, 1, 1, 1, 0, 0, 0),
-(18344, 25954, 0, 1, 1, 1, 0, 0, 0),
-(18344, 25955, 0, 1, 1, 1, 0, 0, 0),
-(18344, 25956, 0, 1, 1, 1, 0, 0, 0),
-(18344, 25957, 0, 1, 1, 1, 0, 0, 0),
-(18344, 25962, 0, 1, 1, 1, 0, 0, 0),
-(18344, 28490, -100, 0, 1, 1, 0, 0, 0),
-(18344, 28558, 58, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18371);
-INSERT INTO `creature_loot_template` VALUES 
-(18371, 25964, 0, 1, 1, 1, 0, 0, 0),
-(18371, 26055, 0, 1, 1, 1, 0, 0, 0),
-(18371, 27408, 0, 1, 1, 1, 0, 0, 0),
-(18371, 27409, 0, 1, 1, 1, 0, 0, 0),
-(18371, 27410, 0, 1, 1, 1, 0, 0, 0),
-(18371, 28558, 64, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18373);
-INSERT INTO `creature_loot_template` VALUES 
-(18373, 23572, 5, 0, 1, 1, 0, 0, 0),
-(18373, 27411, 0, 1, 1, 1, 0, 0, 0),
-(18373, 27412, 0, 1, 1, 1, 0, 0, 0),
-(18373, 27413, 0, 1, 1, 1, 0, 0, 0),
-(18373, 27414, 0, 1, 1, 1, 0, 0, 0),
-(18373, 27415, 0, 1, 1, 1, 0, 0, 0),
-(18373, 27416, 0, 1, 1, 1, 0, 0, 0),
-(18373, 28558, 60, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18472);
-INSERT INTO `creature_loot_template` VALUES 
-(18472, 24160, 0.5, 0, 1, 1, 0, 0, 0),
-(18472, 27633, -100, 0, 1, 1, 0, 0, 0),
-(18472, 27914, 0, 1, 1, 1, 0, 0, 0),
-(18472, 27915, 0, 1, 1, 1, 0, 0, 0),
-(18472, 27916, 0, 1, 1, 1, 0, 0, 0),
-(18472, 27917, 0, 1, 1, 1, 0, 0, 0),
-(18472, 27918, 0, 1, 1, 1, 0, 0, 0),
-(18472, 27919, 0, 1, 1, 1, 0, 0, 0),
-(18472, 28558, 56, 0, 2, 2, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18473);
-INSERT INTO `creature_loot_template` VALUES 
-(18473, 23572, 5, 0, 1, 1, 0, 0, 0),
-(18473, 27632, -100, 0, 1, 1, 0, 0, 0),
-(18473, 27776, 0, 1, 1, 1, 0, 0, 0),
-(18473, 27838, 0, 1, 1, 1, 0, 0, 0),
-(18473, 27875, 0, 1, 1, 1, 0, 0, 0),
-(18473, 27925, 13, 2, 1, 1, 0, 0, 0),
-(18473, 27936, 0, 1, 1, 1, 0, 0, 0),
-(18473, 27946, 11, 2, 1, 1, 0, 0, 0),
-(18473, 27948, 0, 1, 1, 1, 0, 0, 0),
-(18473, 27980, 11, 2, 1, 1, 0, 0, 0),
-(18473, 27981, 11, 2, 1, 1, 0, 0, 0),
-(18473, 27985, 0, 1, 1, 1, 0, 0, 0),
-(18473, 27986, 10, 2, 1, 1, 0, 0, 0),
-(18473, 28558, 43, 0, 2, 2, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=23035);
-INSERT INTO `creature_loot_template` VALUES 
-(23035, 28558, 45, 0, 2, 2, 0, 0, 0),
-(23035, 29434, 100, 0, 1, 3, 0, 0, 0),
-(23035, 30552, 8, 2, 1, 1, 0, 0, 0),
-(23035, 30553, 8, 2, 1, 1, 0, 0, 0),
-(23035, 30554, 8, 2, 1, 1, 0, 0, 0),
-(23035, 32768, 1, 0, 1, 1, 0, 0, 0),
-(23035, 32769, 0, 1, 1, 1, 0, 0, 0),
-(23035, 32778, 0, 1, 1, 1, 0, 0, 0),
-(23035, 32779, 0, 1, 1, 1, 0, 0, 0),
-(23035, 32780, 0, 1, 1, 1, 0, 0, 0),
-(23035, 32781, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18731);
-INSERT INTO `creature_loot_template` VALUES 
-(18731, 27884, 0, 1, 1, 1, 0, 0, 0),
-(18731, 27885, 0, 1, 1, 1, 0, 0, 0),
-(18731, 27886, 0, 1, 1, 1, 0, 0, 0),
-(18731, 27887, 0, 1, 1, 1, 0, 0, 0),
-(18731, 27888, 0, 1, 1, 1, 0, 0, 0),
-(18731, 27889, 0, 1, 1, 1, 0, 0, 0),
-(18731, 28558, 62, 0, 2, 2, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18667);
-INSERT INTO `creature_loot_template` VALUES 
-(18667, 25728, 1, 0, 1, 1, 0, 0, 0),
-(18667, 27468, 0, 1, 1, 1, 0, 0, 0),
-(18667, 27890, 0, 1, 1, 1, 0, 0, 0),
-(18667, 27891, 0, 1, 1, 1, 0, 0, 0),
-(18667, 27892, 0, 1, 1, 1, 0, 0, 0),
-(18667, 27893, 0, 1, 1, 1, 0, 0, 0),
-(18667, 28134, 0, 1, 1, 1, 0, 0, 0),
-(18667, 28558, 61, 0, 2, 2, 0, 0, 0),
-(18667, 30808, -100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18732);
-INSERT INTO `creature_loot_template` VALUES 
-(18732, 27775, 0, 1, 1, 1, 0, 0, 0),
-(18732, 27897, 0, 1, 1, 1, 0, 0, 0),
-(18732, 27898, 0, 1, 1, 1, 0, 0, 0),
-(18732, 27900, 0, 1, 1, 1, 0, 0, 0),
-(18732, 27901, 0, 1, 1, 1, 0, 0, 0),
-(18732, 28558, 63, 0, 2, 2, 0, 0, 0),
-(18732, 30827, -100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18708);
-INSERT INTO `creature_loot_template` VALUES 
-(18708, 23572, 7, 0, 1, 1, 0, 0, 0),
-(18708, 24309, 0.5, 0, 1, 1, 0, 0, 0),
-(18708, 27778, 0, 1, 1, 1, 0, 0, 0),
-(18708, 27803, 0, 1, 1, 1, 0, 0, 0),
-(18708, 27902, 0, 1, 1, 1, 0, 0, 0),
-(18708, 27903, 12, 2, 1, 1, 0, 0, 0),
-(18708, 27905, 11, 2, 1, 1, 0, 0, 0),
-(18708, 27908, 11, 2, 1, 1, 0, 0, 0),
-(18708, 27909, 14, 2, 1, 1, 0, 0, 0),
-(18708, 27910, 14, 2, 1, 1, 0, 0, 0),
-(18708, 27912, 0, 1, 1, 1, 0, 0, 0),
-(18708, 27913, 11, 2, 1, 1, 0, 0, 0),
-(18708, 28230, 0, 1, 1, 1, 0, 0, 0),
-(18708, 28232, 0, 1, 1, 1, 0, 0, 0),
-(18708, 28558, 58, 0, 2, 2, 0, 0, 0),
-(18708, 31882, 1, 3, 1, 1, 0, 0, 0),
-(18708, 31901, 1, 3, 1, 1, 0, 0, 0),
-(18708, 31910, 1, 3, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=19219);
-INSERT INTO `creature_loot_template` VALUES 
-(19219, 28253, 0, 1, 1, 1, 0, 0, 0),
-(19219, 28254, 0, 1, 1, 1, 0, 0, 0),
-(19219, 28255, 0, 1, 1, 1, 0, 0, 0),
-(19219, 28256, 0, 1, 1, 1, 0, 0, 0),
-(19219, 28257, 0, 1, 1, 1, 0, 0, 0),
-(19219, 35582, 9.8684, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=19221);
-INSERT INTO `creature_loot_template` VALUES 
-(19221, 22920, 5.6, 0, 1, 1, 0, 0, 0),
-(19221, 28258, 0, 1, 1, 1, 0, 0, 0),
-(19221, 28259, 0, 1, 1, 1, 0, 0, 0),
-(19221, 28260, 0, 1, 1, 1, 0, 0, 0),
-(19221, 28262, 0, 1, 1, 1, 0, 0, 0),
-(19221, 28263, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=19220);
-INSERT INTO `creature_loot_template` VALUES 
-(19220, 28288, 21, 2, 1, 1, 0, 0, 0),
-(19220, 31901, 1, 2, 1, 1, 0, 0, 0),
-(19220, 31910, 1, 2, 1, 1, 0, 0, 0),
-(19220, 31892, 1, 2, 1, 1, 0, 0, 0),
-(19220, 28269, 15, 2, 1, 1, 0, 0, 0),
-(19220, 28275, 0, 1, 1, 1, 0, 0, 0),
-(19220, 31086, -100, 0, 1, 1, 0, 0, 0),
-(19220, 28265, 15, 2, 1, 1, 0, 0, 0),
-(19220, 28267, 15, 2, 1, 1, 0, 0, 0),
-(19220, 28285, 0, 1, 1, 1, 0, 0, 0),
-(19220, 28278, 0, 1, 1, 1, 0, 0, 0),
-(19220, 27899, 18, 2, 1, 1, 0, 0, 0),
-(19220, 28266, 0, 1, 1, 1, 0, 0, 0),
-(19220, 28202, 0, 1, 1, 1, 0, 0, 0),
-(19220, 21907, 3, 0, 1, 1, 0, 0, 0),
-(19220, 23572, 5, 0, 1, 1, 0, 0, 0),
-(19220, 28286, 6, 2, 1, 1, 0, 0, 0),
-(19220, 28204, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17308);
-INSERT INTO `creature_loot_template` VALUES 
-(17308, 23572, 5, 0, 1, 1, 0, 0, 0),
-(17308, 23886, -100, 0, 1, 1, 0, 0, 0),
-(17308, 24069, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24073, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24090, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24091, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24094, 0, 1, 1, 1, 0, 0, 0),
-(17308, 24096, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18433);
-INSERT INTO `creature_loot_template` VALUES 
-(18433, 23572, 100, 0, 1, 1, 0, 0, 0),
-(18433, 23886, -100, 0, 1, 1, 0, 0, 0),
-(18433, 29434, 100, 0, 1, 1, 0, 0, 0),
-(18433, 27464, 14, 4, 1, 1, 0, 0, 0),
-(18433, 27477, 14, 4, 1, 1, 0, 0, 0),
-(18433, 27465, 0, 3, 1, 1, 0, 0, 0),
-(18433, 27466, 0, 3, 1, 1, 0, 0, 0),
-(18433, 27478, 0, 3, 1, 1, 0, 0, 0),
-(18433, 27895, 13, 4, 1, 1, 0, 0, 0),
-(18433, 27906, 0, 3, 1, 1, 0, 0, 0),
-(18433, 27463, 12, 4, 1, 1, 0, 0, 0),
-(18433, 27467, 0, 3, 1, 1, 0, 0, 0),
-(18433, 27462, 0, 3, 1, 1, 0, 0, 0),
-(18433, 27476, 11, 4, 1, 1, 0, 0, 0),
-(18433, 27539, 0, 3, 1, 1, 0, 0, 0),
-(18433, 30593, 6, 2, 1, 1, 0, 0, 0),
-(18433, 30594, 6, 2, 1, 1, 0, 0, 0),
-(18433, 31901, 1, 1, 1, 1, 0, 0, 0),
-(18433, 31892, 1, 1, 1, 1, 0, 0, 0),
-(18433, 31910, 1, 1, 1, 1, 0, 0, 0),
-(18433, 31882, 1, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17537);
-INSERT INTO `creature_loot_template` VALUES 
-(17537, 23890, 36.6062, 0, 1, 1, 6, 469, 0),
-(17537, 23892, 30.6272, 0, 1, 1, 6, 67, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17306);
-INSERT INTO `creature_loot_template` VALUES 
-(17306, 23881, -100, 0, 1, 1, 0, 0, 0),
-(17306, 24020, 0, 1, 1, 1, 0, 0, 0),
-(17306, 24021, 0, 1, 1, 1, 0, 0, 0),
-(17306, 24022, 0, 1, 1, 1, 0, 0, 0),
-(17306, 24023, 0, 1, 1, 1, 0, 0, 0),
-(17306, 24024, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=18436);
-INSERT INTO `creature_loot_template` VALUES 
-(18436, 23881, -100, 0, 1, 1, 0, 0, 0),
-(18436, 29434, 100, 0, 1, 1, 0, 0, 0),
-(18436, 27447, 0, 1, 1, 1, 0, 0, 0),
-(18436, 27451, 0, 1, 1, 1, 0, 0, 0),
-(18436, 27448, 0, 1, 1, 1, 0, 0, 0),
-(18436, 27449, 0, 1, 1, 1, 0, 0, 0),
-(18436, 27450, 0, 1, 1, 1, 0, 0, 0),
-(18436, 30594, 6, 2, 1, 1, 0, 0, 0),
-(18436, 30593, 6, 2, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17976);
-INSERT INTO `creature_loot_template` VALUES 
-(17976, 28296, 0, 1, 1, 1, 0, 0, 0),
-(17976, 28301, 0, 1, 1, 1, 0, 0, 0),
-(17976, 28304, 0, 1, 1, 1, 0, 0, 0),
-(17976, 28306, 0, 1, 1, 1, 0, 0, 0),
-(17976, 28311, 0, 1, 1, 1, 0, 0, 0),
-(17976, 28769, -100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=21551);
-INSERT INTO `creature_loot_template` VALUES 
-(21551, 28296, 0, 1, 1, 1, 0, 0, 0),
-(21551, 28301, 0, 1, 1, 1, 0, 0, 0),
-(21551, 28304, 0, 1, 1, 1, 0, 0, 0),
-(21551, 28306, 0, 1, 1, 1, 0, 0, 0),
-(21551, 28311, 0, 1, 1, 1, 0, 0, 0),
-(21551, 28769, -100, 0, 1, 1, 0, 0, 0),
-(21551, 29434, 100, 0, 1, 1, 0, 0, 0),
-(21551, 30572, 6, 2, 1, 1, 0, 0, 0),
-(21551, 30573, 6, 2, 1, 1, 0, 0, 0),
-(21551, 30574, 6, 2, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17975);
-INSERT INTO `creature_loot_template` VALUES 
-(17975, 23617, 1.166, 0, 1, 1, 0, 0, 0),
-(17975, 28315, 0, 1, 1, 1, 0, 0, 0),
-(17975, 28316, 0, 1, 1, 1, 0, 0, 0),
-(17975, 28317, 0, 1, 1, 1, 0, 0, 0),
-(17975, 28318, 0, 1, 1, 1, 0, 0, 0),
-(17975, 28321, 0, 1, 1, 1, 0, 0, 0),
-(17975, 31744, -100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=21558);
-INSERT INTO `creature_loot_template` VALUES 
-(21558, 23617, 1.166, 0, 1, 1, 0, 0, 0),
-(21558, 28315, 0, 1, 1, 1, 0, 0, 0),
-(21558, 28316, 0, 1, 1, 1, 0, 0, 0),
-(21558, 28317, 0, 1, 1, 1, 0, 0, 0),
-(21558, 28318, 0, 1, 1, 1, 0, 0, 0),
-(21558, 28321, 0, 1, 1, 1, 0, 0, 0),
-(21558, 29434, 100, 0, 1, 1, 0, 0, 0),
-(21558, 30572, 6, 2, 1, 1, 0, 0, 0),
-(21558, 30573, 6, 2, 1, 1, 0, 0, 0),
-(21558, 30574, 6, 2, 1, 1, 0, 0, 0),
-(21558, 31744, -100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17978);
-INSERT INTO `creature_loot_template` VALUES 
-(17978, 24310, 5, 0, 1, 1, 0, 0, 0),
-(17978, 28322, 0, 1, 1, 1, 0, 0, 0),
-(17978, 28323, 0, 1, 1, 1, 0, 0, 0),
-(17978, 28324, 0, 1, 1, 1, 0, 0, 0),
-(17978, 28325, 0, 1, 1, 1, 0, 0, 0),
-(17978, 28327, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=21581);
-INSERT INTO `creature_loot_template` VALUES 
-(21581, 24310, 5, 0, 1, 1, 0, 0, 0),
-(21581, 28322, 0, 1, 1, 1, 0, 0, 0),
-(21581, 28323, 0, 1, 1, 1, 0, 0, 0),
-(21581, 28324, 0, 1, 1, 1, 0, 0, 0),
-(21581, 28325, 0, 1, 1, 1, 0, 0, 0),
-(21581, 28327, 0, 1, 1, 1, 0, 0, 0),
-(21581, 29434, 100, 0, 1, 1, 0, 0, 0),
-(21581, 30572, 6, 2, 1, 1, 0, 0, 0),
-(21581, 30573, 6, 2, 1, 1, 0, 0, 0),
-(21581, 30574, 6, 2, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17980);
-INSERT INTO `creature_loot_template` VALUES 
-(17980, 27739, 0, 1, 1, 1, 0, 0, 0),
-(17980, 28328, 0, 1, 1, 1, 0, 0, 0),
-(17980, 28338, 0, 1, 1, 1, 0, 0, 0),
-(17980, 28339, 0, 1, 1, 1, 0, 0, 0),
-(17980, 28340, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=21559);
-INSERT INTO `creature_loot_template` VALUES 
-(21559, 27739, 0, 1, 1, 1, 0, 0, 0),
-(21559, 28328, 0, 1, 1, 1, 0, 0, 0),
-(21559, 28338, 0, 1, 1, 1, 0, 0, 0),
-(21559, 28339, 0, 1, 1, 1, 0, 0, 0),
-(21559, 28340, 0, 1, 1, 1, 0, 0, 0),
-(21559, 29434, 100, 0, 1, 1, 0, 0, 0),
-(21559, 30572, 6, 2, 1, 1, 0, 0, 0),
-(21559, 30573, 6, 2, 1, 1, 0, 0, 0),
-(21559, 30574, 6, 2, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17977);
-INSERT INTO `creature_loot_template` VALUES 
-(17977, 23572, 6, 0, 1, 1, 0, 0, 0),
-(17977, 24311, 0.5, 0, 1, 1, 0, 0, 0),
-(17977, 28228, 0, 2, 1, 1, 0, 0, 0),
-(17977, 28229, 0, 2, 1, 1, 0, 0, 0),
-(17977, 28341, 0, 2, 1, 1, 0, 0, 0),
-(17977, 28342, 0, 2, 1, 1, 0, 0, 0),
-(17977, 28343, 0, 1, 1, 1, 0, 0, 0),
-(17977, 28345, 0, 2, 1, 1, 0, 0, 0),
-(17977, 28347, 0, 1, 1, 1, 0, 0, 0),
-(17977, 28348, 0, 1, 1, 1, 0, 0, 0),
-(17977, 28349, 0, 1, 1, 1, 0, 0, 0),
-(17977, 28350, 0, 1, 1, 1, 0, 0, 0),
-(17977, 28367, 0, 2, 1, 1, 0, 0, 0),
-(17977, 28370, 0, 1, 1, 1, 0, 0, 0),
-(17977, 28371, 0, 1, 1, 1, 0, 0, 0),
-(17977, 31085, -100, 0, 1, 1, 0, 0, 0),
-(17977, 31882, 1, 3, 1, 1, 0, 0, 0),
-(17977, 31892, 1, 3, 1, 1, 0, 0, 0),
-(17977, 31901, 1, 3, 1, 1, 0, 0, 0),
-(17977, 31910, 1, 3, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=21582);
-INSERT INTO `creature_loot_template` VALUES 
-(21582, 23572, 6, 0, 1, 1, 0, 0, 0),
-(21582, 24311, 0.5, 0, 1, 1, 0, 0, 0),
-(21582, 28228, 0, 2, 1, 1, 0, 0, 0),
-(21582, 28229, 0, 2, 1, 1, 0, 0, 0),
-(21582, 28341, 0, 2, 1, 1, 0, 0, 0),
-(21582, 28342, 0, 2, 1, 1, 0, 0, 0),
-(21582, 28343, 0, 1, 1, 1, 0, 0, 0),
-(21582, 28345, 0, 2, 1, 1, 0, 0, 0),
-(21582, 28347, 0, 1, 1, 1, 0, 0, 0),
-(21582, 28348, 0, 1, 1, 1, 0, 0, 0),
-(21582, 28349, 0, 1, 1, 1, 0, 0, 0),
-(21582, 28350, 0, 1, 1, 1, 0, 0, 0),
-(21582, 28367, 0, 2, 1, 1, 0, 0, 0),
-(21582, 28370, 0, 1, 1, 1, 0, 0, 0),
-(21582, 28371, 0, 1, 1, 1, 0, 0, 0),
-(21582, 29258, 20, 5, 1, 1, 0, 0, 0),
-(21582, 29262, 20, 5, 1, 1, 0, 0, 0),
-(21582, 29359, 20, 5, 1, 1, 0, 0, 0),
-(21582, 29434, 100, 0, 1, 1, 0, 0, 0),
-(21582, 30572, 7, 4, 1, 1, 0, 0, 0),
-(21582, 30573, 7, 4, 1, 1, 0, 0, 0),
-(21582, 30574, 7, 4, 1, 1, 0, 0, 0),
-(21582, 31085, -100, 0, 1, 1, 0, 0, 0),
-(21582, 31882, 1, 3, 1, 1, 0, 0, 0),
-(21582, 31892, 1, 3, 1, 1, 0, 0, 0),
-(21582, 31901, 1, 3, 1, 1, 0, 0, 0),
-(21582, 31910, 1, 3, 1, 1, 0, 0, 0),
-(21582, 32072, 20, 5, 1, 1, 0, 0, 0),
-(21582, 33859, -100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17941);
-INSERT INTO `creature_loot_template` VALUES 
-(17941, 24356, 0, 1, 1, 1, 0, 0, 0),
-(17941, 24357, 0, 1, 1, 1, 0, 0, 0),
-(17941, 24359, 0, 1, 1, 1, 0, 0, 0),
-(17941, 24360, 0, 1, 1, 1, 0, 0, 0),
-(17941, 24361, 0, 1, 1, 1, 0, 0, 0),
-(17941, 29674, 1, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=19893);
-INSERT INTO `creature_loot_template` VALUES 
-(19893, 29434, 100, 0, 1, 1, 0, 0, 0),
-(19893, 27545, 0, 1, 1, 1, 0, 0, 0),
-(19893, 27543, 0, 1, 1, 1, 0, 0, 0),
-(19893, 27542, 0, 1, 1, 1, 0, 0, 0),
-(19893, 27544, 0, 1, 1, 1, 0, 0, 0),
-(19893, 27546, 0, 1, 1, 1, 0, 0, 0),
-(19893, 27541, 0, 1, 1, 1, 0, 0, 0),
-(19893, 30605, 6, 2, 1, 1, 0, 0, 0),
-(19893, 30604, 6, 2, 1, 1, 0, 0, 0),
-(19893, 30603, 6, 2, 1, 1, 0, 0, 0),
-(19893, 29674, 2, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=19895);
-INSERT INTO `creature_loot_template` VALUES 
-(19895, 29434, 100, 0, 1, 1, 0, 0, 0),
-(19895, 27550, 0, 1, 1, 1, 0, 0, 0),
-(19895, 27547, 0, 1, 1, 1, 0, 0, 0),
-(19895, 27551, 0, 1, 1, 1, 0, 0, 0),
-(19895, 28124, 0, 1, 1, 1, 0, 0, 0),
-(19895, 27549, 0, 1, 1, 1, 0, 0, 0),
-(19895, 27548, 0, 1, 1, 1, 0, 0, 0),
-(19895, 30605, 6, 2, 1, 1, 0, 0, 0),
-(19895, 30604, 6, 2, 1, 1, 0, 0, 0),
-(19895, 30603, 6, 2, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17942);
-INSERT INTO `creature_loot_template` VALUES 
-(17942, 23572, 5, 0, 1, 1, 0, 0, 0),
-(17942, 24362, 0, 1, 1, 1, 0, 0, 0),
-(17942, 24363, 0, 1, 1, 1, 0, 0, 0),
-(17942, 24364, 0, 1, 1, 1, 0, 0, 0),
-(17942, 24365, 0, 1, 1, 1, 0, 0, 0),
-(17942, 24366, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=19894);
-INSERT INTO `creature_loot_template` VALUES 
-(19894, 29434, 100, 0, 1, 1, 0, 0, 0),
-(19894, 23572, 100, 0, 1, 1, 0, 0, 0),
-(19894, 27742, 0, 1, 1, 1, 0, 0, 0),
-(19894, 27800, 0, 1, 1, 1, 0, 0, 0),
-(19894, 27713, 0, 1, 1, 1, 0, 0, 0),
-(19894, 27712, 0, 1, 1, 1, 0, 0, 0),
-(19894, 27796, 0, 1, 1, 1, 0, 0, 0),
-(19894, 28337, 0, 1, 1, 1, 0, 0, 0),
-(19894, 27672, 0, 1, 1, 1, 0, 0, 0),
-(19894, 27673, 13, 2, 1, 1, 0, 0, 0),
-(19894, 27740, 13, 2, 1, 1, 0, 0, 0),
-(19894, 27741, 13, 2, 1, 1, 0, 0, 0),
-(19894, 27714, 13, 2, 1, 1, 0, 0, 0),
-(19894, 27683, 13, 2, 1, 1, 0, 0, 0),
-(19894, 29242, 17, 3, 1, 1, 0, 0, 0),
-(19894, 30538, 17, 3, 1, 1, 0, 0, 0),
-(19894, 32078, 17, 3, 1, 1, 0, 0, 0),
-(19894, 29349, 17, 3, 1, 1, 0, 0, 0),
-(19894, 30604, 9, 4, 1, 1, 0, 0, 0),
-(19894, 30605, 9, 4, 1, 1, 0, 0, 0),
-(19894, 30603, 9, 4, 1, 1, 0, 0, 0),
-(19894, 31910, 0.3, 5, 1, 1, 0, 0, 0),
-(19894, 31901, 0.3, 5, 1, 1, 0, 0, 0),
-(19894, 31882, 0.3, 5, 1, 1, 0, 0, 0),
-(19894, 31892, 0.3, 5, 1, 1, 0, 0, 0),
-(19894, 33821, 100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=20169);
-INSERT INTO `creature_loot_template` VALUES 
-(20169, 24246, -7, 0, 1, 1, 0, 0, 0),
-(20169, 27743, 0, 1, 1, 1, 0, 0, 0),
-(20169, 27744, 0, 1, 1, 1, 0, 0, 0),
-(20169, 27745, 0, 1, 1, 1, 0, 0, 0),
-(20169, 27746, 0, 1, 1, 1, 0, 0, 0),
-(20169, 27747, 0, 1, 1, 1, 0, 0, 0),
-(20169, 27748, 0, 1, 1, 1, 0, 0, 0),
-(20169, 30606, 6, 2, 1, 1, 0, 0, 0),
-(20169, 30607, 6, 2, 1, 1, 0, 0, 0),
-(20169, 30608, 6, 2, 1, 1, 0, 0, 0),
-(20169, 29434, 100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=20168);
-INSERT INTO `creature_loot_template` VALUES 
-(20168, 29434, 100, 0, 1, 1, 0, 0, 0),
-(20168, 27758, 0, 1, 1, 1, 0, 0, 0),
-(20168, 27761, 0, 1, 1, 1, 0, 0, 0),
-(20168, 27759, 0, 1, 1, 1, 0, 0, 0),
-(20168, 27757, 0, 1, 1, 1, 0, 0, 0),
-(20168, 27755, 0, 1, 1, 1, 0, 0, 0),
-(20168, 27760, 0, 1, 1, 1, 0, 0, 0),
-(20168, 30607, 6, 2, 1, 1, 0, 0, 0),
-(20168, 30606, 6, 2, 1, 1, 0, 0, 0),
-(20168, 30608, 6, 2, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=20183);
-INSERT INTO `creature_loot_template` VALUES 
-(20183, 27765, 0, 1, 1, 1, 0, 0, 0),
-(20183, 27763, 0, 1, 1, 1, 0, 0, 0),
-(20183, 27766, 0, 1, 1, 1, 0, 0, 0),
-(20183, 27764, 0, 1, 1, 1, 0, 0, 0),
-(20183, 27767, 0, 1, 1, 1, 0, 0, 0),
-(20183, 27762, 0, 1, 1, 1, 0, 0, 0),
-(20183, 30607, 6, 2, 1, 1, 0, 0, 0),
-(20183, 30608, 6, 2, 1, 1, 0, 0, 0),
-(20183, 30606, 6, 2, 1, 1, 0, 0, 0),
-(20183, 29434, 100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17826);
-INSERT INTO `creature_loot_template` VALUES 
-(17826, 24453, 0, 1, 1, 1, 0, 0, 0),
-(17826, 24454, 0, 1, 1, 1, 0, 0, 0),
-(17826, 24455, 0, 1, 1, 1, 0, 0, 0),
-(17826, 24456, 0, 1, 1, 1, 0, 0, 0),
-(17826, 24457, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=17882);
-INSERT INTO `creature_loot_template` VALUES 
-(17882, 23572, 5, 0, 1, 1, 0, 0, 0),
-(17882, 24246, 28, 0, 1, 1, 0, 0, 0),
-(17882, 24248, -100, 0, 1, 1, 0, 0, 0),
-(17882, 24463, 0, 1, 1, 1, 0, 0, 0),
-(17882, 24464, 0, 1, 1, 1, 0, 0, 0),
-(17882, 24465, 0, 1, 1, 1, 0, 0, 0),
-(17882, 24466, 0, 1, 1, 1, 0, 0, 0),
-(17882, 24481, 0, 1, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=20184);
-INSERT INTO `creature_loot_template` VALUES 
-(20184, 23572, 100, 0, 1, 1, 0, 0, 0),
-(20184, 24246, -24, 0, 1, 1, 0, 0, 0),
-(20184, 33826, -100, 0, 1, 1, 0, 0, 0),
-(20184, 27781, 0, 1, 1, 1, 0, 0, 0),
-(20184, 27773, 0, 1, 1, 1, 0, 0, 0),
-(20184, 27771, 0, 1, 1, 1, 0, 0, 0),
-(20184, 27768, 0, 1, 1, 1, 0, 0, 0),
-(20184, 27938, 0, 1, 1, 1, 0, 0, 0),
-(20184, 27907, 0, 1, 1, 1, 0, 0, 0),
-(20184, 27896, 13, 2, 1, 1, 0, 0, 0),
-(20184, 27780, 13, 2, 1, 1, 0, 0, 0),
-(20184, 27779, 13, 2, 1, 1, 0, 0, 0),
-(20184, 27772, 13, 2, 1, 1, 0, 0, 0),
-(20184, 27769, 13, 2, 1, 1, 0, 0, 0),
-(20184, 27770, 13, 2, 1, 1, 0, 0, 0),
-(20184, 29265, 18, 3, 1, 1, 0, 0, 0),
-(20184, 30541, 18, 3, 1, 1, 0, 0, 0),
-(20184, 29350, 18, 3, 1, 1, 0, 0, 0),
-(20184, 32081, 18, 3, 1, 1, 0, 0, 0),
-(20184, 30607, 18, 4, 1, 1, 0, 0, 0),
-(20184, 30606, 18, 4, 1, 1, 0, 0, 0),
-(20184, 30608, 18, 4, 1, 1, 0, 0, 0),
-(20184, 31882, 0.3, 5, 1, 1, 0, 0, 0),
-(20184, 31901, 0.3, 5, 1, 1, 0, 0, 0),
-(20184, 31910, 0.3, 5, 1, 1, 0, 0, 0),
-(20184, 31892, 0.3, 5, 1, 1, 0, 0, 0),
-(20184, 29434, 100, 0, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=20690);
-INSERT INTO `creature_loot_template` VALUES 
-(20690, 29434, 100, 0, 1, 1, 0, 0, 0),
-(20690, 28558, 100, 0, 2, 2, 0, 0, 0),
-(20690, 25461, -100, 0, 1, 1, 0, 0, 0),
-(20690, 27633, -100, 0, 1, 1, 0, 0, 0),
-(20690, 24160, 2, 0, 1, 1, 0, 0, 0),
-(20690, 27919, 0, 1, 1, 1, 0, 0, 0),
-(20690, 27917, 0, 1, 1, 1, 0, 0, 0),
-(20690, 27918, 0, 1, 1, 1, 0, 0, 0),
-(20690, 27914, 0, 1, 1, 1, 0, 0, 0),
-(20690, 27915, 0, 1, 1, 1, 0, 0, 0),
-(20690, 27916, 0, 1, 1, 1, 0, 0, 0),
-(20690, 30554, 6, 2, 1, 1, 0, 0, 0),
-(20690, 30553, 6, 2, 1, 1, 0, 0, 0),
-(20690, 30552, 6, 2, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=23035);
-INSERT INTO `creature_loot_template` VALUES 
-(23035, 28558, 100, 0, 2, 2, 0, 0, 0),
-(23035, 29434, 100, 0, 1, 1, 0, 0, 0),
-(23035, 32768, 1, 0, 1, 1, 0, 0, 0),
-(23035, 32769, 0, 1, 1, 1, 0, 0, 0),
-(23035, 32778, 0, 1, 1, 1, 0, 0, 0),
-(23035, 32779, 0, 1, 1, 1, 0, 0, 0),
-(23035, 32780, 0, 1, 1, 1, 0, 0, 0),
-(23035, 32781, 0, 1, 1, 1, 0, 0, 0),
-(23035, 30552, 8, 2, 1, 1, 0, 0, 0),
-(23035, 30553, 8, 2, 1, 1, 0, 0, 0),
-(23035, 30554, 8, 2, 1, 1, 0, 0, 0);
-DELETE FROM `creature_loot_template` WHERE (`entry`=20706);
-INSERT INTO `creature_loot_template` VALUES 
-(20706, 23572, 100, 0, 1, 1, 0, 0, 0),
-(20706, 27632, -100, 0, 1, 1, 0, 0, 0),
-(20706, 28558, 100, 0, 2, 2, 0, 0, 0),
-(20706, 29434, 100, 0, 1, 1, 0, 0, 0),
-(20706, 33834, -100, 0, 1, 1, 0, 0, 0),
-(20706, 27776, 0, 1, 1, 1, 0, 0, 0),
-(20706, 27838, 0, 1, 1, 1, 0, 0, 0),
-(20706, 27875, 0, 1, 1, 1, 0, 0, 0),
-(20706, 27936, 0, 1, 1, 1, 0, 0, 0),
-(20706, 27948, 0, 1, 1, 1, 0, 0, 0),
-(20706, 27985, 0, 1, 1, 1, 0, 0, 0),
-(20706, 27925, 15, 2, 1, 1, 0, 0, 0),
-(20706, 27946, 15, 2, 1, 1, 0, 0, 0),
-(20706, 27980, 15, 2, 1, 1, 0, 0, 0),
-(20706, 27981, 15, 2, 1, 1, 0, 0, 0),
-(20706, 27986, 15, 2, 1, 1, 0, 0, 0),
-(20706, 29249, 17, 3, 1, 1, 0, 0, 0),
-(20706, 29259, 17, 3, 1, 1, 0, 0, 0),
-(20706, 29355, 17, 3, 1, 1, 0, 0, 0),
-(20706, 32073, 17, 3, 1, 1, 0, 0, 0),
-(20706, 30552, 7, 4, 1, 1, 0, 0, 0),
-(20706, 30553, 7, 4, 1, 1, 0, 0, 0),
-(20706, 30554, 7, 4, 1, 1, 0, 0, 0),
-(20706, 31882, 0.5, 5, 1, 1, 0, 0, 0),
-(20706, 31892, 0.5, 5, 1, 1, 0, 0, 0),
-(20706, 31901, 0.5, 5, 1, 1, 0, 0, 0),
-(20706, 31910, 0.5, 5, 1, 1, 0, 0, 0);
+REPLACE INTO `creature_loot_template` VALUES ('20568', '25462', '23.082', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20568', '27520', '17.5926', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20568', '27518', '17.2619', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20568', '27517', '16.5234', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20568', '27519', '16.4683', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20568', '27521', '16.3801', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20568', '30548', '5.3241', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20568', '30546', '5.1367', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20568', '30547', '4.4974', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20568', '24312', '2.1715', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '33815', '17.2514', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '29255', '17.2361', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '29263', '14.8566', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27528', '13.7584', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27536', '13.6974', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27534', '13.2398', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27540', '13.0567', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27527', '12.9195', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27537', '12.8279', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '29254', '12.3551', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27533', '11.684', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27529', '11.4704', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27538', '11.0433', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27535', '10.9365', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27474', '10.7077', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '27531', '10.7077', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '29348', '7.4893', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '30548', '6.9555', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '23723', '6.4521', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '30546', '5.9335', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '30547', '5.903', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '31901', '0.3203', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '31892', '0.2898', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '31882', '0.2288', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20597', '31910', '0.2135', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20596', '27525', '18.0202', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20596', '27526', '16.8461', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20596', '27868', '15.8023', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20596', '27524', '15.6393', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20596', '27802', '15.411', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20596', '30546', '5.7404', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20596', '30548', '5.2838', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20596', '30547', '4.5988', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20596', '30829', '1.0437', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20585', '31716', '30.9301', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20585', '21885', '16.1522', '0', '1', '3', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20585', '22451', '15.7937', '0', '1', '3', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20585', '22452', '15.5945', '0', '1', '3', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20585', '21884', '14.5389', '0', '1', '3', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18436', '27450', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18436', '27447', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18436', '27449', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18436', '27448', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18436', '27451', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18436', '23881', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18436', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '31892', '1', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '30593', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27539', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27463', '12', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27476', '11', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27478', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27906', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27466', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '30594', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27462', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27467', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '31901', '1', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27895', '13', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27465', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27477', '14', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '23886', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '27464', '14', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18619', '23894', '0.3128', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '33814', '19.6853', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '29245', '15.7577', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '29239', '15.7341', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27495', '14.208', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '28121', '12.4453', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27788', '12.2678', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27506', '12.185', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27514', '12.0904', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27507', '11.7236', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27512', '11.1913', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27494', '10.9902', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27522', '10.6944', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27505', '10.5643', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '32080', '10.1621', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '30601', '9.9728', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '27497', '9.2275', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '28264', '9.1802', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '30600', '8.9672', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '30602', '7.4175', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '29347', '7.4057', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '31892', '0.2129', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '31882', '0.1656', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '31901', '0.1656', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18607', '31910', '0.1538', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18601', '27492', '16.0946', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18601', '27491', '15.6948', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18601', '27490', '14.6451', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18601', '27848', '13.7288', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18601', '27489', '13.4788', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18601', '30602', '5.3316', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18601', '30600', '4.8984', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18601', '30601', '4.4152', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18621', '27488', '18.6577', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18621', '27485', '16.9765', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18621', '27487', '15.8693', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18621', '27483', '15.0219', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18621', '27484', '14.8715', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18621', '30600', '5.7955', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18621', '30602', '5.5905', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18621', '30601', '4.9617', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18618', '23894', '0.1727', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20583', '22554', '5.2392', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18432', '33833', '66.7217', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18434', '23892', '5.0539', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18611', '23894', '0.2729', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20620', '24367', '0.5586', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20625', '24159', '0.4304', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20625', '24367', '0.2571', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20164', '25451', '67.9513', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20164', '24246', '23.1677', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20164', '25453', '16.3511', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20164', '29453', '0.3267', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20185', '24246', '25.9534', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20188', '25451', '69.5775', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20188', '24246', '23.714', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20188', '25453', '15.8639', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20188', '29453', '0.4867', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20187', '25451', '68.7864', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20187', '24246', '24.0978', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20187', '25453', '16.5891', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20187', '29453', '0.2619', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '27748', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '30607', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '27746', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '27745', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '30606', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '27747', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '30608', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '24246', '-7', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '27743', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '27744', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20630', '27791', '17.3603', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20630', '27790', '16.8308', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20630', '27794', '16.4984', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20630', '27793', '15.4272', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20630', '27792', '15.2672', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20630', '30550', '5.9961', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20630', '30549', '5.2573', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20630', '30551', '4.5186', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20630', '23887', '2.9919', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '27508', '18.167', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '27783', '17.0578', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '27787', '17.0228', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '27784', '15.5984', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '27789', '15.5633', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '30550', '5.2072', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '30551', '5.0088', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '30549', '4.5184', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '29673', '2.195', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20629', '30828', '0.6772', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '31721', '18.1192', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '33827', '16.6589', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '29243', '16.6403', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '29463', '14.8916', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27805', '14.3801', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '30543', '14.2684', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27806', '14.1847', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27799', '13.8592', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27737', '13.6173', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27475', '13.1523', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27738', '13.1151', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27795', '12.8639', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '28203', '11.8966', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27804', '11.785', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27510', '11.4408', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27801', '11.4315', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '27874', '11.2827', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '29351', '9.3015', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '30550', '7.4133', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '30551', '7.1714', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '30549', '7.0598', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '24313', '1.8975', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '31892', '0.3814', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '31882', '0.2976', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '31910', '0.2511', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20633', '31901', '0.2325', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20621', '24367', '0.2295', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20623', '24367', '0.3054', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20626', '24367', '0.6166', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20622', '22533', '1.0011', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20622', '24367', '0.2393', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20624', '24367', '0.2076', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20538', '30457', '1.6484', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20537', '30457', '2.3649', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20527', '30457', '2.4136', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20526', '30457', '2.2112', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20526', '25729', '0.6559', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '27762', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '30608', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '27767', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '30607', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '27764', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '30606', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '27763', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '27765', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '27766', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20530', '30457', '2.2727', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20744', '31753', '2.0012', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20744', '25730', '0.7492', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20543', '30610', '7.1429', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20543', '30457', '2.8571', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '28213', '11.3442', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '28215', '11.3442', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '28214', '10.9557', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '28211', '10.5284', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '28212', '9.9456', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '28210', '9.7902', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '27423', '5.711', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '27417', '5.5167', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '30589', '3.9239', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '30591', '3.8073', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '30590', '3.4188', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20535', '30457', '1.0101', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20529', '30457', '2.1628', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '28217', '10.3844', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '28221', '10.2846', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '28219', '9.6855', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '28218', '9.1862', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '28220', '8.7868', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '28216', '7.7883', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '27430', '6.2406', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '27424', '5.991', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '27428', '5.6915', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '22927', '4.2936', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '30590', '3.6945', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '30589', '3.6445', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '30591', '3.2951', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20521', '30457', '0.8487', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20190', '25451', '69.6716', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20190', '24246', '23.6952', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20190', '25453', '16.1596', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20190', '29453', '0.5582', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '27995', '14.9985', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '27996', '14.3119', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '27993', '14.0983', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '27988', '13.6253', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '27994', '12.5877', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '27987', '12.542', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '30556', '5.0504', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '30555', '5.0046', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '30558', '4.2112', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20738', '29675', '2.6396', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20745', '28034', '14.6155', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20745', '28185', '14.0534', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20745', '28184', '12.8087', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20745', '28033', '12.3871', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20745', '28186', '12.3469', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20745', '28187', '11.584', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20745', '30555', '4.9187', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20745', '30558', '4.738', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20745', '30556', '4.4168', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '33858', '23.3966', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '28206', '16.1838', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '28192', '15.7443', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '29247', '15.2448', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '27509', '14.8252', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '27977', '14.8052', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '28193', '14.2657', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '28190', '14.0659', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '29253', '14.026', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '28194', '13.8861', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '27839', '13.3467', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '28188', '13.2867', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '30531', '13.1469', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '28189', '12.7672', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '28207', '12.7273', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '27873', '12.2278', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '29356', '8.2917', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '30555', '4.7952', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '30558', '4.3357', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '30556', '4.2358', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '31901', '0.3796', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '31910', '0.3796', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '31882', '0.3596', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20737', '31892', '0.3397', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '31892', '0.3', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '31910', '0.3', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27779', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27896', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27770', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '29265', '18', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27780', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '32081', '18', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '30541', '18', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '29350', '18', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '30607', '18', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '31882', '0.3', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '30606', '18', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '31901', '0.3', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '30608', '18', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27772', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27769', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27938', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27907', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27768', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '24246', '-24', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27771', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27781', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '33826', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '27773', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '27546', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '30605', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '30604', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '27541', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '27544', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '30603', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '27545', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '27543', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '27542', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '31892', '0.3', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27741', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27673', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '31901', '0.3', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '30538', '17', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27683', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '30605', '9', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '30603', '9', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '29242', '17', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '29349', '17', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '32078', '17', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '30604', '9', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27714', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '31882', '0.3', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '31910', '0.3', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '28337', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27740', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27796', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27672', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27742', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27800', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27712', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '27713', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '28321', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '30573', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '28318', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '30572', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '28316', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '28317', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '28315', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '30574', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '23617', '1.166', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '30572', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '28311', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '28769', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '28306', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '28301', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '28296', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '28304', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '32072', '20', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '23572', '6', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28367', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28350', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '24311', '0.5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28371', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28370', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '29359', '20', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '30574', '7', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '31901', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '30572', '7', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '29258', '20', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '31085', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '29262', '20', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '30573', '7', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '31882', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '31892', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28349', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28343', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28347', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28348', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28345', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '31910', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28229', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28228', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28341', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '28342', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '30572', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '28324', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '28325', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '28327', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '28322', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '24310', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '28323', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '30573', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21559', '30572', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21559', '30573', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21559', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21559', '28340', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21559', '28339', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21559', '27739', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21559', '28328', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21559', '28338', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '27549', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '30604', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '28124', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '27551', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '27548', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '30605', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '27550', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '27547', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20545', '30610', '5.5234', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20545', '30457', '1.8626', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20547', '30610', '4.8607', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20547', '30457', '2.5924', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20546', '30610', '4.9511', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20546', '30457', '2.1824', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '33847', '25.4506', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '27904', '11.7968', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '29246', '11.3053', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '29250', '11.1415', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28224', '9.9399', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '30536', '9.7215', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28223', '9.1753', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28191', '8.9569', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28222', '8.6292', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28225', '8.5745', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28344', '8.5199', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '30534', '8.4107', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '27911', '8.3015', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28226', '7.9192', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28401', '7.6461', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28227', '7.6461', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '28233', '7.4276', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '30589', '7.2638', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '30591', '6.8815', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '27434', '5.68', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '27433', '5.6253', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '27440', '5.4069', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '30590', '4.4784', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '24173', '1.1469', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '31901', '0.3823', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20531', '31910', '0.3823', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '30608', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '27760', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '27759', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '27755', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '30607', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '30606', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '27757', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '27758', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '27761', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20168', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20534', '30610', '1.8722', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20534', '30457', '0.6057', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20532', '30610', '1.3844', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20532', '30457', '0.6515', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20533', '30610', '1.9868', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20533', '30457', '0.5887', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20264', '23615', '0.7711', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20257', '22543', '1.4254', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20698', '29669', '1.4647', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20696', '25731', '1.6554', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '28558', '57.6667', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '27817', '14.25', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '27818', '14.25', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '27816', '13.5833', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '27814', '13', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '27813', '11.75', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '27815', '10.8333', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '30583', '8.3333', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '30585', '8.25', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20267', '30584', '7.75', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '28558', '49.1684', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '27825', '14.5207', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '27824', '13.9413', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '27823', '13.0443', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '27822', '12.8761', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '27821', '12.0164', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '27826', '11.1755', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '30583', '7.1762', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '30584', '6.1297', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20268', '30585', '6.0176', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '28558', '43.9707', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '33835', '22.3328', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '29240', '19.1022', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '30535', '17.7686', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '29352', '15.0451', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27831', '12.5657', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27844', '12.3403', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27843', '12.1525', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27828', '11.7393', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27827', '11.7205', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27840', '11.1007', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27837', '10.9316', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27798', '10.8565', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27842', '10.8377', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27835', '10.5184', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '28400', '10.4057', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '27829', '10.2179', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '32082', '9.5605', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '28490', '8.2832', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '30583', '7.3253', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '30585', '5.973', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '30584', '5.5973', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '22921', '3.0053', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '29252', '0.7513', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '31910', '0.3757', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '31882', '0.2066', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20266', '31892', '0.169', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '28558', '48.9933', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '27866', '13.9981', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '27846', '13.3589', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '27845', '13.295', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '27493', '12.9115', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '27865', '9.7156', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '27847', '9.5558', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '30586', '3.899', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '30588', '3.6433', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20318', '30587', '3.6114', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '28558', '42.0499', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '33836', '23.1856', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '29257', '21.1911', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '29244', '19.2244', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '27523', '13.2964', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '27871', '12.7147', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '27869', '11.856', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '27872', '10.4155', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '27867', '9.9723', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '30586', '8.892', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '30587', '8.615', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '27870', '8.5873', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '29354', '8.4211', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '30588', '7.3961', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '31910', '0.4155', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20306', '31882', '0.277', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21570', '24172', '1.7321', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '27633', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '30554', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '24160', '2', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '27917', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '27919', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '27915', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '27914', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '27918', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '27916', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '28558', '100', '0', '2', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '25461', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '30553', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '31910', '0.5', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27946', '15', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27980', '15', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27985', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27925', '15', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '30553', '7', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '30552', '7', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '31892', '0.5', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '30554', '7', '4', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '31882', '0.5', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '32073', '17', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '29249', '17', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27632', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '29259', '17', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '29355', '17', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27986', '15', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27981', '15', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27948', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27875', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27838', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '31901', '0.5', '5', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27936', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '27776', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '33834', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20706', '28558', '100', '0', '2', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20303', '28268', '17.2414', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20303', '27878', '16.4039', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20303', '27797', '15.8128', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20303', '27937', '15.7635', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20303', '27876', '15.7635', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20303', '27877', '15.468', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20299', '23605', '1.491', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20315', '22544', '1.3662', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '28558', '53.3406', '0', '1', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '27468', '15.0837', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '27892', '14.3327', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '27893', '14.3014', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '27890', '13.0027', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '27891', '12.5176', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '28134', '12.2985', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '30808', '5.1792', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '30560', '4.3812', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '30563', '4.256', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '30559', '3.724', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20637', '25728', '2.5974', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '28558', '46.2778', '0', '1', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '31722', '24.8196', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '33840', '14.7659', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27902', '14.3515', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '28230', '14.1213', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27909', '13.5687', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27910', '13.2771', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27903', '13.2003', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27912', '12.9087', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '29261', '12.6784', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '28232', '12.5096', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27778', '12.5096', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '30532', '12.0952', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27913', '12.0491', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27905', '11.8496', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '29357', '11.7421', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27908', '10.9286', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '27803', '10.1151', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '29353', '6.4006', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '30560', '6.2011', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '30563', '5.449', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '30559', '4.7276', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '29241', '1.7959', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '24309', '1.7191', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '31910', '0.4451', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '31882', '0.2302', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '31892', '0.2302', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20657', '31901', '0.1995', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '28558', '59.7919', '0', '1', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '27885', '15.9119', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '27889', '15.8507', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '27887', '15.4223', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '27886', '14.2595', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '27884', '13.5863', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '27888', '12.4847', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '30560', '6.4871', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '30563', '6.4259', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20636', '30559', '5.3856', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '28558', '54.6253', '0', '1', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '27900', '18.6391', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '27775', '18.3635', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '27898', '17.261', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '27901', '15.211', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '27897', '14.1085', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '30560', '4.2205', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '30559', '3.8587', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '30563', '3.7726', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20653', '30827', '0.9475', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20644', '23607', '1.1876', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20525', '30457', '2.3753', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21525', '30436', '95.04', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21533', '28254', '15.8999', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21533', '28253', '15.1791', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21533', '28255', '14.3523', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21533', '28256', '12.6775', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21533', '28257', '12.3596', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21533', '35582', '6.7416', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21533', '30564', '6.3176', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21533', '30566', '5.9996', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21533', '30565', '5.1516', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '33860', '29.7481', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '30533', '22.6068', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '29251', '21.7963', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '32076', '20.3724', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28202', '15.3779', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28278', '14.2388', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28266', '13.7568', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28286', '13.7568', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28204', '13.4721', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28275', '13.1654', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28267', '12.6177', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28269', '12.4863', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '27899', '12.3111', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28288', '11.851', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28285', '11.8291', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '28265', '11.5225', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '29362', '9.6386', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '21907', '9.1347', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '30566', '6.988', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '30565', '6.3308', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '30564', '6.0898', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '31086', '5.8927', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '31901', '0.6791', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '31910', '0.6572', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '31892', '0.3724', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21537', '31882', '0.3505', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21536', '28259', '16.6141', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21536', '28262', '15.9107', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21536', '28260', '15.7652', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21536', '28258', '14.8436', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21536', '28263', '14.5768', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21536', '30565', '6.9852', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21536', '30564', '6.7669', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21536', '22920', '6.5486', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21536', '30566', '6.2818', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21526', '30437', '95.5645', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21586', '21905', '4.699', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21626', '28374', '18.2171', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21626', '28373', '17.1318', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21626', '28384', '16.8217', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21626', '28375', '14.4186', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21626', '28372', '13.7209', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21626', '30575', '6.8992', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21626', '30581', '6.7442', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21626', '30582', '6.2016', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21594', '22556', '9.4527', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21590', '28392', '17.7717', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21590', '28386', '16.9515', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21590', '28387', '15.9945', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21590', '28391', '15.9945', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21590', '28390', '15.7895', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21590', '30575', '8.134', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21590', '30582', '7.0403', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21590', '30581', '6.972', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21590', '24308', '5.1948', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21624', '28398', '18.0111', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21624', '28396', '17.5243', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21624', '28394', '17.1071', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21624', '28393', '15.2295', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21624', '28397', '15.0209', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21624', '30581', '7.0932', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21624', '30575', '6.6064', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21624', '30582', '5.8414', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21598', '29672', '11.4625', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21621', '23606', '10.2804', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '23572', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '33861', '25.5027', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '29248', '17.4592', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '29252', '16.1107', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '29241', '14.4784', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28414', '14.3128', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28416', '13.745', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28413', '13.5084', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28407', '13.3191', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28406', '13.2718', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28231', '13.2718', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28419', '12.917', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28412', '12.775', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28403', '12.5621', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28205', '12.4911', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28415', '12.4911', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '28418', '10.8351', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '29360', '10.0781', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '30575', '6.1273', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '30581', '5.938', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '30582', '5.8907', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '29254', '0.899', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '31901', '0.4022', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '31910', '0.2602', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '31882', '0.2366', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21599', '31892', '0.2366', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20992', '30709', '19.6763', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20992', '30707', '18.6309', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20992', '30705', '17.1978', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20992', '30708', '16.0175', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20992', '30710', '8.4303', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20992', '30546', '6.8117', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20992', '30548', '6.6262', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20992', '30547', '5.1425', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('22170', '31753', '2.2834', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('22170', '25730', '0.7042', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21914', '25451', '71.5191', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21914', '24246', '24.6629', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21914', '25453', '16.5719', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21914', '29453', '0.26', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('22129', '30457', '3.1863', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '28558', '47.7523', '0', '1', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '32778', '20.711', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '32781', '18.2798', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '32769', '17.0872', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '32779', '15.9404', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '32780', '15.5275', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '30554', '8.4174', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '30553', '8.1651', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '30552', '7.0642', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23122', '32768', '0.9404', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25560', '35756', '19.3749', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25560', '34471', '19.0731', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25560', '34470', '18.3137', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25560', '34472', '18.08', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25560', '34473', '17.5543', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25560', '35275', '1.2365', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '34609', '19.8281', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '23572', '19.8281', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '34614', '18.9792', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '34611', '18.9574', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '34613', '18.8377', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '34612', '18.6201', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '34616', '18.6092', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '34615', '18.3371', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '34610', '18.3154', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '34160', '15.3988', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35504', '6.1595', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35275', '2.503', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35513', '2.4595', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35297', '0.9468', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35309', '0.838', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35298', '0.7727', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35299', '0.7618', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35294', '0.7509', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35308', '0.7183', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35301', '0.5659', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35302', '0.5441', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35296', '0.5006', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35295', '0.5006', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35303', '0.4788', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35300', '0.4571', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35306', '0.37', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35310', '0.3482', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35307', '0.3156', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35311', '0.2829', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35305', '0.2177', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35516', '0.2068', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24857', '35304', '0.1959', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25568', '35516', '0.4926', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25565', '35516', '0.4793', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25569', '35516', '0.4558', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25572', '35516', '0.3887', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25570', '35516', '0.4906', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25577', '35516', '0.4205', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25575', '35516', '0.45', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25576', '35516', '0.6156', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25547', '35516', '0.5542', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25563', '35516', '0.532', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25551', '35516', '0.3148', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25562', '34601', '20.8759', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25562', '34603', '20.4073', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25562', '34604', '20.1005', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25562', '34602', '19.7001', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25562', '35275', '1.5508', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25562', '35516', '0.1704', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25573', '34607', '19.468', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25573', '34606', '19.1467', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25573', '34608', '18.1916', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25573', '34605', '17.6471', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25573', '35275', '1.4371', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25573', '35516', '0.2053', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25567', '35516', '0.1921', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('25571', '35516', '0.518', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16807', '27517', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16807', '24312', '0.6', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16807', '27518', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16807', '27519', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16807', '23735', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16807', '27521', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16807', '27520', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '31910', '1', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27535', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27540', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27528', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27533', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '31892', '1', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27531', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '31901', '1', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27538', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27537', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27534', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27536', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27529', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '31882', '1', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '23723', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '23572', '7', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27474', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16808', '27527', '0', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16809', '27868', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16809', '30829', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16809', '27802', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16809', '27525', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16809', '27526', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('16809', '27524', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17306', '23881', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17306', '24022', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17306', '24021', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17306', '24024', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17306', '24023', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17306', '24020', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17308', '23886', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17308', '24094', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17308', '24096', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17308', '24069', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17308', '24090', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17308', '24091', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17308', '24073', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17370', '23894', '25.3258', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17371', '23894', '4.7171', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17377', '23894', '-1', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17377', '24395', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17377', '23572', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17377', '24394', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17377', '24396', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17377', '24397', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17380', '24391', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17380', '24393', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17380', '24389', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17380', '24390', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17380', '24392', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17381', '23894', '-2', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17381', '24385', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17381', '24386', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17381', '24387', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17381', '24384', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17381', '24388', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17395', '23894', '10.8429', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17397', '23894', '33.148', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17398', '23894', '1.4835', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17414', '23894', '4.1968', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17429', '23894', '0.5141', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17465', '22554', '1.3895', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17491', '23894', '19.5372', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17536', '23901', '64.6349', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17536', '29561', '10.1283', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17536', '29562', '2.5359', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17537', '23890', '36.6062', '0', '1', '1', '6', '469', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17537', '23892', '30.6272', '0', '1', '1', '6', '67', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17624', '23894', '6.0368', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17626', '23894', '12.673', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17721', '24367', '2.2906', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17722', '24367', '1.0049', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17722', '24159', '0.222', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17723', '24246', '23.2861', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17724', '24246', '25.4239', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17725', '24246', '23.6593', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17734', '24246', '22.865', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17770', '24452', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17770', '24450', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17770', '24413', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17770', '24246', '20', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17770', '24451', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17770', '27631', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17796', '23887', '1', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17796', '27793', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17796', '27792', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17796', '27790', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17796', '27791', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17796', '27794', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17797', '30828', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17797', '29673', '1', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17797', '27787', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17797', '27789', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17797', '27784', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17797', '27508', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17797', '27783', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27799', '14', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27805', '16', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27795', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '28203', '12', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27874', '12', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27806', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '31882', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27801', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '31892', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27737', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27804', '12', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27738', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '31910', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '31901', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27510', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '24313', '0.5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '27475', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17798', '23572', '6', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17800', '24367', '0.9841', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17801', '24367', '1.4831', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17802', '24367', '2.3029', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17803', '24367', '1.2748', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17803', '22533', '0.4163', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17805', '24367', '0.9356', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17814', '30457', '1.465', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17815', '30457', '2.2563', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17819', '30457', '2.1995', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17820', '30457', '2.2855', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17820', '25729', '0.329', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17826', '24454', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17826', '24453', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17826', '24455', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17826', '24457', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17826', '24456', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17833', '30457', '2.2681', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17839', '31753', '5.2611', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17839', '25730', '0.3937', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17846', '30610', '4.9793', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17846', '30457', '2.4896', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17848', '27423', '20.9778', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17848', '27417', '20.3707', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17848', '27420', '19.9393', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17848', '27418', '17.5827', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17848', '27436', '16.5362', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17848', '30457', '0.9746', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17860', '30457', '1.9976', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17862', '27428', '20.661', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17862', '27430', '19.9622', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17862', '27424', '19.6333', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17862', '27426', '16.9531', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17862', '27427', '16.7146', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17862', '22927', '1.8828', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17862', '30457', '1.0113', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17871', '24246', '23.3226', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17879', '27995', '16.7923', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17879', '27993', '16.7413', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17879', '27996', '16.4193', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17879', '27987', '15.0609', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17879', '27988', '14.8528', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17879', '27994', '14.6761', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17879', '29675', '0.9266', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17880', '28185', '16.6378', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17880', '28033', '16.001', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17880', '28034', '15.9144', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17880', '28186', '15.5249', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17880', '28184', '15.4816', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17880', '28187', '14.9808', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '28206', '16.6248', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '28192', '16.0818', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '27509', '15.2877', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '28194', '14.731', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '27839', '14.3887', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '28193', '14.3294', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '27977', '13.7635', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '28190', '13.7635', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '27873', '13.5764', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '28207', '13.5536', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '28189', '13.3437', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '28188', '12.8052', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '23572', '7.4385', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '31901', '0.2556', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '31882', '0.2282', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '31892', '0.2236', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17881', '31910', '0.1597', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17882', '24248', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17882', '24246', '28', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17882', '24464', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17882', '24466', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17882', '24463', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17882', '24481', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17882', '24465', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17941', '24357', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17941', '24356', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17941', '24361', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17941', '24360', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17941', '24359', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17941', '29674', '1', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17942', '24365', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17942', '24364', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17942', '24363', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17942', '24366', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17942', '24362', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17975', '28317', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17975', '28321', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17975', '28316', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17975', '28315', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17975', '28318', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17975', '23617', '1.166', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17975', '31744', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17976', '28769', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17976', '28304', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17976', '28306', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17976', '28311', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17976', '28301', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17976', '28296', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28341', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28342', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28348', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28343', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28345', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28370', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28350', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28349', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28367', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28371', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28347', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '31892', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '31085', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '31882', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '31910', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '31901', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '23572', '6', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28229', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '28228', '0', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17977', '24311', '0.5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17978', '28325', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17978', '28324', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17978', '24310', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17978', '28322', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17978', '28323', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17978', '28327', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17980', '28328', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17980', '28339', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17980', '28340', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17980', '28338', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17980', '27739', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17991', '24381', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17991', '24376', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17991', '24378', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17991', '24379', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17991', '24380', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18092', '30610', '4.7171', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18092', '30457', '1.9751', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18093', '30610', '4.8904', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18093', '30457', '2.1053', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18094', '30610', '4.6234', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18094', '30457', '2.2692', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18096', '27433', '20.6645', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18096', '27440', '19.9635', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18096', '27434', '19.8867', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18096', '27432', '18.3887', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18096', '27431', '17.9182', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18096', '24173', '0.4801', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18105', '24462', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18105', '24461', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18105', '24458', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18105', '24459', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18105', '24460', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18105', '24246', '20', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18170', '30610', '1.303', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18170', '30457', '0.6188', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18171', '30610', '1.9601', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18171', '30457', '1.0889', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18172', '30610', '1.609', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18172', '30457', '0.7654', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18314', '23615', '0.4567', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18317', '22543', '0.5471', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18320', '29669', '0.6504', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18322', '25731', '0.5441', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18341', '25939', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18341', '25941', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18341', '28166', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18341', '25942', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18341', '28558', '70', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18341', '25940', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18341', '25943', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18343', '25944', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18343', '25945', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18343', '25947', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18343', '25950', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18343', '28558', '64', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18343', '25946', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18343', '25952', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '22921', '1.3', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '23572', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '25962', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '25953', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '25957', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '25954', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '25956', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '25955', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '28490', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18371', '25964', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18371', '27410', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18371', '27409', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18371', '26055', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18371', '28558', '64', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18371', '27408', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18373', '23572', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18373', '27415', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18373', '27412', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18373', '27411', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18373', '27414', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18373', '27413', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18373', '27416', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18422', '24172', '0.575', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18472', '24160', '0.5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18472', '27919', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18472', '27915', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18472', '27633', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18472', '27918', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18472', '27914', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18472', '27916', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18472', '27917', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18472', '28558', '56', '0', '2', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27632', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '23572', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '28558', '43', '0', '2', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27948', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27980', '11', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27986', '10', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27925', '13', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27875', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27946', '11', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27985', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27981', '11', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27838', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27776', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18473', '27936', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '30554', '8', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18497', '23605', '1.1935', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18521', '22544', '0.8767', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18667', '27468', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18667', '27891', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18667', '27892', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18667', '28558', '61', '0', '2', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18667', '28134', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18667', '27890', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18667', '27893', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18667', '25728', '1', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18667', '30808', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27803', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '28232', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27910', '14', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27909', '14', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27903', '12', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27908', '11', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27902', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '31882', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '28230', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27905', '11', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27913', '11', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '28558', '58', '0', '2', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27912', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '31910', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '31901', '1', '3', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '27778', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '23572', '7', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18708', '24309', '0.5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18731', '27884', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18731', '27885', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18731', '27889', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18731', '28558', '62', '0', '2', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18731', '27888', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18731', '27886', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18731', '27887', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18732', '27897', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18732', '27900', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18732', '30827', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18732', '27901', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18732', '27898', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18732', '28558', '63', '0', '2', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18732', '27775', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18830', '23607', '0.9703', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18934', '30457', '2.2163', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19168', '21906', '1.1024', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19168', '22920', '0.6411', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19218', '30436', '94.2623', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19219', '35582', '9.8684', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19219', '28257', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19219', '28256', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19219', '28255', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19219', '28254', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19219', '28253', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28269', '15', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28266', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28267', '15', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28285', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '23572', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '21907', '3', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '31086', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28278', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '27899', '18', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28286', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28265', '15', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28275', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28202', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28204', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '31910', '1', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '31901', '1', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '28288', '21', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '31892', '1', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19220', '31910', '1', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19221', '28260', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19221', '28262', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19221', '28258', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19221', '28259', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19221', '22920', '5.6', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19221', '28263', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19300', '27892', '20', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19300', '27468', '20', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19300', '27893', '10', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19710', '30437', '94.9875', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20869', '21905', '1.5616', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20870', '28384', '23.3766', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20870', '28373', '19.1558', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20870', '28374', '18.8312', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20870', '28372', '17.0455', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20870', '28375', '16.0714', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20880', '22556', '6.4655', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20885', '28392', '22.7891', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20885', '28386', '19.5578', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20885', '28391', '17.517', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20885', '28387', '17.3469', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20885', '28390', '16.6667', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20885', '24308', '2.551', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20886', '28394', '21.3172', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20886', '28393', '19.2374', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20886', '28397', '18.3709', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20886', '28398', '18.3709', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20886', '28396', '17.1577', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20898', '29672', '12.8049', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20900', '23606', '13.4387', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28416', '16.154', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28231', '15.599', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28419', '15.3677', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28413', '15.3446', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28406', '14.9977', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28403', '14.5814', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28407', '14.2345', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28414', '13.7142', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28412', '13.6332', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28205', '12.9047', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28418', '12.6619', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '28415', '12.5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '23572', '7.2271', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '31882', '0.2775', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '31901', '0.2428', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '31910', '0.2428', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20912', '31892', '0.185', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21104', '31753', '5.3455', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21104', '25730', '0.4618', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21694', '25451', '72.3374', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21694', '24246', '23.2168', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21694', '25453', '16.1211', '0', '1', '4', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21694', '29453', '0.2724', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('22890', '24514', '99.9408', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('22891', '24487', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('22892', '24488', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24560', '34792', '17.1963', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24560', '34783', '17.1963', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24560', '34789', '17.0181', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24560', '34788', '16.632', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24560', '34791', '16.335', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24560', '34790', '15.3252', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24560', '35756', '7.425', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34157', '58.0551', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34810', '14.7789', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34794', '14.7338', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34793', '14.6661', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34796', '14.5758', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34797', '14.4856', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34809', '14.2825', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34798', '14.0794', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34799', '13.8989', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34808', '13.4702', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34625', '12.6579', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34795', '12.5677', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '34807', '12.4097', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35504', '5.9116', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '23572', '3.0912', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35299', '0.5415', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35309', '0.4964', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35295', '0.3836', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35303', '0.361', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35297', '0.361', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35298', '0.361', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35310', '0.3384', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35306', '0.2933', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35301', '0.2708', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35302', '0.2256', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35300', '0.2256', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35305', '0.2256', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35311', '0.2256', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35294', '0.2256', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35296', '0.2031', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35308', '0.1805', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24664', '35307', '0.1579', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24683', '35516', '0.5686', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24684', '35516', '0.4634', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24685', '35516', '0.4587', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24686', '35516', '0.4908', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24687', '35516', '0.385', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24688', '35516', '0.4757', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24689', '35516', '0.7845', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24690', '35516', '0.4434', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24696', '35516', '0.3265', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24697', '35516', '0.546', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24698', '35516', '0.5875', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24723', '34699', '17.4175', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24723', '34702', '17.0726', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24723', '34701', '16.7493', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24723', '34698', '16.4044', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24723', '34700', '16.2104', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24723', '34697', '16.1026', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24723', '35516', '0.3018', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24744', '34704', '17.5181', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24744', '34708', '17.0099', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24744', '34706', '16.6355', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24744', '34703', '16.5552', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24744', '34705', '16.5285', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24744', '34707', '15.4854', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24744', '35516', '0.214', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24762', '35516', '0.5435', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('24777', '35516', '0.4458', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17308', '23572', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17377', '24398', '20', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20923', '30546', '6.1965', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20923', '30547', '4.1058', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20923', '30548', '5.7935', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20923', '30705', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20923', '30707', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20923', '30708', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20923', '30709', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20923', '30710', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20923', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17942', '23572', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('17882', '23572', '5', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18344', '28558', '58', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18373', '28558', '60', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '30553', '8', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '30552', '8', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '32781', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '32780', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '32779', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '32778', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '32769', '0', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '32768', '1', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('23035', '28558', '100', '0', '2', '2', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18433', '31882', '1', '1', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18436', '30594', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('18436', '30593', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '30573', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21551', '30574', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21558', '31744', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21581', '30574', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21559', '30574', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('21582', '33859', '-100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19893', '29674', '2', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19895', '30603', '6', '2', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('19894', '33821', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20169', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20183', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20184', '29434', '100', '0', '1', '1', '0', '0', '0');
+REPLACE INTO `creature_loot_template` VALUES ('20690', '30552', '6', '2', '1', '1', '0', '0', '0');
 
 # Bkack Angel
 UPDATE `gameobject_template` SET `name`='Serpentbloom' WHERE `entry`='19535';
