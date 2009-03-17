@@ -1,0 +1,67 @@
+Update 478_(7440)
++ all fixes from forum;
++ spawn fixes;
++ fixed/rewrited "skinning_loot_template" (save custom skinning loot, this sql script replace your own developments);
++ fixed/updated "item_template";
++ fixed/rewrited "item_loot_template" (save custom loot, this sql script replace your own developments);
++ fixed quests (about 160/ trash replaced);
++ fixed/rewrited "npc_vendor" (save custom vendors, this sql script replace your own developments);
++ at this moment preprocessed all the quests that exist in DB (about 2200 WotLK quests). If you found errors/bugs - please post your bug reports in appropriate section;
+
+Update 477_(7379)
++ all fixes from forum;
++ fix loot errors;
+
+Update 476_(7379)
++ all fixes from forum;
++ some fixes over bug report;
++ loot's parse (maybe author want to say "processing loot from parses");
++ processing creature_loot_template and pickpocketing_loot_template;
++ processing skinning_loot_template (not finally);
+
+Update 475_(7379)
++ all fixes from forum;
++ some fixes over bug report;
++ spawn;
++ quests (about 180);
++ Drak'Tharon Keep/heroic
+
+Updatepack 474
+requires core 7352
++ all accepted fixes from the forum
++ fixes from bugreports 
++ fixed more than 40 quests 
++ added/fixed some population
++ "RewOrReqMoney" data for quest_template
++ included data from WDB files
+
+Updatepack 473
+requires core 7335
++ all accepted fixes from the forum
++ fixes from bugreports 
++ fixed more than 20 quests 
++ added/fixed some population
++ Naxxramas normal included
+
+Updatepack 472
+requires core 7298
++ all accepted fixes from the forum
++ fixes from bugreports 
++ fixed more than 100 quests 
++ added/fixed some population
++ The Nexus heroic included
++ Halls of stone heroic included
++ fixes for battlegrounds
+
+Updatepack 471
+requires core 7265
++ all accepted fixes from the forum
++ fixes from bugreports 
++ fixed more than 120 quests 
++ added/fixed some population
+
+YTDB_098_R46.FINAL_rev7230_WotLK_+RUDB23
+Full Database
+Requires Core 7230
+supports 3.0.8à client version 
+everything is included in the release you just need to use core 7230. If you use newer you should apply sql fixes from mangos or the corepatches from the updatepacks and afterthat update the database
