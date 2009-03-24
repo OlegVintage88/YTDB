@@ -1,3 +1,14 @@
+Update 479_ (7483) 
++ All fixes from the forum (see "made changes") 
++ Edits on bugreports (see "made changes") 
++ Pars / addition "gameobject_loot_template" 
++ Pars / addition "npc_vendor" 
++ Data from WDB 
++ Settlement 
++ Pars abilok NPC 
++ Pars money NPC 
++ Pars article NPC
+
 Update 478_(7440)
 + all fixes from forum;
 + spawn fixes;
