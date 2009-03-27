@@ -1,3 +1,12 @@
+Update 480_ (7528) 
++ All fixes from the forum (see "made changes") 
++ Edits on bagreportam (see "made changes") 
++ Settlement 
++ Correction terms quests 
++ Many minor fixes 
++ Full DC area, taking into account the phase 
+- Because of the lack of quests in scripts planish to hack (optional): http://ytdb.ru/forum/showthread.php?t=96
+
 Update 479_ (7483) 
 + All fixes from the forum (see "made changes") 
 + Edits on bugreports (see "made changes") 
