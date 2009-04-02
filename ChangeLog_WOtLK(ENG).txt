@@ -1,6 +1,13 @@
+Updating 481 _ (7594) 
++ all corrections from a forum (the section "the accepted editings" see) 
++ editings on bug reports (the section "the accepted editings" see) 
++ settling
++ editing of conditions of quests
+
+===============================================================================================
 Update 480_ (7528) 
 + All fixes from the forum (see "made changes") 
-+ Edits on bagreportam (see "made changes") 
++ Edits on bug reports (see "made changes") 
 + Settlement 
 + Correction terms quests 
 + Many minor fixes 
@@ -9,7 +16,7 @@ Update 480_ (7528)
 
 Update 479_ (7483) 
 + All fixes from the forum (see "made changes") 
-+ Edits on bugreports (see "made changes") 
++ Edits on bug reports (see "made changes") 
 + Pars / addition "gameobject_loot_template" 
 + Pars / addition "npc_vendor" 
 + Data from WDB 
