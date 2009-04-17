@@ -1,3 +1,12 @@
+Update 483_ (7673) 
++ All fixes from the forum (see "by editing") 
++ Edits on bug reports (see "by editing") 
++ Correction terms quests 
++ Settlement 
++ Editing error loading 
++ Data keshey 
++ In front of casting update update ACID / NGP to pre-install the latest version of "483_corepatch_mangos_7635_to_7673.sql"
+
 Updating 482 _ (7635) 
 + all corrections from a forum (the section "the accepted editings" see) 
 + editings on bug reports (the section "the accepted editings" see) 
