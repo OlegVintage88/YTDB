@@ -1,3 +1,15 @@
+Update 484_(7701) 
++ All fixes from the forum (see "by editing") 
++ Edits on bug reports (see "by editing") 
++ Correction terms quests 
++ Editing error loading 
++ Palaces Lightning / heroic 
++ Azzhol Nerub / heroic 
++ Ankahet / heroic 
++ The top Utgar / heroic 
++ Gundrak / heroic 
++ Amethyst fortress / heroic
+
 Update 483_ (7673) 
 + All fixes from the forum (see "by editing") 
 + Edits on bug reports (see "by editing") 
