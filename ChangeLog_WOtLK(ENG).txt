@@ -1,3 +1,15 @@
+Update 485_(7701)
++ All fixes from the forum (see "by editing") 
++ + + Renumbering GUID in the tables associated with the NPC, fully perezapisanny following table: 
++ + Creature 
++ + Creature_addon 
++ + Creature_movement 
++ + Creature_battleground 
++ + Game_event_creature 
++ + Game_event_creature_quest 
++ + Npc_gossip 
++ + Pool_creature
+
 Update 484_(7701) 
 + All fixes from the forum (see "by editing") 
 + Edits on bug reports (see "by editing") 
