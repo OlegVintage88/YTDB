@@ -1,3 +1,9 @@
+Update 488_7798 
++ All fixes from the forum (see "adopted patches") 
++ Edits on bug reports (see "adopted patches") 
++ Settlement 
++ Correction terms quests
+
 Update 487_ (7732) 
 + Renumbering GUID in the tables associated with the GO, fully perezapisanny following table: 
 - Gameobject 
