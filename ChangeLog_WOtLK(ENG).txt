@@ -1,3 +1,11 @@
+Update 489_ (7817) 
++ All fixes from the forum (see "adopted patches") 
++ Edits on bug reports (see "adopted patches") 
++ "Pool" of all rarnyh - NPC in the world "rank = 2" 
++ Lutali ore processing by the changes in 3.õ.õ 
++ Settlement 
+- Complete scripts for the quests "489_EventAI_YTDB_FULL", they are in the database is a file perezalivat only if you completely in the base perezalili ACID / Heisei scripts
+
 Update 488_7798 
 + All fixes from the forum (see "adopted patches") 
 + Edits on bug reports (see "adopted patches") 
