@@ -1,3 +1,9 @@
+Update 490_ (7863) 
++ All fixes from the forum (see "adopted patches") 
++ Edits on bug reports (see "adopted patches") 
++ Processing table "pet_levelstats" 
++ Full processing "Naxxramas" by scripts (to whom you want, hack http://ytdb.ru/forum/showthread.php?t=4680)
+
 Update 489_ (7817) 
 + All fixes from the forum (see "adopted patches") 
 + Edits on bug reports (see "adopted patches") 
