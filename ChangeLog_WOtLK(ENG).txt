@@ -1,3 +1,15 @@
+Update 491_ (7900) 
++ All fixes from the forum (see "adopted patches") 
++ Edits on bug reports (see "adopted patches") 
++ Scripts quests 
++ Settlement 
++ Pars damaga from offa the last (remaining) zone Nortrenda 
++ Table "spell_script_target" - all of which spelly able to find data 
++ Table "event_scripts" - all spelly (of event) that was able to find data 
++ "Pool" - fishing "classics" and crystals in Un'goro Crater " 
++ Update the table "spell_loot_template" by updating the kernel 
++ Edit article NPC
+
 Update 490_ (7863) 
 + All fixes from the forum (see "adopted patches") 
 + Edits on bug reports (see "adopted patches") 
