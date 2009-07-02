@@ -6091,6 +6091,7 @@ UPDATE `item_template` SET `StatsCount`=9 WHERE `stat_type9`>0 AND `stat_value9`
 UPDATE `item_template` SET `StatsCount`=10 WHERE `stat_type10`>0 AND `stat_value10`>0;
 
 DROP PROCEDURE IF EXISTS `damage_recalc`;
+DELIMITER //
 CREATE PROCEDURE `damage_recalc` (IN `proc_K_class` DOUBLE, IN `proc_class` INT, IN `proc_maxlevel_bottom` INT, IN `proc_maxlevel_top` INT, IN `proc_K_damage` DOUBLE, IN `proc_plus` INT)
 BEGIN
 UPDATE `creature_template` SET
@@ -6102,7 +6103,8 @@ WHERE
 	`unit_class`=`proc_class`
 	AND `maxlevel`>`proc_maxlevel_bottom`
 	AND `maxlevel`<`proc_maxlevel_top`;
-END;
+END //
+DELIMITER ;
 CALL `damage_recalc`(1,1,0,61,1,0);
 CALL `damage_recalc`(0.93,2,0,61,1,0);
 CALL `damage_recalc`(0.83,4,0,61,1,0);
