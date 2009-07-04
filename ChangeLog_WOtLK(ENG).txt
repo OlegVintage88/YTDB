@@ -1,3 +1,76 @@
+Update 498_(8107)
++ All forum fixes (see "Accepted patches")
++ Bug reports fixes (see "Accepted patches")
++ Quest's scripts
++ Spawnes
++ Item/Creature/GObject templates fixes from WDB Cache
++ Midsummer Fire Festival - some updates.
+- It's necessary to drop a game cache
+
+Update 497_(8075)
++ All forum fixes (see "Accepted patches")
++ Bug reports fixes (see "Accepted patches")
++ Quest's scripts
++ Spawnes
++ Item/Creature/GObject templates fixes from WDB Cache
++ Damage & `dmg_multiplier` fixes according with `unit_class`
+- It's necessary to drop a game cache
+
+Update 496_(8044)
++ All forum fixes (see "Accepted patches")
++ Bug reports fixes (see "Accepted patches")
++ Quest's scripts
++ Spawnes
++ Item/Creature/GObject templates fixes from WDB-Cache
++ Fixed 132 Client Error
+- It's necessary to drop a game cache
+
+Update 495_(8028)
++ All forum fixes (see "Accepted patches")
++ Bug reports fixes (see "Accepted patches")
++ Quest's scripts
++ Spawnes
++ Loading errors fixes
++ New Item/Creature/GObject templates from WDB-Cache
++ Item's stats fixes from WDB-Cache
+- It's necessary to drop a game cache
+
+Update 494_(7990)
++ Switch to support 3.1.3
++ creature - 1800+
++ creature_involvedrelation - 175+
++ creature_loot_template - 3013+
++ creature_model_info - 642+
++ creature_questrelation -176+
++ creature_template - 1028+
++ fishing_loot_template - 243+
++ gameobject - 846+
++ gameobject_involvedrelation - 6+
++ gameobject_loot_template - 226+
++ gameobject_questrelation - 8+
++ gameobject_template - 392+
++ item_loot_template - 128+
++ item_template - 1308+
++ npc_trainer - 1984+
++ npc_vendor - 1594+
++ pickpocketing_loot_template - 66+
++ quest_template - 244 (trash-quests are dropped; need more data for 26 quests - nobody has not completed them on official servers)
++ Ulduar's closed (there are no scripts)
+
+Update 493_(7983)
++ All forum fixes (see "Accepted patches")
++ Bug reports fixes (see "Accepted patches")
++ Quest's scripts
++ Spawnes
++ NPC Points
++ NPC Texts
+
+Update 492_(7953)
++ All forum fixes (see "Accepted patches")
++ Bug reports fixes (see "Accepted patches")
++ Quest's scripts
++ Spawnes
+
 Update 491_ (7900) 
 + All fixes from the forum (see "adopted patches") 
 + Edits on bug reports (see "adopted patches") 
@@ -24,7 +97,7 @@ Update 489_ (7817)
 + Settlement 
 - Complete scripts for the quests "489_EventAI_YTDB_FULL", they are in the database is a file perezalivat only if you completely in the base perezalili ACID / Heisei scripts
 
-Update 488_7798 
+Update 488_(7798) 
 + All fixes from the forum (see "adopted patches") 
 + Edits on bug reports (see "adopted patches") 
 + Settlement 
