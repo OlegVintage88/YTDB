@@ -1,3 +1,15 @@
+Update 499_ (8152) 
++ All fixes from the forum (see "adopted patches") 
++ Edits on Bug reports (see "adopted patches") 
++ Scripts quests 
++ Settlement 
++ New pars loot mobovs
++ Vendors update
++ Trainers update 
++ Snif template quests with offa (well, junk, and there they are ... ktob clean) 
++ Edit article itemov of WDB (+541) 
+- All sure to clean the cache of the game!
+
 Update 498_(8107)
 + All forum fixes (see "Accepted patches")
 + Bug reports fixes (see "Accepted patches")
