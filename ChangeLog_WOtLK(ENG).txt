@@ -1,3 +1,11 @@
+Update 502_ (8277) 
++ All fixes from the forum and edits on Bug reports (see "adopted patches") 
++ Scripts quests 
++ Settlement 
++ Edit "creature_template" and "gameobject_template" of WDB (62 total processed cache) 
++ Edit article items of WDB (+766) _ (Total: 29058/33365) 
+- All sure to clean the cache of the game!
+
 Update 501_ (8231) 
 + All fixes from the forum and edits on Bug reports (see "adopted patches") 
 + Scripts quests 
