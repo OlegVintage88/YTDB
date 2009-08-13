@@ -1,3 +1,19 @@
+Update 504_ (8361) 
++ All fixes from the forum and edits on Bug reports (see "adopted patches") 
++ Scripts quests 
++ Settlement 
++ Edit "creature_template" and "gameobject_template" of WDB (all processed keshey 79) 
++ Edit article items of WDB (Total: 29781/33382) - to finish this review of keshey 3.1.3 
+- All sure to clean the cache of the game! 
+
+Update 503_ (8321) 
++ All fixes from the forum and edits on Bug reports (see "adopted patches") 
++ Scripts quests 
++ Settlement 
++ Edit "creature_template" and "gameobject_template" of WDB (all processed keshey 66) 
++ Edit article items of WDB (Total: 29500/33382) 
+- All sure to clean the cache of the game!
+
 Update 502_ (8277) 
 + All fixes from the forum and edits on Bug reports (see "adopted patches") 
 + Scripts quests 
