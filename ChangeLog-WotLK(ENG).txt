@@ -1,3 +1,17 @@
+Updating 506_ (8425) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Scripts quests 
++ Settlement
+
+Updating 505_ (8396) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Scripts quests 
++ Settlement 
++ Editing "creature_template" 
++ Remove Scripts dubliruschih field "KillCreditX" in "creature_template" 
++ Parsee damage to Blizzard 
++ Settlement
+
 Update 504_ (8361) 
 + All fixes from the forum and edits on Bug reports (see "adopted patches") 
 + Scripts quests 
