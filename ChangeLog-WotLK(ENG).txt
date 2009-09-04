@@ -1,3 +1,12 @@
+Updating 507_ (8456) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Settlement 
++ Pull "rare elite" Rank = 4 
++ Editing trainers "first aid" 
++ Quests for review of conditions 
++ Occupancy / cleaning and pull the high-ore, including the rare 
+- Request is for a long time, pour "SQLyog"
+
 Updating 506_ (8425) 
 + All fixes from the forum and editing of bug reports (see "adopted patches") 
 + Scripts quests 
