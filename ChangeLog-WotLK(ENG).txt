@@ -1,3 +1,9 @@
+Updating 508_ (8485) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Settlement 
++ Scripts quests 
++ Quests for review of conditions
+
 Updating 507_ (8456) 
 + All fixes from the forum and editing of bug reports (see "adopted patches") 
 + Settlement 
