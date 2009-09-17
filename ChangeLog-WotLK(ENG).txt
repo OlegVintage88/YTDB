@@ -1,3 +1,10 @@
+Updating 509_ (8506) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Quests for review of conditions 
++ Settlement 
++ Scripts quests 
++ Resettlement ore low levels: Kalimdor + draenei starting location
+
 Updating 508_ (8485) 
 + All fixes from the forum and editing of bug reports (see "adopted patches") 
 + Settlement 
