@@ -1,3 +1,11 @@
+Update 511_(8582)
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Settlement 
++ Scripts quests 
++ Cleaning doubles and practical "gameobject_template" 
++ Populating tables "creature_battleground", "gameobject_battleground" and resp. "creature", "gameobject" under changes in the nucleus 
++ Pull low-level ores, including rare
+
 Updating 510_ (8526) 
 + All fixes from the forum and editing of bug reports (see "adopted patches") 
 + Settlement 
