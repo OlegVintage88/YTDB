@@ -1,3 +1,30 @@
+Обновление 513_(8597)
++ все исправления с форума и правки по багрепортам (см. раздел "принятые патчи")
++ скрипты квестов
++++ переход на версию клиента 3.2.2а
++ "creature_involvedrelation" - +53
++ "creature_loot_template" - +73280
++ "creature_model_info" - +330
++ "creature_questrelation" - +50
++ "creature_template" - +484
++ "disenchant_loot_template" - +9946
++ "fishing_loot_template" - +117
++ "gameobject_loot_template" - +1077
++ "gameobject_template" - +238
++ "item_loot_template" - +209
++ "item_template" - +1900
++ "npc_text" - +57
++ "npc_trainer" - +417
++ "npc_vendor" - +4247
++ "pickpocketing_loot_template" - +484
++ "prospecting_loot_template" - +19
++ "skinning_loot_template" - +66
++ "quest_template" - FULL -3.2.2a
++++
++ заселение под 3.2.2а
++ переработан лут всех данжей/рейдов
+- запрос идет долго, заливайте "SQLyog"-ом/консольно, либо ждите 
+
 Обновление 512_(8582)
 + все исправления с форума и правки по багрепортам (см. раздел "принятые патчи")
 + заселение
