@@ -1,62 +1,73 @@
-UPDATE 517_(8754)
-+ start locs drop correction;
-+ fix GO type 31 by WDB data;
-+ replace table "mail_loot_template" from DBC;
+Updating 518_ (8778) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Our ideas and fixes 
++ Settlement 
++ Scripts quests 
++ EVENT "Day of the Dead" (13 quests - all 10 capitals ... sorry Event ended) 
++ Editing prices (ExtendedCost) "npc_vendor" 
++ Filling of the table "mail_level_reward" 
++ Handled 107 caches (3.2.2a) 
 
-UPDATE 516_(8746)
-+ All fixes from forum;
-+ spawn;
-+ quest scripts;
-+ "item_template" update columns from WDB-3.2.2à: BuyPrice/SellPrice;
-+ reference items: class=2,4 AND Quality=0,1;
-+ reference items: class=1 AND Quality=1;
-+ update columns by WDB that changes;
-+ processed 100 caches;
+Updating 517_ (8754) 
++ Drop rate adjustment of an item in the start location 
++ Editing GO type 31 according to the WDB 
++ Rewrite of the table "mail_loot_template" of DBC 
 
-UPDATE 515_(8706)
-+ All fixes from forum;
-+ spawn;
-+ quest scripts;
-+ Hallow's End: quests (+115)/spawn;
-+ Hallow's End: Headless Horseman - update stats/loot;
-+ "item_template" update columns from WDB-3.2.2à: stackable/ItemLevel/RequiredLevel/RequiredSkill/RequiredSkillRank;
-+ +30 quest now available;
-+ processed 79 caches (3.2.2a);
+Updating 516_ (8746) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Settlement 
++ Scripts quests 
++ "Item_template" updated field on WDB-3.2.2a: BuyPrice / SellPrice 
++ Reference an item: class = 2,4 AND Quality = 0,1 
++ Reference an item: class = 1 AND Quality = 1 
++ Update of the changes (in passing) fields templet for WDB 
++ Handled 100 caches 
 
-UPDATE 514_(8646)
-+ All fixes from forum;
-+ spawn;
-+ ñquest scripts;
-+ filling columns for rev 8608 - "BattleGround Alterac Valley" (update 13.10.09);
-+ tokens drop fixes;
-+ processed 62 caches (3.2.2a);
+Updating 515_ (8706) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Settlement 
++ Scripts quests 
++ Hallow's End: Quests (115) / settlement 
++ Hallow's End: Headless Horseman - updated stats / Loot 
++ "Item_template" updated field on WDB-3.2.2a: stackable / ItemLevel / RequiredLevel / RequiredSkill / RequiredSkillRank 
++ 30 new quests available in the game process 
++ Handled 79 caches (3.2.2a) 
 
-UPDATE 513_(8597)
-+ All fixes from forum;
-+ quest scripts;
-+++ switch at 3.2.2à;
-+ "creature_involvedrelation" - +53;
-+ "creature_loot_template" - +73280;
-+ "creature_model_info" - +330;
-+ "creature_questrelation" - +50;
-+ "creature_template" - +484;
-+ "disenchant_loot_template" - +9946;
-+ "fishing_loot_template" - +117;
-+ "gameobject_loot_template" - +1077;
-+ "gameobject_template" - +238;
-+ "item_loot_template" - +209;
-+ "item_template" - +1900;
-+ "npc_text" - +57;
-+ "npc_trainer" - +417;
-+ "npc_vendor" - +4247;
-+ "pickpocketing_loot_template" - +484;
-+ "prospecting_loot_template" - +19;
-+ "skinning_loot_template" - +66;
-+ "quest_template" - FULL -3.2.2a;
-+++
-+ spawn from 3.2.2à;
-+ processing loot for all dungeons/raids;
-- use SQLyog/MySQL CLI;
+Updating 514_ (8646) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Settlement 
++ Scripts quests 
++ Populating tables under the core of 8608 - "BattleGround Alterac Valley" (Update 13.10.09) 
++ Adjustment loot badzhikov 
+Handled 62 + cache (3.2.2a) 
+
+Updating 513_ (8597) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Scripts quests 
++ + + Upgrades to client 3.2.2a 
++ "Creature_involvedrelation" - +53 
++ "Creature_loot_template" - +73280 
++ "Creature_model_info" - +330 
++ "Creature_questrelation" - +50 
++ "Creature_template" - +484 
++ "Disenchant_loot_template" - +9946 
++ "Fishing_loot_template" - +117 
++ "Gameobject_loot_template" - +1077 
++ "Gameobject_template" - +238 
++ "Item_loot_template" - +209 
++ "Item_template" - +1900 
++ "Npc_text" - +57 
++ "Npc_trainer" - +417 
++ "Npc_vendor" - +4247 
++ "Pickpocketing_loot_template" - +484 
++ "Prospecting_loot_template" - +19 
++ "Skinning_loot_template" - +66 
++ "Quest_template" - FULL-3.2.2a 
++ + + 
++ Settlement under 3.2.2a 
++ Reworked loot all Dungey / raids 
+- Request is for a long time, pour "SQLyog"
+
 
 Updating 512_ (8582) 
 + All fixes from the forum and editing of bug reports (see "adopted patches") 
