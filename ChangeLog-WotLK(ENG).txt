@@ -1,5 +1,25 @@
-Update 519_(8807)
-...
+Updating 520_ (8828) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Settlement 
++ Scripts quests 
++ Adjusted mobs in the Battlegrounds 
++ Adjustment field "Method", "ZoneOrSort", "QuestLevel" table "quest_template" by WDB 
++ Adjustment fields "item_template" by WDB 
++ Adjustment fields "gameobject_template" by WDB 
++ Reference an item: class = 9 AND Quality = 2 
++ Reference an item: class = 9 AND Quality = 3 
++ Reference an item: class = 2,4 AND Quality = 4 
++ Reference an item: class = 0 AND Quality = 1 AND Subclass = 4 
++ Adjustment chances pull ore 
++ Handled 147 caches (3.2.2a)
+
+Updating 519_ (8807)
++ All fixes from the forum and editing of bug reports (see "adopted patches")
++ Settlement
++ Scripts quests
++ Reference an item: class = 2,4 AND Quality = 2
++ Reference an item: class = 2,4 AND Quality = 3
++ Handled 133 cache (3.2.2a)
 
 Updating 518_ (8778) 
 + All fixes from the forum and editing of bug reports (see "adopted patches") 
