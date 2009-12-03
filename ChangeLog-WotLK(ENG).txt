@@ -1,3 +1,12 @@
+Updating 522_ (8902) 
++ All fixes from the forum and editing of bug reports (see "adopted patches") 
++ Settlement 
++ Scripts quests 
++ Resettlement colors: Durotar, The Barrens, Mulgore, Desolace 
++ Editing articles of all NPC under 3.2.2a 
++ Update trainers 
++ Handled 190 caches (3.2.2a)
+
 Updating 521_(8873)
 + All fixes from forum
 + spawn
