@@ -1,3 +1,11 @@
+UPDATE 526_(9084)
++ All fixes from forum
++ spawn
++ quest scripts
++ mob's gossip menues
++ fix "item_template"
++ fix "quest_template"
+
 UPDATE 525_(9047)
 + All fixes from forum
 + spawn
