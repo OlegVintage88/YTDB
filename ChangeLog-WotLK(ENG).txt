@@ -1,3 +1,10 @@
+Update 527_(9112)
++ All fixes from forum
++ spawn
++ quest scripts
++ mob's gossip menues
++ many the operating time
+
 UPDATE 526_(9084)
 + All fixes from forum
 + spawn
