@@ -1,3 +1,28 @@
+UPDATE 533_(9311)
++ 3.3.0a => 3.3.2
++ All the patches from forums that were accepted (look under "Accepted patches")
++ Spawns
++ Scripts for Quests
++ Gossip Menus for Mobs
++ New templates from game caches (WDB)
++ Full filling the new field "RewXPId" in "quest_template" from WDB
++ Upgrade from 3.3.0a to 3.3.2
++ Processed 419 Cache Folders (3.3.0a) 
+
+UPDATE 532_(9299)
++ All the patches from forums that were accepted (look under "Accepted patches")
++ Spawns
++ Scripts for Quests
++ Gossip Menus for Mobs
++ Fixes for column "QuestFlags" from WDB. Due to the newest update in Mangos Core.
++ Fixes from npc loots (creatureloot)
++ Fixes for "item_templates" taken from WDB
++ Fixes for npc displayids ("creature_template") taken from WDB
++ Fixes for column "EndText" in "quest_template" taken from WDB
++ Add data to new column "CompletedText" in "quest_template" taken from WDB
++ New Template from WDB
++ Processed 416 Cache Folders (3.3.0a)
+
 UPDATE 531_(9260)
 + all fixes from forum
 + spawn
