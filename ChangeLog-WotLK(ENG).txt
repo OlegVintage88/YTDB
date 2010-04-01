@@ -1,3 +1,22 @@
+UPDATE 541_(9651)
++ all fixes from forum;
++ spawn;
++ quest scripts
++ mob's gossip menues;
++ new templates from WDB;
++ fix spawn: Blackrock Depths
++ fix spawn: Lower Blackrock Spire
++ fix spawn: Upper Blackrock Spire
++ fix spawn: Stratholme
++ mounts models fix;
++ fix quest conditions;
++ fix some vendors;
++ fix loot;
++ mob's stats fix;
++ filling "quest_poi" and "quest_poi_points" (Thanks Blizzy) ;
++ processed 265 caches (3.3.2) - last;
++ processed 28 caches (3.3.3);
+
 UPDATE 540_(9613)
 + All fixes from forum;
 + spawn;
