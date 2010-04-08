@@ -1,5 +1,16 @@
 UPDATE 542_(9690)
-...
++ All fixes from forum;
++ spawn;
++ quest scripts;
++ mob's gossip menues;
++ new templates from WDB;
++ fix fields "item_template" by WDB;
++ fix fields "quest_template" by WDB;
++ fix spawn: The Violet Hold;
++ fix spawn: The Obsidian Sanctum;
++ fix spawn: Utgarde Pinnacle;
++ processed 56 caches (3.3.3);
+- last for 3.3.2;
 
 UPDATE 541_(9651)
 + all fixes from forum;
