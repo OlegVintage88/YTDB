@@ -1,3 +1,21 @@
+UPDATE 543_(9748)
++ switch 3.3.2 => 3.3.3a (templates/spawn/vendors)
++ all fixes from forum;
++ spawn;
++ quest scripts;
++ mob's gossip menues;
++ new templates from WDB
++ fix spawn: Utgarde Keep
++ fix spawn: Frozen Halls
++ fix spawn: Nexus
++ fix spawn: Azjol-Nerub
++ fix spawn: Ahn'kahet
++ fix spawn: Culling of Stratholme
++ fix spawn: Halls of Stone
++ fix spawn: Halls of Lightning
++ fix spawn: Hellfire Ramparts
++ processed 78 caches (3.3.3)
+
 UPDATE 542_(9690)
 + All fixes from forum;
 + spawn;
