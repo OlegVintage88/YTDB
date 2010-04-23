@@ -1,3 +1,16 @@
+UPDATE 544_(9773)
++ All fixes from forum;
++ spawn;
++ quest scripts;
++ mob's gossip menues;
++ new templates from WDB
++ fix fields "item_template" by WDB
++ fix fields "gameobject_template" by WDB
++ fix fields "creature_template" by WDB
++ fix fields "quest_template" by WDB
++ fix spawn: The Culling of Stratholme
++ processed 112 caches (3.3.3)
+
 UPDATE 543_(9748)
 + switch 3.3.2 => 3.3.3a (templates/spawn/vendors)
 + all fixes from forum;
