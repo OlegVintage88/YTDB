@@ -1,3 +1,13 @@
+UPDATE 545_(9799)
++ all fixes from forum;
++ spawn;
++ quest scripts;
++ mob's gossip menues;
++ new templates from WDB;
++ fix all fields "*_template" by WDB
++ fix loot of Archavon the Stone Watcher
++ processed 133 caches (3.3.3a)
+
 UPDATE 544_(9773)
 + All fixes from forum;
 + spawn;
