@@ -1,3 +1,12 @@
+UPDATE 546_(9839)
++ all fixes from forum;
++ spawn;
++ quest scripts;
++ mob's gossip menues;
++ new templates from WDB;
++ loot from Lich-King in Icecrown Citadel - H10/H25 (now all the loot in Icecrown Citadel)
++ processed 151 caches (3.3.3a)
+
 UPDATE 545_(9799)
 + all fixes from forum;
 + spawn;
