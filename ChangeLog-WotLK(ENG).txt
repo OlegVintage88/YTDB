@@ -1,3 +1,12 @@
+UPDATE 547_(9884)
++ All fixes from forum;
++ fix spawn;
++ quest scripts;
++ mob's gossip menues;
++ new templates from WDB
++ fix loot in Vault of Archavon (Full)
++ processed 187 caches (3.3.3a)
+
 UPDATE 546_(9839)
 + all fixes from forum;
 + spawn;
