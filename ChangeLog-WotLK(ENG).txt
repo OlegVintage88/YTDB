@@ -1,3 +1,13 @@
+UPDATE 548_(9934)
++ All fixes from forum;
++ fix spawn;
++ quest scripts;
++ mob's gossip menues;
++ new templates from WDB
++ update fields "*_template" by WDB
++ filling table "creature_movement_scripts"
++ processed 221 caches (3.3.3a)
+
 UPDATE 547_(9884)
 + All fixes from forum;
 + fix spawn;
