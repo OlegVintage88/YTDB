@@ -1,3 +1,13 @@
+UPDATE 551_(10048)
++ all fixes from forum;
++ fix spawn;
++ quest scripts;
++ mob's gossip menues;
++ new teplates from WDB;
++ update tables "*_template" by WDB
++ fix spawn for scripts: "Halls of Reflection", "Pit of Saron", "The Forge of Souls"
++ processed 304 caches
+
 UPDATE 550_(10023)
 + all fixes from forum;
 + fix spawn;
