@@ -1,3 +1,12 @@
+UPDATE 552_(10065)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new teplates from WDB
++ update table "*_template" by WDB
++ processed 333 caches (3.3.3a)
+
 UPDATE 551_(10048)
 + all fixes from forum;
 + fix spawn;
