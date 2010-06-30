@@ -185,7 +185,7 @@ UPDATE `creature` SET `MovementType` = 2,`spawndist` = 0 WHERE `guid` = 136612;
 REPLACE INTO `creature_movement` (`id`, `point`, `position_x`, `position_y`, `position_z`, `orientation`,`script_id`) VALUES
 (136613,1,8464.907,1588.094,672.9987,1.98968,785),
 (136612,1,8464.93,1588.01,672.966,4.64258,785);
-replace INTO `mangos`.`creature_movement_scripts`(`id`,`delay`,`command`,`datalong`) VALUES 
+replace INTO `creature_movement_scripts`(`id`,`delay`,`command`,`datalong`) VALUES 
 ('785','0','15','60857');
 -- 38751
 UPDATE `creature_template` SET `minlevel` = 80, `maxlevel` = 80 WHERE `entry` = 38751;
