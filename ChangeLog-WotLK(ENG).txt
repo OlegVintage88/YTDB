@@ -1,3 +1,14 @@
+UPDATE 555_(10150) + transition to the client 3.3.5a
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new teplates from WDB
++ update table "*_template" by WDB
++ data from sniffs
++ processed 437 caches (3.3.3a)
++ processed 15 caches (3.3.5a)
+
 UPDATE 554_(10120)
 + all fixes from forum
 + fix spawn
