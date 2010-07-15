@@ -1,9 +1,22 @@
+UPDATE 556_(10188)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new templates from WDB
++ update table "*_template" by WDB
++ data from sniffs (templates, spawn)
++ "quest_template" for 3.3.5a - FULL sniffs
++ "quest_poi" for 3.3.5a - FULL sniffs
++ "quest_poi_points" for 3.3.5a - FULL sniffs
++ processed 40 caches (3.3.5a)
+
 UPDATE 555_(10150) + transition to the client 3.3.5a
 + all fixes from forum
 + fix spawn
 + quest scripts
 + mob's gossip menus
-+ new teplates from WDB
++ new templates from WDB
 + update table "*_template" by WDB
 + data from sniffs
 + processed 437 caches (3.3.3a)
@@ -14,7 +27,7 @@ UPDATE 554_(10120)
 + fix spawn
 + quest scripts
 + mob's gossip menus
-+ new teplates from WDB
++ new templates from WDB
 + update table "*_template" by WDB
 + data from sniffs
 + processed 374 caches (3.3.3a)
@@ -24,7 +37,7 @@ UPDATE 553_(10100)
 + fix spawn
 + quest scripts
 + mob's gossip menus
-+ new teplates from WDB
++ new templates from WDB
 + update table "*_template" by WDB
 + fix ICC (sniffer)
 + processed 361 caches (3.3.3a)
@@ -34,7 +47,7 @@ UPDATE 552_(10065)
 + fix spawn
 + quest scripts
 + mob's gossip menus
-+ new teplates from WDB
++ new templates from WDB
 + update table "*_template" by WDB
 + processed 333 caches (3.3.3a)
 
@@ -43,7 +56,7 @@ UPDATE 551_(10048)
 + fix spawn;
 + quest scripts;
 + mob's gossip menues;
-+ new teplates from WDB;
++ new templates from WDB;
 + update tables "*_template" by WDB
 + fix spawn for scripts: "Halls of Reflection", "Pit of Saron", "The Forge of Souls"
 + processed 304 caches
@@ -53,7 +66,7 @@ UPDATE 550_(10023)
 + fix spawn;
 + quest scripts;
 + mob's gossip menues;
-+ new teplates from WDB;
++ new templates from WDB;
 + fix stats of NPC: Alterac Valley
 + fix data "disenchant_loot_template"
 + update tables "*_template" by WDB
