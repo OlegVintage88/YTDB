@@ -1,3 +1,13 @@
+UPDATE 557_(10223)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new templates from WDB
++ update table "*_template" by WDB
++ data from sniffs (templates, spawn)
++ processed 73 caches (3.3.5a)
+
 UPDATE 556_(10188)
 + all fixes from forum
 + fix spawn
