@@ -1,4 +1,4 @@
-UPDATE 557_(10223)
+UPDATE 557_(10233)
 + all fixes from forum
 + fix spawn
 + quest scripts
