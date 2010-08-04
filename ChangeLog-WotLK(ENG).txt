@@ -1,3 +1,14 @@
+UPDATE 559_(10309)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new templates from WDB
++ update table "*_template" by WDB
++ data from sniffs (templates, spawn)
++ correction fields "RewMoneyMaxLevel" and "RewOrReqMoney" in "quest_template" from sniffs
++ processed 96 caches (3.3.5a)
+
 UPDATE 558_(10271)
 + all fixes from forum
 + fix spawn
