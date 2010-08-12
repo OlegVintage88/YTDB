@@ -1,3 +1,13 @@
+UPDATE 560_(10344) "Balthalionus"
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new templates from WDB
++ update table "*_template" by WDB
++ data from sniffs (templates, spawn)
++ processed 107 caches (3.3.5a)
+
 UPDATE 559_(10309)
 + all fixes from forum
 + fix spawn
