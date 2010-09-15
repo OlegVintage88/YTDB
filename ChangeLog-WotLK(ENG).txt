@@ -1,3 +1,16 @@
+UPDATE 564_(10480)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new templates from WDB
++ update table "*_template" by WDB
++ data from sniffs (templates, spawn)
++ The Ruby Sanctum: fix of physical damage from parses
++ Event: "Zalazane's Fall" - sniffs (require support script)
++ Event: "Operation: Gnomeregan" - sniffs (require support script)
++ processed 168 caches (3.3.5a)
+
 UPDATE 563_(10434)
 + all fixes from forum
 + fix spawn
