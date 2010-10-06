@@ -1,3 +1,14 @@
+UPDATE 567_(10554)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new templates from WDB
++ update table "*_template" by WDB
++ data from sniffs (templates, spawn)
++ repopulation of fishing holes
++ processed 192 caches (3.3.5a)
+
 UPDATE 566_(10554)
 + all fixes from forum
 + fix spawn
