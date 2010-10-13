@@ -1,3 +1,14 @@
+UPDATE 568_(10602)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new templates from WDB
++ update table "*_template" by WDB
++ data from sniffs (templates, spawn)
++ fix spawn "Pit of Saron" from sniffs
++ processed 205 caches (3.3.5a)
+
 UPDATE 567_(10554)
 + all fixes from forum
 + fix spawn
