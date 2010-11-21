@@ -74,7 +74,7 @@ DELETE FROM `gossip_menu_option` WHERE `menu_id` = 7481 AND `id` = 4;
 DELETE FROM `gossip_menu_option` WHERE `menu_id` = 9581 AND `id` = 0;
 DELETE FROM `gossip_menu_option` WHERE `menu_id` = 4682 AND `id` = 0;
 UPDATE `creature_template` SET `npcflag` = '129' WHERE `entry` =27291;
-REPLACE INTO `mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`) VALUES ('27291', '37198', '0', '0', '0');
+REPLACE INTO `npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`) VALUES ('27291', '37198', '0', '0', '0');
 REPLACE INTO `gossip_menu` (`entry`, `text_id`, `cond_1`, `cond_1_val_1`, `cond_1_val_2`, `cond_2`, `cond_2_val_1`, `cond_2_val_2`) VALUES ('50035', '12494', '0', '0', '0', '0', '0', '0');
 REPLACE INTO `gossip_menu` (`entry`, `text_id`, `cond_1`, `cond_1_val_1`, `cond_1_val_2`, `cond_2`, `cond_2_val_1`, `cond_2_val_2`) VALUES ('3645', '4439', '0', '0', '0', '0', '0', '0');
 UPDATE `creature_template` SET npcflag = npcflag|16 WHERE `gossip_menu_id` =4783;
