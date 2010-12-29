@@ -1,3 +1,10 @@
+UPDATE 579_(10930)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ new templates from WDB
+
 UPDATE 578_(10905)
 + all fixes from forum
 + fix spawn
