@@ -1,3 +1,10 @@
+UPDATE 606_(11781)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ correction of trainers from DBC
+
 UPDATE 605_(11765)
 + all fixes from forum
 + fix spawn
