@@ -1,3 +1,9 @@
+UPDATE 609_(11817)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
+
 UPDATE 608_(11800)
 + all fixes from forum
 + fix spawn
