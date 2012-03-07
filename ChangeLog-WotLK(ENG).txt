@@ -1,3 +1,10 @@
+UPDATE 616_(11928)
++ all fixes from forum
++ fix spawn
++ quest scripts
++ mob's gossip menus
++ update ACID 3.0.9b->3.0.9c
+
 UPDATE 615_(11921)
 + all fixes from forum
 + fix spawn
