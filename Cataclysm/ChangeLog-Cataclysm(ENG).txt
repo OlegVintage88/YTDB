@@ -1,3 +1,7 @@
+UPDATE 708_(12301)
++ all fixes from forum
++ fix spawn
+
 UPDATE 707_(12301)
 + all fixes from forum
 + fix spawn
