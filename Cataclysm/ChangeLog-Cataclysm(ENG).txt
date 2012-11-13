@@ -1,3 +1,11 @@
+UPDATE 709_(12309)
++ all fixes from forum
++ fix spawn
++ portals/teleports/areatriggers
++ fix events
++ fix items
++ many small fix
+
 UPDATE 708_(12301)
 + all fixes from forum
 + fix spawn
