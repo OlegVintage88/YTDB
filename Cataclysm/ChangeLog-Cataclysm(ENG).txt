@@ -1,3 +1,12 @@
+UPDATE 710_(12309)
++ all fixes from forum
++ fix spawn
+++ http://www.wowhead.com/zones=2.1
+++ http://www.wowhead.com/zones=2.2
+++ http://www.wowhead.com/zones=3.0
+++ http://www.wowhead.com/zones=3.1
+++ http://www.wowhead.com/zones=3.2
+
 UPDATE 709_(12309)
 + all fixes from forum
 + fix spawn
