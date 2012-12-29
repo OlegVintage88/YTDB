@@ -1,3 +1,11 @@
+UPDATE 712_(12309)
++ all fixes from forum
++ fix spawn
++ fix npc_vendor
++ fix npc_trainer
++ fix spawn starting zones
++ fix quests starting zones
+
 UPDATE 711_(12309)
 + all fixes from forum
 + fix spawn
