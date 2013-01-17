@@ -1,3 +1,8 @@
+UPDATE 634_(12328)
++ all fixes from forum
++ fix spawn
++ mob's gossip menus
+
 UPDATE 633_(12319)
 + all fixes from forum
 + fix spawn
