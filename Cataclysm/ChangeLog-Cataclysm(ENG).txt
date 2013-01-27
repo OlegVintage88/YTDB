@@ -1,3 +1,8 @@
+UPDATE 713_(12337)
++ all fixes from forum
++ fix spawn
++ fix npc_trainer
+
 UPDATE 712_(12309)
 + all fixes from forum
 + fix spawn
