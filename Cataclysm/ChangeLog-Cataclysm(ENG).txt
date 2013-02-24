@@ -1,3 +1,8 @@
+UPDATE 714_(c12465)
++ all fixes from forum
++ fix spawn
++ upgrade to cMangos https://github.com/cmangos/mangos-cata/
+
 UPDATE 713_(12337)
 + all fixes from forum
 + fix spawn
